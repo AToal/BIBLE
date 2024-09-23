@@ -46,7 +46,7 @@ function checkPreviousSession() {
     // Load the last visited BOOK and CHAPTER
     currentBookIndex = parseInt(lastVisitedBook);
     currentChapterIndex = parseInt(lastVisitedChapter);
-    loadBook(currentBookIndex, currentChapterIndex);
+    loadBookFromData(currentBookIndex, currentChapterIndex);  // Load without fetching again
   } else {
     // Load a random BOOK if no previous session
     loadRandomBook();
@@ -66,38 +66,22 @@ function loadRandomChapterInBook(bookIndex) {
   // Remove spaces from the book name to match the filename
   bookAbbrev = bookAbbrev.replace(/\s+/g, '');
 
-  // Fetch the JSON data for the selected BOOK
+  // Fetch the JSON data for the selected BOOK only once
   fetch(`/data/BIBLE/kjv/${bookAbbrev}.json`)
     .then(response => response.json())
     .then(bookData => {
       // Generate a random chapter index within the range of available chapters
       const randomChapterIndex = Math.floor(Math.random() * bookData.chapters.length);
 
-      // Display the random chapter
-      loadBook(bookIndex, randomChapterIndex);
+      // Directly pass the bookData to loadBook without fetching again
+      loadBookFromData(bookData, randomChapterIndex);  // Pass the fetched book data
+      saveLastVisited(bookIndex, randomChapterIndex);  // Save the book and chapter
     })
     .catch(err => console.error('Failed to load BOOK data:', err));
 }
 
-// Function to load a BOOK by index and display its CHAPTERS
-function loadBook(bookIndex, chapterIndex) {
-  let bookAbbrev = bibleBooks[bookIndex];  // Get the abbreviation or name
-
-  // Remove spaces from the book name to match the filename
-  bookAbbrev = bookAbbrev.replace(/\s+/g, '');
-
-  // Fetch the JSON data for the selected BOOK
-  fetch(`/data/BIBLE/kjv/${bookAbbrev}.json`)
-    .then(response => response.json())
-    .then(bookData => {
-      displayBook(bookData, chapterIndex);
-      saveLastVisited(bookIndex, chapterIndex);  // Save the BOOK and CHAPTER as the last visited
-    })
-    .catch(err => console.error('Failed to load BOOK data:', err));
-}
-
-// Display the BOOK and CHAPTER on the page
-function displayBook(bookData, chapterIndex) {
+// Function to load a BOOK by data and display its CHAPTERS
+function loadBookFromData(bookData, chapterIndex) {
   const bookTitleElement = document.getElementById('book-title');
   const contentElement = document.getElementById('content');
 
@@ -124,4 +108,3 @@ function saveLastVisited(bookIndex, chapterIndex) {
 
 // Initialize the app when the DOM content is fully loaded
 document.addEventListener('DOMContentLoaded', loadBooksList);
-
