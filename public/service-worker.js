@@ -1,4 +1,4 @@
-service-worker.js: const CACHE_NAME = 'BIBLE-cache-v1';
+const CACHE_NAME = 'BIBLE-cache-v1';
 const INITIAL_CACHE_FILES = [
   '/index.html',
   '/styles.css',
