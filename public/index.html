@@ -42,17 +42,34 @@
       window.addEventListener('load', function() {
         navigator.serviceWorker.register('/service-worker.js')
           .then(function(registration) {
-            console.log('ServiceWorker registration successful with scope: ', registration.scope);
-          }).catch(function(err) {
-            console.log('ServiceWorker registration failed: ', err);
+            console.log('ServiceWorker registration successful with scope:', registration.scope);
+
+            // Check for service worker updates (Optional)
+            registration.onupdatefound = function() {
+              const newWorker = registration.installing;
+              newWorker.onstatechange = function() {
+                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                  // A new service worker is installed and waiting
+                  console.log('New content is available, please refresh.');
+                  // Optionally show a notification to the user here
+                }
+              };
+            };
+          })
+          .catch(function(err) {
+            console.log('ServiceWorker registration failed:', err);
           });
       });
-    }
 
-    // Handle service worker updates (Optional)
-    navigator.serviceWorker.addEventListener('controllerchange', function() {
-      window.location.reload();
-    });
+      // Handle service worker updates (Optional)
+      navigator.serviceWorker.addEventListener('controllerchange', function() {
+        console.log('Service worker controlling the page has changed. Reloading the page...');
+        window.location.reload();
+      });
+    } else {
+      console.log('Service workers are not supported in this browser.');
+    }
   </script>
+
 </body>
 </html>

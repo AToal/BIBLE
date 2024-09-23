@@ -2,7 +2,6 @@
 let bibleBooks = [];
 let currentBookIndex = 0;
 let currentChapterIndex = 0;
-let cachedBooks = new Set();  // Track which books have been cached
 
 // Function to generate buttons for each BOOK in the #books-list section
 function generateBooksList() {
@@ -93,9 +92,6 @@ function loadBook(bookIndex, chapterIndex) {
     .then(bookData => {
       displayBook(bookData, chapterIndex);
       saveLastVisited(bookIndex, chapterIndex);  // Save the BOOK and CHAPTER as the last visited
-
-      cacheBookInServiceWorker(bookAbbrev);  // Cache the loaded book using the service worker
-      startProgressiveCaching();  // Start background caching of additional books
     })
     .catch(err => console.error('Failed to load BOOK data:', err));
 }
@@ -106,7 +102,7 @@ function displayBook(bookData, chapterIndex) {
   const contentElement = document.getElementById('content');
 
   // Update the BOOK title in the header
-  bookTitleElement.textContent = `${bookData.book} ${chapterIndex + 1}`;
+  bookTitleElement.textContent = `${bookData.book} Chapter ${chapterIndex + 1}`;
 
   // Clear previous content
   contentElement.innerHTML = '';
@@ -124,55 +120,6 @@ function displayBook(bookData, chapterIndex) {
 function saveLastVisited(bookIndex, chapterIndex) {
   localStorage.setItem('lastVisitedBook', bookIndex);
   localStorage.setItem('lastVisitedChapter', chapterIndex);
-}
-
-// Function to communicate with the service worker to cache a specific BOOK
-function cacheBookInServiceWorker(bookAbbrev) {
-  if (navigator.serviceWorker && navigator.serviceWorker.controller) {
-    navigator.serviceWorker.controller.postMessage({
-      type: 'CACHE_BOOK',
-      bookAbbrev: bookAbbrev  // Send the abbreviation of the book to cache
-    });
-  } else {
-    console.warn('Service worker is not available for caching.');
-  }
-}
-
-// Function to start progressive caching based on network conditions
-function startProgressiveCaching() {
-  // Check network connection type using the Network Information API
-  const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
-  const networkSpeed = connection ? connection.effectiveType : 'unknown';
-
-  if (networkSpeed === '4g' || networkSpeed === 'wifi') {
-    // For strong networks, begin caching additional books gradually
-    cacheBooksInBackground();
-  } else {
-    console.log('Slower connection detected, caching will be minimal');
-  }
-}
-
-// Function to progressively cache books in the background
-function cacheBooksInBackground() {
-  let index = currentBookIndex + 1;  // Start caching from the next book
-
-  function cacheNextBook() {
-    if (index < bibleBooks.length) {
-      const nextBookAbbrev = bibleBooks[index];
-      if (!cachedBooks.has(nextBookAbbrev)) {
-        cacheBookInServiceWorker(nextBookAbbrev);  // Cache the next book via service worker
-        cachedBooks.add(nextBookAbbrev);  // Mark this book as cached
-        console.log(`Progressively cached: ${nextBookAbbrev}`);
-      }
-
-      // Set a timeout to continue caching after some delay (e.g., 5 seconds)
-      setTimeout(cacheNextBook, 5000);  // Adjust delay based on performance needs
-      index++;
-    }
-  }
-
-  // Start caching the next book
-  cacheNextBook();
 }
 
 // Initialize the app when the DOM content is fully loaded
