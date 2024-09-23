@@ -4,8 +4,8 @@ const INITIAL_CACHE_FILES = [
   '/styles.css',
   '/app.js',
   '/manifest.json',
-  '/icons/icon-192x192.png',
-  '/icons/icon-512x512.png',
+  '/media/BIBLE-192x192.png',
+  '/media/BIBLE-512x512.png',
   '/data/BIBLE/BOOKS.json'
 ];
 
