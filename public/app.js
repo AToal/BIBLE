@@ -102,7 +102,7 @@ function displayBook(bookData, chapterIndex) {
   const contentElement = document.getElementById('content');
 
   // Update the BOOK title in the header
-  bookTitleElement.textContent = `${bookData.book} Chapter ${chapterIndex + 1}`;
+  bookTitleElement.textContent = `${bookData.book} ${chapterIndex + 1}`;
 
   // Clear previous content
   contentElement.innerHTML = '';
