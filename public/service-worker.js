@@ -17,10 +17,14 @@ function cacheAllBibleBooks() {
       .then(books => {
         const bookRequests = books.map(bookAbbrev => {
           const bookUrl = `/data/BIBLE/kjv/${bookAbbrev.replace(/\s+/g, '')}.json`;
+          console.log(`Fetching book: ${bookUrl}`);  // Log the URL being fetched
           return fetch(bookUrl)
             .then(response => {
               if (response.ok) {
+                console.log(`Caching book: ${bookAbbrev}`); // Log the BOOK
                 return cache.put(bookUrl, response.clone());
+              } else {
+                console.error(`Failed to fetch ${bookAbbrev}: ${response.statusText}`); // Log fail
               }
             })
             .catch(err => console.error(`Failed to cache ${bookAbbrev}:`, err));
@@ -69,12 +73,38 @@ self.addEventListener('activate', event => {
 self.addEventListener('fetch', event => {
   event.respondWith(
     caches.match(event.request)
-      .then(response => {
-        // Return cached file if found, otherwise fetch from network
-        return response || fetch(event.request);
+      .then(cachedResponse => {
+        // If the resource is found in cache, return it
+        if (cachedResponse) {
+          return cachedResponse;
+        }
+
+        // If the resource is not found in cache, try fetching it from the network
+        return fetch(event.request)
+          .then(networkResponse => {
+            // Check if we received a valid response
+            if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== 'basic') {
+              return networkResponse;
+            }
+
+            // Clone the network response before caching it
+            const responseToCache = networkResponse.clone();
+
+            // Open the cache and store the fetched resource
+            caches.open(CACHE_NAME)
+              .then(cache => {
+                cache.put(event.request, responseToCache);
+              });
+
+            // Return the network response
+            return networkResponse;
+          });
       })
-      .catch(err => console.error('Fetch failed:', err))
+      .catch(() => {
+        // If both the cache and network fail, handle the offline case
+        console.warn('Offline: resource not available in cache or network');
+        return caches.match('/offline.html');  // Optionally serve an offline fallback page
+      })
   );
 });
-
 
