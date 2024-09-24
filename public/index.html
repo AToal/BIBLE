@@ -3,11 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="BIBLE.ngo">
-  <link rel="manifest" href="/manifest.json">
-  <title>BIBLE.ngo</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>BIBLE</title>
+  <meta name="description" content="READ THE BIBLE">
+  <meta name="copyright" content="BIBLE">
+  <meta name="keywords" content="BIBLE">
+  <meta name="author" content="BIBLE">
+  <meta name="robots" content="index, follow, archive">
+  <meta name="theme-color" content="white" media="(prefers-color-scheme: light)">
   <link rel="stylesheet" href="/style.css">
+  <link rel="icon" sizes="32x32" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" sizes="192x192" type="image/x-icon" href="/media/BIBLE-192x192.ico">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="BIBLE">
+  <meta property="og:title" content="BIBLE">
+  <meta property="og:description" content="READ THE BIBLE">
+  <!-- <meta property="og:image" content="https://···">
+  <meta property="og:audio" content="https://···/theme.mp3">
+  <meta property="og:video" content="https://···/trailer.swf"> -->
+  <meta property="og:url" content="https://www.BIBLE.ngo">
+  <meta name="twitter:title" content="BIBLE">
+  <meta name="twitter:description" content="READ THE BIBLE">
+  <!-- <meta name="twitter:image" content="https://···"> -->
+  <meta name="twitter:url" content="https://www.BIBLE.ngo">
+  <!-- <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" sizes="120x120" href="./media/appleicon@120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./media/appleicon@152.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="./media/appleicon@167.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./media/appleicon@180.png">
+  <meta name="msapplication-square70x70logo" content="./media/msicon@70.png">
+  <meta name="msapplication-square150x150logo" content="./media/msicon@150.png">
+  <meta name="msapplication-square310x310logo" content="./media/msicon@310.png">
+  <meta name="msapplication-wide310x150logo" content="./media/msicon@310150.png"> -->
+  <link rel="manifest" href="/manifest.json">
+
   <script defer src="/app.js"></script>
+  <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
   <header>
@@ -19,7 +52,7 @@
     <section id="content-section">
       <h3 id="book-title"></h3>
       <div id="content">
-        <!-- CHAPTERS and verses will be dynamically inserted here -->
+        <!-- CHAPTERS and VERSES will be dynamically inserted here -->
       </div>
     </section>
   </main>
@@ -36,7 +69,7 @@
     <h2>PRAISE THE LORD!</h2>
   </footer>
 
-  <!-- PWA Service Worker Registration -->
+  <!-- Service Worker -->
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
