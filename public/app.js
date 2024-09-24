@@ -111,7 +111,7 @@ function displayBook(bookData, chapterIndex) {
   const chapter = bookData.chapters[chapterIndex];
   chapter.verses.forEach(verse => {
     const verseElement = document.createElement('p');
-    verseElement.textContent = `${verse.verse} ${verse.text}`;
+    verseElement.innerHTML = `<span style="color:red;">${verse.verse}</span> ${verse.text}`;
     contentElement.appendChild(verseElement);
   });
 }
@@ -124,4 +124,5 @@ function saveLastVisited(bookIndex, chapterIndex) {
 
 // Initialize the app when the DOM content is fully loaded
 document.addEventListener('DOMContentLoaded', loadBooksList);
+
 
