@@ -102,7 +102,7 @@ function displayBook(bookData, chapterIndex) {
   const contentElement = document.getElementById('content');
 
   // Update the BOOK title in the header
-  bookTitleElement.textContent = `${bookData.book} ${chapterIndex + 1}`;
+  bookTitleElement.innerHTML= `${bookData.book} ${chapterIndex + 1}`;
 
   // Clear previous content
   contentElement.innerHTML = '';
@@ -113,7 +113,7 @@ function displayBook(bookData, chapterIndex) {
   const chapter = bookData.chapters[chapterIndex];
   chapter.verses.forEach(verse => {
     const verseElement = document.createElement('p');
-    verseElement.innerHTML = `<span style="color:red;">${verse.verse}</span> ${verse.text}`;
+    verseElement.innerHTML = `<span style="color: red;">${verse.verse} &nbsp;</span> ${verse.text}`;
     contentElement.appendChild(verseElement);
   });
 }

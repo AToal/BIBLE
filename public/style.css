@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-header, nav, main, footer {
+body, header, nav, main, footer {
   margin: 0 auto;
-  padding: 8px;
+  padding: 7px;
   max-width: 400px;
   text-decoration: none;
 }
