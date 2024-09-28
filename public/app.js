@@ -106,6 +106,8 @@ function displayBook(bookData, chapterIndex) {
 
   // Clear previous content
   contentElement.innerHTML = '';
+  // Reset the scroll position to the top
+  contentElement.scrollTop = 0;
 
   // Display the verses for the current CHAPTER
   const chapter = bookData.chapters[chapterIndex];

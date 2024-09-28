@@ -6,13 +6,9 @@
 
 header, nav, main, footer {
   margin: 0 auto;
-  padding: 10px 7px;
+  padding: 8px;
   max-width: 400px;
-}
-
-header, footer {
-  color: red;
-  text-align: center;
+  text-decoration: none;
 }
 
 main {
@@ -21,8 +17,10 @@ main {
   overflow: hidden;
 }
 
-#BIBLE {
-  color: inherit;
+#BIBLE, #BIBLEBOOKS, #PRAISETHELORD {
+  color: red !important;
+  background: transparent !important;
+  text-align: center;
   text-decoration: none;
 }
 
@@ -46,7 +44,7 @@ main {
 }
 
 #books-list {
-  padding: 20px 7px 0 7px;
+  padding: 18px 0;
 }
 
 #books-list button {
@@ -54,73 +52,7 @@ main {
   cursor: pointer;
 }
 
-
-/* Full-Screen Carousel Overlay */
-#chapter-carousel {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.7); /* Dark background with opacity */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-  backdrop-filter: blur(5px); /* Blurred background */
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 0.5s, visibility 0.5s;
-}
-
-#chapter-carousel.active {
-  visibility: visible;
-  opacity: 1;
-}
-
-/* Carousel Content */
-#carousel-content {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#chapter-slider {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  overflow: hidden;
-  width: 80%;
-  height: 50vh;
-}
-
-.chapter-item {
-  min-width: 50px;
-  font-size: 3rem;
-  font-weight: 700;
-  color: #fff;
-  text-align: center;
-  transition: transform 0.3s ease;
-}
-
-/* Adding blur effect for chapters in the background */
-.chapter-item:not(.active) {
-  filter: blur(5px);
-  opacity: 0.5;
-}
-
-/* Smooth transitions */
-.chapter-item.active {
-  transform: scale(1.2);
-}
-
-/* Hide elements when carousel is active */
-body.carousel-active main,
-body.carousel-active nav {
-  filter: blur(5px);
-  pointer-events: none;
-  user-select: none;
+#books-list button:hover {
+  color: red;
+  cursor: pointer;
 }
