@@ -21,6 +21,11 @@ main {
   overflow: hidden;
 }
 
+#BIBLE {
+  color: inherit;
+  text-decoration: none;
+}
+
 #content-section {
   flex: 1;
   overflow-y: auto; /* Allow scrolling if content overflows */
@@ -29,7 +34,6 @@ main {
 #book-title {
   padding: 10px;
   text-align: center;
-  text-transform: uppercase;
 }
 
 #content > * {
