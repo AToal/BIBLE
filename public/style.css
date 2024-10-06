@@ -5,8 +5,8 @@
 }
 
 body, header, nav, main, footer {
-  margin: 0 auto;
-  padding: 7px;
+  margin: auto;
+  padding: 8px;
   max-width: 400px;
   text-decoration: none;
 }
