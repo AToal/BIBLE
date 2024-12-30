@@ -78,7 +78,7 @@ main {
       rgba(255, 255, 255, 0.7) 70%,
       rgba(255, 255, 255, 0.7) 100%);
   border: black 1px solid;
-  border-radius: 18px;
+  border-radius: 8px;
   backdrop-filter: blur(2px);
 }
 
@@ -92,6 +92,7 @@ main {
   -moz-transition: 0.2s linear;
   -ms-transition: 0.2s linear;
   -o-transition: 0.2s linear;
+  color: black;
 }
 
 .xtraNav .xtraMenu .xtraLink>a:hover {

@@ -14,7 +14,7 @@ function rightClick(e) {
    } else {
       var menu = document.getElementById("xtraNav")
       menu.style.display = 'block';
-      menu.style.left = e.pageX + "px";
-      menu.style.top = e.pageY + "px";
+      menu.style.left = (e.pageX - 80) + "px";
+      menu.style.top = (e.pageY - 175) + "px";
    }
 };
