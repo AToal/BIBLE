@@ -1,0 +1,3820 @@
+{
+  "BOOK": "Proverbs",
+  "CHAPTERS": [
+    {
+      "CHAPTER": "1",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "These are the proverbs of Solomon, David’s son, king of Israel."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "Their purpose is to teach people wisdom and discipline, to help them understand the insights of the wise."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "Their purpose is to teach people to live disciplined and successful lives, to help them do what is right, just, and fair."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "These proverbs will give insight to the simple, knowledge and discernment to the young."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "Let the wise listen to these proverbs and become even wiser. Let those with understanding receive guidance"
+        },
+        {
+          "VERSE": "6",
+          "WORD": "by exploring the meaning in these proverbs and parables, the words of the wise and their riddles."
+        },
+        {
+          "VERSE": "7",
+          "WORD": "Fear of the Lord is the foundation of true knowledge, but fools despise wisdom and discipline."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "My child, listen when your father corrects you. Don’t neglect your mother’s instruction."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "What you learn from them will crown you with grace and be a chain of honor around your neck."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "My child, if sinners entice you, turn your back on them!"
+        },
+        {
+          "VERSE": "11",
+          "WORD": "They may say, “Come and join us. Let’s hide and kill someone! Just for fun, let’s ambush the innocent!"
+        },
+        {
+          "VERSE": "12",
+          "WORD": "Let’s swallow them alive, like the grave; let’s swallow them whole, like those who go down to the pit of death."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "Think of the great things we’ll get! We’ll fill our houses with all the stuff we take."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "Come, throw in your lot with us; we’ll all share the loot.”"
+        },
+        {
+          "VERSE": "15",
+          "WORD": "My child, don’t go along with them! Stay far away from their paths."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "They rush to commit evil deeds. They hurry to commit murder."
+        },
+        {
+          "VERSE": "17",
+          "WORD": "If a bird sees a trap being set, it knows to stay away."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "But these people set an ambush for themselves; they are trying to get themselves killed."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "Such is the fate of all who are greedy for money; it robs them of life."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "Wisdom shouts in the streets. She cries out in the public square."
+        },
+        {
+          "VERSE": "21",
+          "WORD": "She calls to the crowds along the main street, to those gathered in front of the city gate:"
+        },
+        {
+          "VERSE": "22",
+          "WORD": "“How long, you simpletons, will you insist on being simpleminded? How long will you mockers relish your mocking? How long will you fools hate knowledge?"
+        },
+        {
+          "VERSE": "23",
+          "WORD": "Come and listen to my counsel. I’ll share my heart with you and make you wise."
+        },
+        {
+          "VERSE": "24",
+          "WORD": "“I called you so often, but you wouldn’t come. I reached out to you, but you paid no attention."
+        },
+        {
+          "VERSE": "25",
+          "WORD": "You ignored my advice and rejected the correction I offered."
+        },
+        {
+          "VERSE": "26",
+          "WORD": "So I will laugh when you are in trouble! I will mock you when disaster overtakes you—"
+        },
+        {
+          "VERSE": "27",
+          "WORD": "when calamity overtakes you like a storm, when disaster engulfs you like a cyclone, and anguish and distress overwhelm you."
+        },
+        {
+          "VERSE": "28",
+          "WORD": "“When they cry for help, I will not answer. Though they anxiously search for me, they will not find me."
+        },
+        {
+          "VERSE": "29",
+          "WORD": "For they hated knowledge and chose not to fear the Lord."
+        },
+        {
+          "VERSE": "30",
+          "WORD": "They rejected my advice and paid no attention when I corrected them."
+        },
+        {
+          "VERSE": "31",
+          "WORD": "Therefore, they must eat the bitter fruit of living their own way, choking on their own schemes."
+        },
+        {
+          "VERSE": "32",
+          "WORD": "For simpletons turn away from me—to death. Fools are destroyed by their own complacency."
+        },
+        {
+          "VERSE": "33",
+          "WORD": "But all who listen to me will live in peace, untroubled by fear of harm.”"
+        }
+      ]
+    },
+    {
+      "CHAPTER": "2",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "My child, listen to what I say, and treasure my commands."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "Tune your ears to wisdom, and concentrate on understanding."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "Cry out for insight, and ask for understanding."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "Search for them as you would for silver; seek them like hidden treasures."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "Then you will understand what it means to fear the Lord, and you will gain knowledge of God."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "For the Lord grants wisdom! From his mouth come knowledge and understanding."
+        },
+        {
+          "VERSE": "7",
+          "WORD": "He grants a treasure of common sense to the honest. He is a shield to those who walk with integrity."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "He guards the paths of the just and protects those who are faithful to him."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "Then you will understand what is right, just, and fair, and you will find the right way to go."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "For wisdom will enter your heart, and knowledge will fill you with joy."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "Wise choices will watch over you. Understanding will keep you safe."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "Wisdom will save you from evil people, from those whose words are twisted."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "These men turn from the right way to walk down dark paths."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "They take pleasure in doing wrong, and they enjoy the twisted ways of evil."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "Their actions are crooked, and their ways are wrong."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "Wisdom will save you from the immoral woman, from the seductive words of the promiscuous woman."
+        },
+        {
+          "VERSE": "17",
+          "WORD": "She has abandoned her husband and ignores the covenant she made before God."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "Entering her house leads to death; it is the road to the grave."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "The man who visits her is doomed. He will never reach the paths of life."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "So follow the steps of the good, and stay on the paths of the righteous."
+        },
+        {
+          "VERSE": "21",
+          "WORD": "For only the godly will live in the land, and those with integrity will remain in it."
+        },
+        {
+          "VERSE": "22",
+          "WORD": "But the wicked will be removed from the land, and the treacherous will be uprooted."
+        }
+      ]
+    },
+    {
+      "CHAPTER": "3",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "My child, never forget the things I have taught you. Store my commands in your heart."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "If you do this, you will live many years, and your life will be satisfying."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "Never let loyalty and kindness leave you! Tie them around your neck as a reminder. Write them deep within your heart."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "Then you will find favor with both God and people, and you will earn a good reputation."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "Trust in the Lord with all your heart; do not depend on your own understanding."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "Seek his will in all you do, and he will show you which path to take."
+        },
+        {
+          "VERSE": "7",
+          "WORD": "Don’t be impressed with your own wisdom. Instead, fear the Lord and turn away from evil."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "Then you will have healing for your body and strength for your bones."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "Honor the Lord with your wealth and with the best part of everything you produce."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "Then he will fill your barns with grain, and your vats will overflow with good wine."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "My child, don’t reject the Lord’s discipline, and don’t be upset when he corrects you."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "For the Lord corrects those he loves, just as a father corrects a child in whom he delights."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "Joyful is the person who finds wisdom, the one who gains understanding."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "For wisdom is more profitable than silver, and her wages are better than gold."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "Wisdom is more precious than rubies; nothing you desire can compare with her."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "She offers you long life in her right hand, and riches and honor in her left."
+        },
+        {
+          "VERSE": "17",
+          "WORD": "She will guide you down delightful paths; all her ways are satisfying."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "Wisdom is a tree of life to those who embrace her; happy are those who hold her tightly."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "By wisdom the Lord founded the earth; by understanding he created the heavens."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "By his knowledge the deep fountains of the earth burst forth, and the dew settles beneath the night sky."
+        },
+        {
+          "VERSE": "21",
+          "WORD": "My child, don’t lose sight of common sense and discernment. Hang on to them,"
+        },
+        {
+          "VERSE": "22",
+          "WORD": "for they will refresh your soul. They are like jewels on a necklace."
+        },
+        {
+          "VERSE": "23",
+          "WORD": "They keep you safe on your way, and your feet will not stumble."
+        },
+        {
+          "VERSE": "24",
+          "WORD": "You can go to bed without fear; you will lie down and sleep soundly."
+        },
+        {
+          "VERSE": "25",
+          "WORD": "You need not be afraid of sudden disaster or the destruction that comes upon the wicked,"
+        },
+        {
+          "VERSE": "26",
+          "WORD": "for the Lord is your security. He will keep your foot from being caught in a trap."
+        },
+        {
+          "VERSE": "27",
+          "WORD": "Do not withhold good from those who deserve it when it’s in your power to help them."
+        },
+        {
+          "VERSE": "28",
+          "WORD": "If you can help your neighbor now, don’t say, “Come back tomorrow, and then I’ll help you.”"
+        },
+        {
+          "VERSE": "29",
+          "WORD": "Don’t plot harm against your neighbor, for those who live nearby trust you."
+        },
+        {
+          "VERSE": "30",
+          "WORD": "Don’t pick a fight without reason, when no one has done you harm."
+        },
+        {
+          "VERSE": "31",
+          "WORD": "Don’t envy violent people or copy their ways."
+        },
+        {
+          "VERSE": "32",
+          "WORD": "Such wicked people are detestable to the Lord, but he offers his friendship to the godly."
+        },
+        {
+          "VERSE": "33",
+          "WORD": "The Lord curses the house of the wicked, but he blesses the home of the upright."
+        },
+        {
+          "VERSE": "34",
+          "WORD": "The Lord mocks the mockers but is gracious to the humble."
+        },
+        {
+          "VERSE": "35",
+          "WORD": "The wise inherit honor, but fools are put to shame!"
+        }
+      ]
+    },
+    {
+      "CHAPTER": "4",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "My children, listen when your father corrects you. Pay attention and learn good judgment,"
+        },
+        {
+          "VERSE": "2",
+          "WORD": "for I am giving you good guidance. Don’t turn away from my instructions."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "For I, too, was once my father’s son, tenderly loved as my mother’s only child."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "My father taught me, “Take my words to heart. Follow my commands, and you will live."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "Get wisdom; develop good judgment. Don’t forget my words or turn away from them."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "Don’t turn your back on wisdom, for she will protect you. Love her, and she will guard you."
+        },
+        {
+          "VERSE": "7",
+          "WORD": "Getting wisdom is the wisest thing you can do! And whatever else you do, develop good judgment."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "If you prize wisdom, she will make you great. Embrace her, and she will honor you."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "She will place a lovely wreath on your head; she will present you with a beautiful crown.”"
+        },
+        {
+          "VERSE": "10",
+          "WORD": "My child, listen to me and do as I say, and you will have a long, good life."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "I will teach you wisdom’s ways and lead you in straight paths."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "When you walk, you won’t be held back; when you run, you won’t stumble."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "Take hold of my instructions; don’t let them go. Guard them, for they are the key to life."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "Don’t do as the wicked do, and don’t follow the path of evildoers."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "Don’t even think about it; don’t go that way. Turn away and keep moving."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "For evil people can’t sleep until they’ve done their evil deed for the day. They can’t rest until they’ve caused someone to stumble."
+        },
+        {
+          "VERSE": "17",
+          "WORD": "They eat the food of wickedness and drink the wine of violence!"
+        },
+        {
+          "VERSE": "18",
+          "WORD": "The way of the righteous is like the first gleam of dawn, which shines ever brighter until the full light of day."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "But the way of the wicked is like total darkness. They have no idea what they are stumbling over."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "My child, pay attention to what I say. Listen carefully to my words."
+        },
+        {
+          "VERSE": "21",
+          "WORD": "Don’t lose sight of them. Let them penetrate deep into your heart,"
+        },
+        {
+          "VERSE": "22",
+          "WORD": "for they bring life to those who find them, and healing to their whole body."
+        },
+        {
+          "VERSE": "23",
+          "WORD": "Guard your heart above all else, for it determines the course of your life."
+        },
+        {
+          "VERSE": "24",
+          "WORD": "Avoid all perverse talk; stay away from corrupt speech."
+        },
+        {
+          "VERSE": "25",
+          "WORD": "Look straight ahead, and fix your eyes on what lies before you."
+        },
+        {
+          "VERSE": "26",
+          "WORD": "Mark out a straight path for your feet; stay on the safe path."
+        },
+        {
+          "VERSE": "27",
+          "WORD": "Don’t get sidetracked; keep your feet from following evil."
+        }
+      ]
+    },
+    {
+      "CHAPTER": "5",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "My son, pay attention to my wisdom; listen carefully to my wise counsel."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "Then you will show discernment, and your lips will express what you’ve learned."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "For the lips of an immoral woman are as sweet as honey, and her mouth is smoother than oil."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "But in the end she is as bitter as poison, as dangerous as a double-edged sword."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "Her feet go down to death; her steps lead straight to the grave."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "For she cares nothing about the path to life. She staggers down a crooked trail and doesn’t realize it."
+        },
+        {
+          "VERSE": "7",
+          "WORD": "So now, my sons, listen to me. Never stray from what I am about to say:"
+        },
+        {
+          "VERSE": "8",
+          "WORD": "Stay away from her! Don’t go near the door of her house!"
+        },
+        {
+          "VERSE": "9",
+          "WORD": "If you do, you will lose your honor and will lose to merciless people all you have achieved."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "Strangers will consume your wealth, and someone else will enjoy the fruit of your labor."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "In the end you will groan in anguish when disease consumes your body."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "You will say, “How I hated discipline! If only I had not ignored all the warnings!"
+        },
+        {
+          "VERSE": "13",
+          "WORD": "Oh, why didn’t I listen to my teachers? Why didn’t I pay attention to my instructors?"
+        },
+        {
+          "VERSE": "14",
+          "WORD": "I have come to the brink of utter ruin, and now I must face public disgrace.”"
+        },
+        {
+          "VERSE": "15",
+          "WORD": "Drink water from your own well— share your love only with your wife."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "Why spill the water of your springs in the streets, having sex with just anyone?"
+        },
+        {
+          "VERSE": "17",
+          "WORD": "You should reserve it for yourselves. Never share it with strangers."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "Let your wife be a fountain of blessing for you. Rejoice in the wife of your youth."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "She is a loving deer, a graceful doe. Let her breasts satisfy you always. May you always be captivated by her love."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "Why be captivated, my son, by an immoral woman, or fondle the breasts of a promiscuous woman?"
+        },
+        {
+          "VERSE": "21",
+          "WORD": "For the Lord sees clearly what a man does, examining every path he takes."
+        },
+        {
+          "VERSE": "22",
+          "WORD": "An evil man is held captive by his own sins; they are ropes that catch and hold him."
+        },
+        {
+          "VERSE": "23",
+          "WORD": "He will die for lack of self-control; he will be lost because of his great foolishness."
+        }
+      ]
+    },
+    {
+      "CHAPTER": "6",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "My child, if you have put up security for a friend’s debt or agreed to guarantee the debt of a stranger—"
+        },
+        {
+          "VERSE": "2",
+          "WORD": "if you have trapped yourself by your agreement and are caught by what you said—"
+        },
+        {
+          "VERSE": "3",
+          "WORD": "follow my advice and save yourself, for you have placed yourself at your friend’s mercy. Now swallow your pride; go and beg to have your name erased."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "Don’t put it off; do it now! Don’t rest until you do."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "Save yourself like a gazelle escaping from a hunter, like a bird fleeing from a net."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "Take a lesson from the ants, you lazybones. Learn from their ways and become wise!"
+        },
+        {
+          "VERSE": "7",
+          "WORD": "Though they have no prince or governor or ruler to make them work,"
+        },
+        {
+          "VERSE": "8",
+          "WORD": "they labor hard all summer, gathering food for the winter."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "But you, lazybones, how long will you sleep? When will you wake up?"
+        },
+        {
+          "VERSE": "10",
+          "WORD": "A little extra sleep, a little more slumber, a little folding of the hands to rest—"
+        },
+        {
+          "VERSE": "11",
+          "WORD": "then poverty will pounce on you like a bandit; scarcity will attack you like an armed robber."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "What are worthless and wicked people like? They are constant liars,"
+        },
+        {
+          "VERSE": "13",
+          "WORD": "signaling their deceit with a wink of the eye, a nudge of the foot, or the wiggle of fingers."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "Their perverted hearts plot evil, and they constantly stir up trouble."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "But they will be destroyed suddenly, broken in an instant beyond all hope of healing."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "There are six things the Lord hates— no, seven things he detests:"
+        },
+        {
+          "VERSE": "17",
+          "WORD": "haughty eyes, a lying tongue, hands that kill the innocent,"
+        },
+        {
+          "VERSE": "18",
+          "WORD": "a heart that plots evil, feet that race to do wrong,"
+        },
+        {
+          "VERSE": "19",
+          "WORD": "a false witness who pours out lies, a person who sows discord in a family."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "My son, obey your father’s commands, and don’t neglect your mother’s instruction."
+        },
+        {
+          "VERSE": "21",
+          "WORD": "Keep their words always in your heart. Tie them around your neck."
+        },
+        {
+          "VERSE": "22",
+          "WORD": "When you walk, their counsel will lead you. When you sleep, they will protect you. When you wake up, they will advise you."
+        },
+        {
+          "VERSE": "23",
+          "WORD": "For their command is a lamp and their instruction a light; their corrective discipline is the way to life."
+        },
+        {
+          "VERSE": "24",
+          "WORD": "It will keep you from the immoral woman, from the smooth tongue of a promiscuous woman."
+        },
+        {
+          "VERSE": "25",
+          "WORD": "Don’t lust for her beauty. Don’t let her coy glances seduce you."
+        },
+        {
+          "VERSE": "26",
+          "WORD": "For a prostitute will bring you to poverty, but sleeping with another man’s wife will cost you your life."
+        },
+        {
+          "VERSE": "27",
+          "WORD": "Can a man scoop a flame into his lap and not have his clothes catch on fire?"
+        },
+        {
+          "VERSE": "28",
+          "WORD": "Can he walk on hot coals and not blister his feet?"
+        },
+        {
+          "VERSE": "29",
+          "WORD": "So it is with the man who sleeps with another man’s wife. He who embraces her will not go unpunished."
+        },
+        {
+          "VERSE": "30",
+          "WORD": "Excuses might be found for a thief who steals because he is starving."
+        },
+        {
+          "VERSE": "31",
+          "WORD": "But if he is caught, he must pay back seven times what he stole, even if he has to sell everything in his house."
+        },
+        {
+          "VERSE": "32",
+          "WORD": "But the man who commits adultery is an utter fool, for he destroys himself."
+        },
+        {
+          "VERSE": "33",
+          "WORD": "He will be wounded and disgraced. His shame will never be erased."
+        },
+        {
+          "VERSE": "34",
+          "WORD": "For the woman’s jealous husband will be furious, and he will show no mercy when he takes revenge."
+        },
+        {
+          "VERSE": "35",
+          "WORD": "He will accept no compensation, nor be satisfied with a payoff of any size."
+        }
+      ]
+    },
+    {
+      "CHAPTER": "7",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "Follow my advice, my son; always treasure my commands."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "Obey my commands and live! Guard my instructions as you guard your own eyes."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "Tie them on your fingers as a reminder. Write them deep within your heart."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "Love wisdom like a sister; make insight a beloved member of your family."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "Let them protect you from an affair with an immoral woman, from listening to the flattery of a promiscuous woman."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "While I was at the window of my house, looking through the curtain,"
+        },
+        {
+          "VERSE": "7",
+          "WORD": "I saw some naive young men, and one in particular who lacked common sense."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "He was crossing the street near the house of an immoral woman, strolling down the path by her house."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "It was at twilight, in the evening, as deep darkness fell."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "The woman approached him, seductively dressed and sly of heart."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "She was the brash, rebellious type, never content to stay at home."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "She is often in the streets and markets, soliciting at every corner."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "She threw her arms around him and kissed him, and with a brazen look she said,"
+        },
+        {
+          "VERSE": "14",
+          "WORD": "“I’ve just made my peace offerings and fulfilled my vows."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "You’re the one I was looking for! I came out to find you, and here you are!"
+        },
+        {
+          "VERSE": "16",
+          "WORD": "My bed is spread with beautiful blankets, with colored sheets of Egyptian linen."
+        },
+        {
+          "VERSE": "17",
+          "WORD": "I’ve perfumed my bed with myrrh, aloes, and cinnamon."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "Come, let’s drink our fill of love until morning. Let’s enjoy each other’s caresses,"
+        },
+        {
+          "VERSE": "19",
+          "WORD": "for my husband is not home. He’s away on a long trip."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "He has taken a wallet full of money with him and won’t return until later this month.”"
+        },
+        {
+          "VERSE": "21",
+          "WORD": "So she seduced him with her pretty speech and enticed him with her flattery."
+        },
+        {
+          "VERSE": "22",
+          "WORD": "He followed her at once, like an ox going to the slaughter. He was like a stag caught in a trap,"
+        },
+        {
+          "VERSE": "23",
+          "WORD": "awaiting the arrow that would pierce its heart. He was like a bird flying into a snare, little knowing it would cost him his life."
+        },
+        {
+          "VERSE": "24",
+          "WORD": "So listen to me, my sons, and pay attention to my words."
+        },
+        {
+          "VERSE": "25",
+          "WORD": "Don’t let your hearts stray away toward her. Don’t wander down her wayward path."
+        },
+        {
+          "VERSE": "26",
+          "WORD": "For she has been the ruin of many; many men have been her victims."
+        },
+        {
+          "VERSE": "27",
+          "WORD": "Her house is the road to the grave. Her bedroom is the den of death."
+        }
+      ]
+    },
+    {
+      "CHAPTER": "8",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "Listen as Wisdom calls out! Hear as understanding raises her voice!"
+        },
+        {
+          "VERSE": "2",
+          "WORD": "On the hilltop along the road, she takes her stand at the crossroads."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "By the gates at the entrance to the town, on the road leading in, she cries aloud,"
+        },
+        {
+          "VERSE": "4",
+          "WORD": "“I call to you, to all of you! I raise my voice to all people."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "You simple people, use good judgment. You foolish people, show some understanding."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "Listen to me! For I have important things to tell you. Everything I say is right,"
+        },
+        {
+          "VERSE": "7",
+          "WORD": "for I speak the truth and detest every kind of deception."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "My advice is wholesome. There is nothing devious or crooked in it."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "My words are plain to anyone with understanding, clear to those with knowledge."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "Choose my instruction rather than silver, and knowledge rather than pure gold."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "For wisdom is far more valuable than rubies. Nothing you desire can compare with it."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "“I, Wisdom, live together with good judgment. I know where to discover knowledge and discernment."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "All who fear the Lord will hate evil. Therefore, I hate pride and arrogance, corruption and perverse speech."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "Common sense and success belong to me. Insight and strength are mine."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "Because of me, kings reign, and rulers make just decrees."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "Rulers lead with my help, and nobles make righteous judgments."
+        },
+        {
+          "VERSE": "17",
+          "WORD": "“I love all who love me. Those who search will surely find me."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "I have riches and honor, as well as enduring wealth and justice."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "My gifts are better than gold, even the purest gold, my wages better than sterling silver!"
+        },
+        {
+          "VERSE": "20",
+          "WORD": "I walk in righteousness, in paths of justice."
+        },
+        {
+          "VERSE": "21",
+          "WORD": "Those who love me inherit wealth. I will fill their treasuries."
+        },
+        {
+          "VERSE": "22",
+          "WORD": "“The Lord formed me from the beginning, before he created anything else."
+        },
+        {
+          "VERSE": "23",
+          "WORD": "I was appointed in ages past, at the very first, before the earth began."
+        },
+        {
+          "VERSE": "24",
+          "WORD": "I was born before the oceans were created, before the springs bubbled forth their waters."
+        },
+        {
+          "VERSE": "25",
+          "WORD": "Before the mountains were formed, before the hills, I was born—"
+        },
+        {
+          "VERSE": "26",
+          "WORD": "before he had made the earth and fields and the first handfuls of soil."
+        },
+        {
+          "VERSE": "27",
+          "WORD": "I was there when he established the heavens, when he drew the horizon on the oceans."
+        },
+        {
+          "VERSE": "28",
+          "WORD": "I was there when he set the clouds above, when he established springs deep in the earth."
+        },
+        {
+          "VERSE": "29",
+          "WORD": "I was there when he set the limits of the seas, so they would not spread beyond their boundaries. And when he marked off the earth’s foundations,"
+        },
+        {
+          "VERSE": "30",
+          "WORD": "I was the architect at his side. I was his constant delight, rejoicing always in his presence."
+        },
+        {
+          "VERSE": "31",
+          "WORD": "And how happy I was with the world he created; how I rejoiced with the human family!"
+        },
+        {
+          "VERSE": "32",
+          "WORD": "“And so, my children, listen to me, for all who follow my ways are joyful."
+        },
+        {
+          "VERSE": "33",
+          "WORD": "Listen to my instruction and be wise. Don’t ignore it."
+        },
+        {
+          "VERSE": "34",
+          "WORD": "Joyful are those who listen to me, watching for me daily at my gates, waiting for me outside my home!"
+        },
+        {
+          "VERSE": "35",
+          "WORD": "For whoever finds me finds life and receives favor from the Lord."
+        },
+        {
+          "VERSE": "36",
+          "WORD": "But those who miss me injure themselves. All who hate me love death.”"
+        }
+      ]
+    },
+    {
+      "CHAPTER": "9",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "Wisdom has built her house; she has carved its seven columns."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "She has prepared a great banquet, mixed the wines, and set the table."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "She has sent her servants to invite everyone to come. She calls out from the heights overlooking the city."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "“Come in with me,” she urges the simple. To those who lack good judgment, she says,"
+        },
+        {
+          "VERSE": "5",
+          "WORD": "“Come, eat my food, and drink the wine I have mixed."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "Leave your simple ways behind, and begin to live; learn to use good judgment.”"
+        },
+        {
+          "VERSE": "7",
+          "WORD": "Anyone who rebukes a mocker will get an insult in return. Anyone who corrects the wicked will get hurt."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "So don’t bother correcting mockers; they will only hate you. But correct the wise, and they will love you."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "Instruct the wise, and they will be even wiser. Teach the righteous, and they will learn even more."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "Fear of the Lord is the foundation of wisdom. Knowledge of the Holy One results in good judgment."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "Wisdom will multiply your days and add years to your life."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "If you become wise, you will be the one to benefit. If you scorn wisdom, you will be the one to suffer."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "The woman named Folly is brash. She is ignorant and doesn’t know it."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "She sits in her doorway on the heights overlooking the city."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "She calls out to men going by who are minding their own business."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "“Come in with me,” she urges the simple. To those who lack good judgment, she says,"
+        },
+        {
+          "VERSE": "17",
+          "WORD": "“Stolen water is refreshing; food eaten in secret tastes the best!”"
+        },
+        {
+          "VERSE": "18",
+          "WORD": "But little do they know that the dead are there. Her guests are in the depths of the grave."
+        }
+      ]
+    },
+    {
+      "CHAPTER": "10",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "The proverbs of Solomon: A wise child brings joy to a father; a foolish child brings grief to a mother."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "Tainted wealth has no lasting value, but right living can save your life."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "The Lord will not let the godly go hungry, but he refuses to satisfy the craving of the wicked."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "Lazy people are soon poor; hard workers get rich."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "A wise youth harvests in the summer, but one who sleeps during harvest is a disgrace."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "The godly are showered with blessings; the words of the wicked conceal violent intentions."
+        },
+        {
+          "VERSE": "7",
+          "WORD": "We have happy memories of the godly, but the name of a wicked person rots away."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "The wise are glad to be instructed, but babbling fools fall flat on their faces."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "People with integrity walk safely, but those who follow crooked paths will be exposed."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "People who wink at wrong cause trouble, but a bold reproof promotes peace."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "The words of the godly are a life-giving fountain; the words of the wicked conceal violent intentions."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "Hatred stirs up quarrels, but love makes up for all offenses."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "Wise words come from the lips of people with understanding, but those lacking sense will be beaten with a rod."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "Wise people treasure knowledge, but the babbling of a fool invites disaster."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "The wealth of the rich is their fortress; the poverty of the poor is their destruction."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "The earnings of the godly enhance their lives, but evil people squander their money on sin."
+        },
+        {
+          "VERSE": "17",
+          "WORD": "People who accept discipline are on the pathway to life, but those who ignore correction will go astray."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "Hiding hatred makes you a liar; slandering others makes you a fool."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "Too much talk leads to sin. Be sensible and keep your mouth shut."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "The words of the godly are like sterling silver; the heart of a fool is worthless."
+        },
+        {
+          "VERSE": "21",
+          "WORD": "The words of the godly encourage many, but fools are destroyed by their lack of common sense."
+        },
+        {
+          "VERSE": "22",
+          "WORD": "The blessing of the Lord makes a person rich, and he adds no sorrow with it."
+        },
+        {
+          "VERSE": "23",
+          "WORD": "Doing wrong is fun for a fool, but living wisely brings pleasure to the sensible."
+        },
+        {
+          "VERSE": "24",
+          "WORD": "The fears of the wicked will be fulfilled; the hopes of the godly will be granted."
+        },
+        {
+          "VERSE": "25",
+          "WORD": "When the storms of life come, the wicked are whirled away, but the godly have a lasting foundation."
+        },
+        {
+          "VERSE": "26",
+          "WORD": "Lazy people irritate their employers, like vinegar to the teeth or smoke in the eyes."
+        },
+        {
+          "VERSE": "27",
+          "WORD": "Fear of the Lord lengthens one’s life, but the years of the wicked are cut short."
+        },
+        {
+          "VERSE": "28",
+          "WORD": "The hopes of the godly result in happiness, but the expectations of the wicked come to nothing."
+        },
+        {
+          "VERSE": "29",
+          "WORD": "The way of the Lord is a stronghold to those with integrity, but it destroys the wicked."
+        },
+        {
+          "VERSE": "30",
+          "WORD": "The godly will never be disturbed, but the wicked will be removed from the land."
+        },
+        {
+          "VERSE": "31",
+          "WORD": "The mouth of the godly person gives wise advice, but the tongue that deceives will be cut off."
+        },
+        {
+          "VERSE": "32",
+          "WORD": "The lips of the godly speak helpful words, but the mouth of the wicked speaks perverse words."
+        }
+      ]
+    },
+    {
+      "CHAPTER": "11",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "The Lord detests the use of dishonest scales, but he delights in accurate weights."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "Pride leads to disgrace, but with humility comes wisdom."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "Honesty guides good people; dishonesty destroys treacherous people."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "Riches won’t help on the day of judgment, but right living can save you from death."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "The godly are directed by honesty; the wicked fall beneath their load of sin."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "The godliness of good people rescues them; the ambition of treacherous people traps them."
+        },
+        {
+          "VERSE": "7",
+          "WORD": "When the wicked die, their hopes die with them, for they rely on their own feeble strength."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "The godly are rescued from trouble, and it falls on the wicked instead."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "With their words, the godless destroy their friends, but knowledge will rescue the righteous."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "The whole city celebrates when the godly succeed; they shout for joy when the wicked die."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "Upright citizens are good for a city and make it prosper, but the talk of the wicked tears it apart."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "It is foolish to belittle one’s neighbor; a sensible person keeps quiet."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "A gossip goes around telling secrets, but those who are trustworthy can keep a confidence."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "Without wise leadership, a nation falls; there is safety in having many advisers."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "There’s danger in putting up security for a stranger’s debt; it’s safer not to guarantee another person’s debt."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "A gracious woman gains respect, but ruthless men gain only wealth."
+        },
+        {
+          "VERSE": "17",
+          "WORD": "Your kindness will reward you, but your cruelty will destroy you."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "Evil people get rich for the moment, but the reward of the godly will last."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "Godly people find life; evil people find death."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "The Lord detests people with crooked hearts, but he delights in those with integrity."
+        },
+        {
+          "VERSE": "21",
+          "WORD": "Evil people will surely be punished, but the children of the godly will go free."
+        },
+        {
+          "VERSE": "22",
+          "WORD": "A beautiful woman who lacks discretion is like a gold ring in a pig’s snout."
+        },
+        {
+          "VERSE": "23",
+          "WORD": "The godly can look forward to a reward, while the wicked can expect only judgment."
+        },
+        {
+          "VERSE": "24",
+          "WORD": "Give freely and become more wealthy; be stingy and lose everything."
+        },
+        {
+          "VERSE": "25",
+          "WORD": "The generous will prosper; those who refresh others will themselves be refreshed."
+        },
+        {
+          "VERSE": "26",
+          "WORD": "People curse those who hoard their grain, but they bless the one who sells in time of need."
+        },
+        {
+          "VERSE": "27",
+          "WORD": "If you search for good, you will find favor; but if you search for evil, it will find you!"
+        },
+        {
+          "VERSE": "28",
+          "WORD": "Trust in your money and down you go! But the godly flourish like leaves in spring."
+        },
+        {
+          "VERSE": "29",
+          "WORD": "Those who bring trouble on their families inherit the wind. The fool will be a servant to the wise."
+        },
+        {
+          "VERSE": "30",
+          "WORD": "The seeds of good deeds become a tree of life; a wise person wins friends."
+        },
+        {
+          "VERSE": "31",
+          "WORD": "If the righteous are rewarded here on earth, what will happen to wicked sinners?"
+        }
+      ]
+    },
+    {
+      "CHAPTER": "12",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "To learn, you must love discipline; it is stupid to hate correction."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "The Lord approves of those who are good, but he condemns those who plan wickedness."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "Wickedness never brings stability, but the godly have deep roots."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "A worthy wife is a crown for her husband, but a disgraceful woman is like cancer in his bones."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "The plans of the godly are just; the advice of the wicked is treacherous."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "The words of the wicked are like a murderous ambush, but the words of the godly save lives."
+        },
+        {
+          "VERSE": "7",
+          "WORD": "The wicked die and disappear, but the family of the godly stands firm."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "A sensible person wins admiration, but a warped mind is despised."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "Better to be an ordinary person with a servant than to be self-important but have no food."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "The godly care for their animals, but the wicked are always cruel."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "A hard worker has plenty of food, but a person who chases fantasies has no sense."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "Thieves are jealous of each other’s loot, but the godly are well rooted and bear their own fruit."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "The wicked are trapped by their own words, but the godly escape such trouble."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "Wise words bring many benefits, and hard work brings rewards."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "Fools think their own way is right, but the wise listen to others."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "A fool is quick-tempered, but a wise person stays calm when insulted."
+        },
+        {
+          "VERSE": "17",
+          "WORD": "An honest witness tells the truth; a false witness tells lies."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "Some people make cutting remarks, but the words of the wise bring healing."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "Truthful words stand the test of time, but lies are soon exposed."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "Deceit fills hearts that are plotting evil; joy fills hearts that are planning peace!"
+        },
+        {
+          "VERSE": "21",
+          "WORD": "No harm comes to the godly, but the wicked have their fill of trouble."
+        },
+        {
+          "VERSE": "22",
+          "WORD": "The Lord detests lying lips, but he delights in those who tell the truth."
+        },
+        {
+          "VERSE": "23",
+          "WORD": "The wise don’t make a show of their knowledge, but fools broadcast their foolishness."
+        },
+        {
+          "VERSE": "24",
+          "WORD": "Work hard and become a leader; be lazy and become a slave."
+        },
+        {
+          "VERSE": "25",
+          "WORD": "Worry weighs a person down; an encouraging word cheers a person up."
+        },
+        {
+          "VERSE": "26",
+          "WORD": "The godly give good advice to their friends; the wicked lead them astray."
+        },
+        {
+          "VERSE": "27",
+          "WORD": "Lazy people don’t even cook the game they catch, but the diligent make use of everything they find."
+        },
+        {
+          "VERSE": "28",
+          "WORD": "The way of the godly leads to life; that path does not lead to death."
+        }
+      ]
+    },
+    {
+      "CHAPTER": "13",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "A wise child accepts a parent’s discipline; a mocker refuses to listen to correction."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "Wise words will win you a good meal, but treacherous people have an appetite for violence."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "Those who control their tongue will have a long life; opening your mouth can ruin everything."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "Lazy people want much but get little, but those who work hard will prosper."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "The godly hate lies; the wicked cause shame and disgrace."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "Godliness guards the path of the blameless, but the evil are misled by sin."
+        },
+        {
+          "VERSE": "7",
+          "WORD": "Some who are poor pretend to be rich; others who are rich pretend to be poor."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "The rich can pay a ransom for their lives, but the poor won’t even get threatened."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "The life of the godly is full of light and joy, but the light of the wicked will be snuffed out."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "Pride leads to conflict; those who take advice are wise."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "Wealth from get-rich-quick schemes quickly disappears; wealth from hard work grows over time."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "Hope deferred makes the heart sick, but a dream fulfilled is a tree of life."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "People who despise advice are asking for trouble; those who respect a command will succeed."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "The instruction of the wise is like a life-giving fountain; those who accept it avoid the snares of death."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "A person with good sense is respected; a treacherous person is headed for destruction."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "Wise people think before they act; fools don’t—and even brag about their foolishness."
+        },
+        {
+          "VERSE": "17",
+          "WORD": "An unreliable messenger stumbles into trouble, but a reliable messenger brings healing."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "If you ignore criticism, you will end in poverty and disgrace; if you accept correction, you will be honored."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "It is pleasant to see dreams come true, but fools refuse to turn from evil to attain them."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "Walk with the wise and become wise; associate with fools and get in trouble."
+        },
+        {
+          "VERSE": "21",
+          "WORD": "Trouble chases sinners, while blessings reward the righteous."
+        },
+        {
+          "VERSE": "22",
+          "WORD": "Good people leave an inheritance to their grandchildren, but the sinner’s wealth passes to the godly."
+        },
+        {
+          "VERSE": "23",
+          "WORD": "A poor person’s farm may produce much food, but injustice sweeps it all away."
+        },
+        {
+          "VERSE": "24",
+          "WORD": "Those who spare the rod of discipline hate their children. Those who love their children care enough to discipline them."
+        },
+        {
+          "VERSE": "25",
+          "WORD": "The godly eat to their hearts’ content, but the belly of the wicked goes hungry."
+        }
+      ]
+    },
+    {
+      "CHAPTER": "14",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "A wise woman builds her home, but a foolish woman tears it down with her own hands."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "Those who follow the right path fear the Lord; those who take the wrong path despise him."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "A fool’s proud talk becomes a rod that beats him, but the words of the wise keep them safe."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "Without oxen a stable stays clean, but you need a strong ox for a large harvest."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "An honest witness does not lie; a false witness breathes lies."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "A mocker seeks wisdom and never finds it, but knowledge comes easily to those with understanding."
+        },
+        {
+          "VERSE": "7",
+          "WORD": "Stay away from fools, for you won’t find knowledge on their lips."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "The prudent understand where they are going, but fools deceive themselves."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "Fools make fun of guilt, but the godly acknowledge it and seek reconciliation."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "Each heart knows its own bitterness, and no one else can fully share its joy."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "The house of the wicked will be destroyed, but the tent of the godly will flourish."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "There is a path before each person that seems right, but it ends in death."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "Laughter can conceal a heavy heart, but when the laughter ends, the grief remains."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "Backsliders get what they deserve; good people receive their reward."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "Only simpletons believe everything they’re told! The prudent carefully consider their steps."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "The wise are cautious and avoid danger; fools plunge ahead with reckless confidence."
+        },
+        {
+          "VERSE": "17",
+          "WORD": "Short-tempered people do foolish things, and schemers are hated."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "Simpletons are clothed with foolishness, but the prudent are crowned with knowledge."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "Evil people will bow before good people; the wicked will bow at the gates of the godly."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "The poor are despised even by their neighbors, while the rich have many “friends.”"
+        },
+        {
+          "VERSE": "21",
+          "WORD": "It is a sin to belittle one’s neighbor; blessed are those who help the poor."
+        },
+        {
+          "VERSE": "22",
+          "WORD": "If you plan to do evil, you will be lost; if you plan to do good, you will receive unfailing love and faithfulness."
+        },
+        {
+          "VERSE": "23",
+          "WORD": "Work brings profit, but mere talk leads to poverty!"
+        },
+        {
+          "VERSE": "24",
+          "WORD": "Wealth is a crown for the wise; the effort of fools yields only foolishness."
+        },
+        {
+          "VERSE": "25",
+          "WORD": "A truthful witness saves lives, but a false witness is a traitor."
+        },
+        {
+          "VERSE": "26",
+          "WORD": "Those who fear the Lord are secure; he will be a refuge for their children."
+        },
+        {
+          "VERSE": "27",
+          "WORD": "Fear of the Lord is a life-giving fountain; it offers escape from the snares of death."
+        },
+        {
+          "VERSE": "28",
+          "WORD": "A growing population is a king’s glory; a prince without subjects has nothing."
+        },
+        {
+          "VERSE": "29",
+          "WORD": "People with understanding control their anger; a hot temper shows great foolishness."
+        },
+        {
+          "VERSE": "30",
+          "WORD": "A peaceful heart leads to a healthy body; jealousy is like cancer in the bones."
+        },
+        {
+          "VERSE": "31",
+          "WORD": "Those who oppress the poor insult their Maker, but helping the poor honors him."
+        },
+        {
+          "VERSE": "32",
+          "WORD": "The wicked are crushed by disaster, but the godly have a refuge when they die."
+        },
+        {
+          "VERSE": "33",
+          "WORD": "Wisdom is enshrined in an understanding heart; wisdom is not found among fools."
+        },
+        {
+          "VERSE": "34",
+          "WORD": "Godliness makes a nation great, but sin is a disgrace to any people."
+        },
+        {
+          "VERSE": "35",
+          "WORD": "A king rejoices in wise servants but is angry with those who disgrace him."
+        }
+      ]
+    },
+    {
+      "CHAPTER": "15",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "A gentle answer deflects anger, but harsh words make tempers flare."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "The tongue of the wise makes knowledge appealing, but the mouth of a fool belches out foolishness."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "The Lord is watching everywhere, keeping his eye on both the evil and the good."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "Gentle words are a tree of life; a deceitful tongue crushes the spirit."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "Only a fool despises a parent’s discipline; whoever learns from correction is wise."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "There is treasure in the house of the godly, but the earnings of the wicked bring trouble."
+        },
+        {
+          "VERSE": "7",
+          "WORD": "The lips of the wise give good advice; the heart of a fool has none to give."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "The Lord detests the sacrifice of the wicked, but he delights in the prayers of the upright."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "The Lord detests the way of the wicked, but he loves those who pursue godliness."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "Whoever abandons the right path will be severely disciplined; whoever hates correction will die."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "Even Death and Destruction hold no secrets from the Lord. How much more does he know the human heart!"
+        },
+        {
+          "VERSE": "12",
+          "WORD": "Mockers hate to be corrected, so they stay away from the wise."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "A glad heart makes a happy face; a broken heart crushes the spirit."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "A wise person is hungry for knowledge, while the fool feeds on trash."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "For the despondent, every day brings trouble; for the happy heart, life is a continual feast."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "Better to have little, with fear for the Lord, than to have great treasure and inner turmoil."
+        },
+        {
+          "VERSE": "17",
+          "WORD": "A bowl of vegetables with someone you love is better than steak with someone you hate."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "A hot-tempered person starts fights; a cool-tempered person stops them."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "A lazy person’s way is blocked with briers, but the path of the upright is an open highway."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "Sensible children bring joy to their father; foolish children despise their mother."
+        },
+        {
+          "VERSE": "21",
+          "WORD": "Foolishness brings joy to those with no sense; a sensible person stays on the right path."
+        },
+        {
+          "VERSE": "22",
+          "WORD": "Plans go wrong for lack of advice; many advisers bring success."
+        },
+        {
+          "VERSE": "23",
+          "WORD": "Everyone enjoys a fitting reply; it is wonderful to say the right thing at the right time!"
+        },
+        {
+          "VERSE": "24",
+          "WORD": "The path of life leads upward for the wise; they leave the grave behind."
+        },
+        {
+          "VERSE": "25",
+          "WORD": "The Lord tears down the house of the proud, but he protects the property of widows."
+        },
+        {
+          "VERSE": "26",
+          "WORD": "The Lord detests evil plans, but he delights in pure words."
+        },
+        {
+          "VERSE": "27",
+          "WORD": "Greed brings grief to the whole family, but those who hate bribes will live."
+        },
+        {
+          "VERSE": "28",
+          "WORD": "The heart of the godly thinks carefully before speaking; the mouth of the wicked overflows with evil words."
+        },
+        {
+          "VERSE": "29",
+          "WORD": "The Lord is far from the wicked, but he hears the prayers of the righteous."
+        },
+        {
+          "VERSE": "30",
+          "WORD": "A cheerful look brings joy to the heart; good news makes for good health."
+        },
+        {
+          "VERSE": "31",
+          "WORD": "If you listen to constructive criticism, you will be at home among the wise."
+        },
+        {
+          "VERSE": "32",
+          "WORD": "If you reject discipline, you only harm yourself; but if you listen to correction, you grow in understanding."
+        },
+        {
+          "VERSE": "33",
+          "WORD": "Fear of the Lord teaches wisdom; humility precedes honor."
+        }
+      ]
+    },
+    {
+      "CHAPTER": "16",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "We can make our own plans, but the Lord gives the right answer."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "People may be pure in their own eyes, but the Lord examines their motives."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "Commit your actions to the Lord, and your plans will succeed."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "The Lord has made everything for his own purposes, even the wicked for a day of disaster."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "The Lord detests the proud; they will surely be punished."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "Unfailing love and faithfulness make atonement for sin. By fearing the Lord, people avoid evil."
+        },
+        {
+          "VERSE": "7",
+          "WORD": "When people’s lives please the Lord, even their enemies are at peace with them."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "Better to have little, with godliness, than to be rich and dishonest."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "We can make our plans, but the Lord determines our steps."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "The king speaks with divine wisdom; he must never judge unfairly."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "The Lord demands accurate scales and balances; he sets the standards for fairness."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "A king detests wrongdoing, for his rule is built on justice."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "The king is pleased with words from righteous lips; he loves those who speak honestly."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "The anger of the king is a deadly threat; the wise will try to appease it."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "When the king smiles, there is life; his favor refreshes like a spring rain."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "How much better to get wisdom than gold, and good judgment than silver!"
+        },
+        {
+          "VERSE": "17",
+          "WORD": "The path of the virtuous leads away from evil; whoever follows that path is safe."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "Pride goes before destruction, and haughtiness before a fall."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "Better to live humbly with the poor than to share plunder with the proud."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "Those who listen to instruction will prosper; those who trust the Lord will be joyful."
+        },
+        {
+          "VERSE": "21",
+          "WORD": "The wise are known for their understanding, and pleasant words are persuasive."
+        },
+        {
+          "VERSE": "22",
+          "WORD": "Discretion is a life-giving fountain to those who possess it, but discipline is wasted on fools."
+        },
+        {
+          "VERSE": "23",
+          "WORD": "From a wise mind comes wise speech; the words of the wise are persuasive."
+        },
+        {
+          "VERSE": "24",
+          "WORD": "Kind words are like honey— sweet to the soul and healthy for the body."
+        },
+        {
+          "VERSE": "25",
+          "WORD": "There is a path before each person that seems right, but it ends in death."
+        },
+        {
+          "VERSE": "26",
+          "WORD": "It is good for workers to have an appetite; an empty stomach drives them on."
+        },
+        {
+          "VERSE": "27",
+          "WORD": "Scoundrels create trouble; their words are a destructive blaze."
+        },
+        {
+          "VERSE": "28",
+          "WORD": "A troublemaker plants seeds of strife; gossip separates the best of friends."
+        },
+        {
+          "VERSE": "29",
+          "WORD": "Violent people mislead their companions, leading them down a harmful path."
+        },
+        {
+          "VERSE": "30",
+          "WORD": "With narrowed eyes, people plot evil; with a smirk, they plan their mischief."
+        },
+        {
+          "VERSE": "31",
+          "WORD": "Gray hair is a crown of glory; it is gained by living a godly life."
+        },
+        {
+          "VERSE": "32",
+          "WORD": "Better to be patient than powerful; better to have self-control than to conquer a city."
+        },
+        {
+          "VERSE": "33",
+          "WORD": "We may throw the dice, but the Lord determines how they fall."
+        }
+      ]
+    },
+    {
+      "CHAPTER": "17",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "Better a dry crust eaten in peace than a house filled with feasting—and conflict."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "A wise servant will rule over the master’s disgraceful son and will share the inheritance of the master’s children."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "Fire tests the purity of silver and gold, but the Lord tests the heart."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "Wrongdoers eagerly listen to gossip; liars pay close attention to slander."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "Those who mock the poor insult their Maker; those who rejoice at the misfortune of others will be punished."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "Grandchildren are the crowning glory of the aged; parents are the pride of their children."
+        },
+        {
+          "VERSE": "7",
+          "WORD": "Eloquent words are not fitting for a fool; even less are lies fitting for a ruler."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "A bribe is like a lucky charm; whoever gives one will prosper!"
+        },
+        {
+          "VERSE": "9",
+          "WORD": "Love prospers when a fault is forgiven, but dwelling on it separates close friends."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "A single rebuke does more for a person of understanding than a hundred lashes on the back of a fool."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "Evil people are eager for rebellion, but they will be severely punished."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "It is safer to meet a bear robbed of her cubs than to confront a fool caught in foolishness."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "If you repay good with evil, evil will never leave your house."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "Starting a quarrel is like opening a floodgate, so stop before a dispute breaks out."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "Acquitting the guilty and condemning the innocent— both are detestable to the Lord."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "It is senseless to pay to educate a fool, since he has no heart for learning."
+        },
+        {
+          "VERSE": "17",
+          "WORD": "A friend is always loyal, and a brother is born to help in time of need."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "It’s poor judgment to guarantee another person’s debt or put up security for a friend."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "Anyone who loves to quarrel loves sin; anyone who trusts in high walls invites disaster."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "The crooked heart will not prosper; the lying tongue tumbles into trouble."
+        },
+        {
+          "VERSE": "21",
+          "WORD": "It is painful to be the parent of a fool; there is no joy for the father of a rebel."
+        },
+        {
+          "VERSE": "22",
+          "WORD": "A cheerful heart is good medicine, but a broken spirit saps a person’s strength."
+        },
+        {
+          "VERSE": "23",
+          "WORD": "The wicked take secret bribes to pervert the course of justice."
+        },
+        {
+          "VERSE": "24",
+          "WORD": "Sensible people keep their eyes glued on wisdom, but a fool’s eyes wander to the ends of the earth."
+        },
+        {
+          "VERSE": "25",
+          "WORD": "Foolish children bring grief to their father and bitterness to the one who gave them birth."
+        },
+        {
+          "VERSE": "26",
+          "WORD": "It is wrong to punish the godly for being good or to flog leaders for being honest."
+        },
+        {
+          "VERSE": "27",
+          "WORD": "A truly wise person uses few words; a person with understanding is even-tempered."
+        },
+        {
+          "VERSE": "28",
+          "WORD": "Even fools are thought wise when they keep silent; with their mouths shut, they seem intelligent."
+        }
+      ]
+    },
+    {
+      "CHAPTER": "18",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "Unfriendly people care only about themselves; they lash out at common sense."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "Fools have no interest in understanding; they only want to air their own opinions."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "Doing wrong leads to disgrace, and scandalous behavior brings contempt."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "Wise words are like deep waters; wisdom flows from the wise like a bubbling brook."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "It is not right to acquit the guilty or deny justice to the innocent."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "Fools’ words get them into constant quarrels; they are asking for a beating."
+        },
+        {
+          "VERSE": "7",
+          "WORD": "The mouths of fools are their ruin; they trap themselves with their lips."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "Rumors are dainty morsels that sink deep into one’s heart."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "A lazy person is as bad as someone who destroys things."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "The name of the Lord is a strong fortress; the godly run to him and are safe."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "The rich think of their wealth as a strong defense; they imagine it to be a high wall of safety."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "Haughtiness goes before destruction; humility precedes honor."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "Spouting off before listening to the facts is both shameful and foolish."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "The human spirit can endure a sick body, but who can bear a crushed spirit?"
+        },
+        {
+          "VERSE": "15",
+          "WORD": "Intelligent people are always ready to learn. Their ears are open for knowledge."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "Giving a gift can open doors; it gives access to important people!"
+        },
+        {
+          "VERSE": "17",
+          "WORD": "The first to speak in court sounds right— until the cross-examination begins."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "Flipping a coin can end arguments; it settles disputes between powerful opponents."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "An offended friend is harder to win back than a fortified city. Arguments separate friends like a gate locked with bars."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "Wise words satisfy like a good meal; the right words bring satisfaction."
+        },
+        {
+          "VERSE": "21",
+          "WORD": "The tongue can bring death or life; those who love to talk will reap the consequences."
+        },
+        {
+          "VERSE": "22",
+          "WORD": "The man who finds a wife finds a treasure, and he receives favor from the Lord."
+        },
+        {
+          "VERSE": "23",
+          "WORD": "The poor plead for mercy; the rich answer with insults."
+        },
+        {
+          "VERSE": "24",
+          "WORD": "There are “friends” who destroy each other, but a real friend sticks closer than a brother."
+        }
+      ]
+    },
+    {
+      "CHAPTER": "19",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "Better to be poor and honest than to be dishonest and a fool."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "Enthusiasm without knowledge is no good; haste makes mistakes."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "People ruin their lives by their own foolishness and then are angry at the Lord."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "Wealth makes many “friends”; poverty drives them all away."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "A false witness will not go unpunished, nor will a liar escape."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "Many seek favors from a ruler; everyone is the friend of a person who gives gifts!"
+        },
+        {
+          "VERSE": "7",
+          "WORD": "The relatives of the poor despise them; how much more will their friends avoid them! Though the poor plead with them, their friends are gone."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "To acquire wisdom is to love yourself; people who cherish understanding will prosper."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "A false witness will not go unpunished, and a liar will be destroyed."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "It isn’t right for a fool to live in luxury or for a slave to rule over princes!"
+        },
+        {
+          "VERSE": "11",
+          "WORD": "Sensible people control their temper; they earn respect by overlooking wrongs."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "The king’s anger is like a lion’s roar, but his favor is like dew on the grass."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "A foolish child is a calamity to a father; a quarrelsome wife is as annoying as constant dripping."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "Fathers can give their sons an inheritance of houses and wealth, but only the Lord can give an understanding wife."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "Lazy people sleep soundly, but idleness leaves them hungry."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "Keep the commandments and keep your life; despising them leads to death."
+        },
+        {
+          "VERSE": "17",
+          "WORD": "If you help the poor, you are lending to the Lord— and he will repay you!"
+        },
+        {
+          "VERSE": "18",
+          "WORD": "Discipline your children while there is hope. Otherwise you will ruin their lives."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "Hot-tempered people must pay the penalty. If you rescue them once, you will have to do it again."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "Get all the advice and instruction you can, so you will be wise the rest of your life."
+        },
+        {
+          "VERSE": "21",
+          "WORD": "You can make many plans, but the Lord’s purpose will prevail."
+        },
+        {
+          "VERSE": "22",
+          "WORD": "Loyalty makes a person attractive. It is better to be poor than dishonest."
+        },
+        {
+          "VERSE": "23",
+          "WORD": "Fear of the Lord leads to life, bringing security and protection from harm."
+        },
+        {
+          "VERSE": "24",
+          "WORD": "Lazy people take food in their hand but don’t even lift it to their mouth."
+        },
+        {
+          "VERSE": "25",
+          "WORD": "If you punish a mocker, the simpleminded will learn a lesson; if you correct the wise, they will be all the wiser."
+        },
+        {
+          "VERSE": "26",
+          "WORD": "Children who mistreat their father or chase away their mother are an embarrassment and a public disgrace."
+        },
+        {
+          "VERSE": "27",
+          "WORD": "If you stop listening to instruction, my child, you will turn your back on knowledge."
+        },
+        {
+          "VERSE": "28",
+          "WORD": "A corrupt witness makes a mockery of justice; the mouth of the wicked gulps down evil."
+        },
+        {
+          "VERSE": "29",
+          "WORD": "Punishment is made for mockers, and the backs of fools are made to be beaten."
+        }
+      ]
+    },
+    {
+      "CHAPTER": "20",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "Wine produces mockers; alcohol leads to brawls. Those led astray by drink cannot be wise."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "The king’s fury is like a lion’s roar; to rouse his anger is to risk your life."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "Avoiding a fight is a mark of honor; only fools insist on quarreling."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "Those too lazy to plow in the right season will have no food at the harvest."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "Though good advice lies deep within the heart, a person with understanding will draw it out."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "Many will say they are loyal friends, but who can find one who is truly reliable?"
+        },
+        {
+          "VERSE": "7",
+          "WORD": "The godly walk with integrity; blessed are their children who follow them."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "When a king sits in judgment, he weighs all the evidence, distinguishing the bad from the good."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "Who can say, “I have cleansed my heart; I am pure and free from sin”?"
+        },
+        {
+          "VERSE": "10",
+          "WORD": "False weights and unequal measures— the Lord detests double standards of every kind."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "Even children are known by the way they act, whether their conduct is pure, and whether it is right."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "Ears to hear and eyes to see— both are gifts from the Lord."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "If you love sleep, you will end in poverty. Keep your eyes open, and there will be plenty to eat!"
+        },
+        {
+          "VERSE": "14",
+          "WORD": "The buyer haggles over the price, saying, “It’s worthless,” then brags about getting a bargain!"
+        },
+        {
+          "VERSE": "15",
+          "WORD": "Wise words are more valuable than much gold and many rubies."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "Get security from someone who guarantees a stranger’s debt. Get a deposit if he does it for foreigners."
+        },
+        {
+          "VERSE": "17",
+          "WORD": "Stolen bread tastes sweet, but it turns to gravel in the mouth."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "Plans succeed through good counsel; don’t go to war without wise advice."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "A gossip goes around telling secrets, so don’t hang around with chatterers."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "If you insult your father or mother, your light will be snuffed out in total darkness."
+        },
+        {
+          "VERSE": "21",
+          "WORD": "An inheritance obtained too early in life is not a blessing in the end."
+        },
+        {
+          "VERSE": "22",
+          "WORD": "Don’t say, “I will get even for this wrong.” Wait for the Lord to handle the matter."
+        },
+        {
+          "VERSE": "23",
+          "WORD": "The Lord detests double standards; he is not pleased by dishonest scales."
+        },
+        {
+          "VERSE": "24",
+          "WORD": "The Lord directs our steps, so why try to understand everything along the way?"
+        },
+        {
+          "VERSE": "25",
+          "WORD": "Don’t trap yourself by making a rash promise to God and only later counting the cost."
+        },
+        {
+          "VERSE": "26",
+          "WORD": "A wise king scatters the wicked like wheat, then runs his threshing wheel over them."
+        },
+        {
+          "VERSE": "27",
+          "WORD": "The Lord’s light penetrates the human spirit, exposing every hidden motive."
+        },
+        {
+          "VERSE": "28",
+          "WORD": "Unfailing love and faithfulness protect the king; his throne is made secure through love."
+        },
+        {
+          "VERSE": "29",
+          "WORD": "The glory of the young is their strength; the gray hair of experience is the splendor of the old."
+        },
+        {
+          "VERSE": "30",
+          "WORD": "Physical punishment cleanses away evil; such discipline purifies the heart."
+        }
+      ]
+    },
+    {
+      "CHAPTER": "21",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "The king’s heart is like a stream of water directed by the Lord; he guides it wherever he pleases."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "People may be right in their own eyes, but the Lord examines their heart."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "The Lord is more pleased when we do what is right and just than when we offer him sacrifices."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "Haughty eyes, a proud heart, and evil actions are all sin."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "Good planning and hard work lead to prosperity, but hasty shortcuts lead to poverty."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "Wealth created by a lying tongue is a vanishing mist and a deadly trap."
+        },
+        {
+          "VERSE": "7",
+          "WORD": "The violence of the wicked sweeps them away, because they refuse to do what is just."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "The guilty walk a crooked path; the innocent travel a straight road."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "It’s better to live alone in the corner of an attic than with a quarrelsome wife in a lovely home."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "Evil people desire evil; their neighbors get no mercy from them."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "If you punish a mocker, the simpleminded become wise; if you instruct the wise, they will be all the wiser."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "The Righteous One knows what is going on in the homes of the wicked; he will bring disaster on them."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "Those who shut their ears to the cries of the poor will be ignored in their own time of need."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "A secret gift calms anger; a bribe under the table pacifies fury."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "Justice is a joy to the godly, but it terrifies evildoers."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "The person who strays from common sense will end up in the company of the dead."
+        },
+        {
+          "VERSE": "17",
+          "WORD": "Those who love pleasure become poor; those who love wine and luxury will never be rich."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "The wicked are punished in place of the godly, and traitors in place of the honest."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "It’s better to live alone in the desert than with a quarrelsome, complaining wife."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "The wise have wealth and luxury, but fools spend whatever they get."
+        },
+        {
+          "VERSE": "21",
+          "WORD": "Whoever pursues righteousness and unfailing love will find life, righteousness, and honor."
+        },
+        {
+          "VERSE": "22",
+          "WORD": "The wise conquer the city of the strong and level the fortress in which they trust."
+        },
+        {
+          "VERSE": "23",
+          "WORD": "Watch your tongue and keep your mouth shut, and you will stay out of trouble."
+        },
+        {
+          "VERSE": "24",
+          "WORD": "Mockers are proud and haughty; they act with boundless arrogance."
+        },
+        {
+          "VERSE": "25",
+          "WORD": "Despite their desires, the lazy will come to ruin, for their hands refuse to work."
+        },
+        {
+          "VERSE": "26",
+          "WORD": "Some people are always greedy for more, but the godly love to give!"
+        },
+        {
+          "VERSE": "27",
+          "WORD": "The sacrifice of an evil person is detestable, especially when it is offered with wrong motives."
+        },
+        {
+          "VERSE": "28",
+          "WORD": "A false witness will be cut off, but a credible witness will be allowed to speak."
+        },
+        {
+          "VERSE": "29",
+          "WORD": "The wicked bluff their way through, but the virtuous think before they act."
+        },
+        {
+          "VERSE": "30",
+          "WORD": "No human wisdom or understanding or plan can stand against the Lord."
+        },
+        {
+          "VERSE": "31",
+          "WORD": "The horse is prepared for the day of battle, but the victory belongs to the Lord."
+        }
+      ]
+    },
+    {
+      "CHAPTER": "22",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "Choose a good reputation over great riches; being held in high esteem is better than silver or gold."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "The rich and poor have this in common: The Lord made them both."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "A prudent person foresees danger and takes precautions. The simpleton goes blindly on and suffers the consequences."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "True humility and fear of the Lord lead to riches, honor, and long life."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "Corrupt people walk a thorny, treacherous road; whoever values life will avoid it."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "Direct your children onto the right path, and when they are older, they will not leave it."
+        },
+        {
+          "VERSE": "7",
+          "WORD": "Just as the rich rule the poor, so the borrower is servant to the lender."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "Those who plant injustice will harvest disaster, and their reign of terror will come to an end."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "Blessed are those who are generous, because they feed the poor."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "Throw out the mocker, and fighting goes, too. Quarrels and insults will disappear."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "Whoever loves a pure heart and gracious speech will have the king as a friend."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "The Lord preserves those with knowledge, but he ruins the plans of the treacherous."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "The lazy person claims, “There’s a lion out there! If I go outside, I might be killed!”"
+        },
+        {
+          "VERSE": "14",
+          "WORD": "The mouth of an immoral woman is a dangerous trap; those who make the Lord angry will fall into it."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "A youngster’s heart is filled with foolishness, but physical discipline will drive it far away."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "A person who gets ahead by oppressing the poor or by showering gifts on the rich will end in poverty."
+        },
+        {
+          "VERSE": "17",
+          "WORD": "Listen to the words of the wise; apply your heart to my instruction."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "For it is good to keep these sayings in your heart and always ready on your lips."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "I am teaching you today—yes, you— so you will trust in the Lord."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "I have written thirty sayings for you, filled with advice and knowledge."
+        },
+        {
+          "VERSE": "21",
+          "WORD": "In this way, you may know the truth and take an accurate report to those who sent you."
+        },
+        {
+          "VERSE": "22",
+          "WORD": "Don’t rob the poor just because you can, or exploit the needy in court."
+        },
+        {
+          "VERSE": "23",
+          "WORD": "For the Lord is their defender. He will ruin anyone who ruins them."
+        },
+        {
+          "VERSE": "24",
+          "WORD": "Don’t befriend angry people or associate with hot-tempered people,"
+        },
+        {
+          "VERSE": "25",
+          "WORD": "or you will learn to be like them and endanger your soul."
+        },
+        {
+          "VERSE": "26",
+          "WORD": "Don’t agree to guarantee another person’s debt or put up security for someone else."
+        },
+        {
+          "VERSE": "27",
+          "WORD": "If you can’t pay it, even your bed will be snatched from under you."
+        },
+        {
+          "VERSE": "28",
+          "WORD": "Don’t cheat your neighbor by moving the ancient boundary markers set up by previous generations."
+        },
+        {
+          "VERSE": "29",
+          "WORD": "Do you see any truly competent workers? They will serve kings rather than working for ordinary people."
+        }
+      ]
+    },
+    {
+      "CHAPTER": "23",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "While dining with a ruler, pay attention to what is put before you."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "If you are a big eater, put a knife to your throat;"
+        },
+        {
+          "VERSE": "3",
+          "WORD": "don’t desire all the delicacies, for he might be trying to trick you."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "Don’t wear yourself out trying to get rich. Be wise enough to know when to quit."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "In the blink of an eye wealth disappears, for it will sprout wings and fly away like an eagle."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "Don’t eat with people who are stingy; don’t desire their delicacies."
+        },
+        {
+          "VERSE": "7",
+          "WORD": "They are always thinking about how much it costs. “Eat and drink,” they say, but they don’t mean it."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "You will throw up what little you’ve eaten, and your compliments will be wasted."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "Don’t waste your breath on fools, for they will despise the wisest advice."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "Don’t cheat your neighbor by moving the ancient boundary markers; don’t take the land of defenseless orphans."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "For their Redeemer is strong; he himself will bring their charges against you."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "Commit yourself to instruction; listen carefully to words of knowledge."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "Don’t fail to discipline your children. The rod of punishment won’t kill them."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "Physical discipline may well save them from death."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "My child, if your heart is wise, my own heart will rejoice!"
+        },
+        {
+          "VERSE": "16",
+          "WORD": "Everything in me will celebrate when you speak what is right."
+        },
+        {
+          "VERSE": "17",
+          "WORD": "Don’t envy sinners, but always continue to fear the Lord."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "You will be rewarded for this; your hope will not be disappointed."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "My child, listen and be wise: Keep your heart on the right course."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "Do not carouse with drunkards or feast with gluttons,"
+        },
+        {
+          "VERSE": "21",
+          "WORD": "for they are on their way to poverty, and too much sleep clothes them in rags."
+        },
+        {
+          "VERSE": "22",
+          "WORD": "Listen to your father, who gave you life, and don’t despise your mother when she is old."
+        },
+        {
+          "VERSE": "23",
+          "WORD": "Get the truth and never sell it; also get wisdom, discipline, and good judgment."
+        },
+        {
+          "VERSE": "24",
+          "WORD": "The father of godly children has cause for joy. What a pleasure to have children who are wise."
+        },
+        {
+          "VERSE": "25",
+          "WORD": "So give your father and mother joy! May she who gave you birth be happy."
+        },
+        {
+          "VERSE": "26",
+          "WORD": "O my son, give me your heart. May your eyes take delight in following my ways."
+        },
+        {
+          "VERSE": "27",
+          "WORD": "A prostitute is a dangerous trap; a promiscuous woman is as dangerous as falling into a narrow well."
+        },
+        {
+          "VERSE": "28",
+          "WORD": "She hides and waits like a robber, eager to make more men unfaithful."
+        },
+        {
+          "VERSE": "29",
+          "WORD": "Who has anguish? Who has sorrow? Who is always fighting? Who is always complaining? Who has unnecessary bruises? Who has bloodshot eyes?"
+        },
+        {
+          "VERSE": "30",
+          "WORD": "It is the one who spends long hours in the taverns, trying out new drinks."
+        },
+        {
+          "VERSE": "31",
+          "WORD": "Don’t gaze at the wine, seeing how red it is, how it sparkles in the cup, how smoothly it goes down."
+        },
+        {
+          "VERSE": "32",
+          "WORD": "For in the end it bites like a poisonous snake; it stings like a viper."
+        },
+        {
+          "VERSE": "33",
+          "WORD": "You will see hallucinations, and you will say crazy things."
+        },
+        {
+          "VERSE": "34",
+          "WORD": "You will stagger like a sailor tossed at sea, clinging to a swaying mast."
+        },
+        {
+          "VERSE": "35",
+          "WORD": "And you will say, “They hit me, but I didn’t feel it. I didn’t even know it when they beat me up. When will I wake up so I can look for another drink?”"
+        }
+      ]
+    },
+    {
+      "CHAPTER": "24",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "Don’t envy evil people or desire their company."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "For their hearts plot violence, and their words always stir up trouble."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "A house is built by wisdom and becomes strong through good sense."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "Through knowledge its rooms are filled with all sorts of precious riches and valuables."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "The wise are mightier than the strong, and those with knowledge grow stronger and stronger."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "So don’t go to war without wise guidance; victory depends on having many advisers."
+        },
+        {
+          "VERSE": "7",
+          "WORD": "Wisdom is too lofty for fools. Among leaders at the city gate, they have nothing to say."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "A person who plans evil will get a reputation as a troublemaker."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "The schemes of a fool are sinful; everyone detests a mocker."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "If you fail under pressure, your strength is too small."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "Rescue those who are unjustly sentenced to die; save them as they stagger to their death."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "Don’t excuse yourself by saying, “Look, we didn’t know.” For God understands all hearts, and he sees you. He who guards your soul knows you knew. He will repay all people as their actions deserve."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "My child, eat honey, for it is good, and the honeycomb is sweet to the taste."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "In the same way, wisdom is sweet to your soul. If you find it, you will have a bright future, and your hopes will not be cut short."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "Don’t wait in ambush at the home of the godly, and don’t raid the house where the godly live."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "The godly may trip seven times, but they will get up again. But one disaster is enough to overthrow the wicked."
+        },
+        {
+          "VERSE": "17",
+          "WORD": "Don’t rejoice when your enemies fall; don’t be happy when they stumble."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "For the Lord will be displeased with you and will turn his anger away from them."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "Don’t fret because of evildoers; don’t envy the wicked."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "For evil people have no future; the light of the wicked will be snuffed out."
+        },
+        {
+          "VERSE": "21",
+          "WORD": "My child, fear the Lord and the king. Don’t associate with rebels,"
+        },
+        {
+          "VERSE": "22",
+          "WORD": "for disaster will hit them suddenly. Who knows what punishment will come from the Lord and the king?"
+        },
+        {
+          "VERSE": "23",
+          "WORD": "Here are some further sayings of the wise: It is wrong to show favoritism when passing judgment."
+        },
+        {
+          "VERSE": "24",
+          "WORD": "A judge who says to the wicked, “You are innocent,” will be cursed by many people and denounced by the nations."
+        },
+        {
+          "VERSE": "25",
+          "WORD": "But it will go well for those who convict the guilty; rich blessings will be showered on them."
+        },
+        {
+          "VERSE": "26",
+          "WORD": "An honest answer is like a kiss of friendship."
+        },
+        {
+          "VERSE": "27",
+          "WORD": "Do your planning and prepare your fields before building your house."
+        },
+        {
+          "VERSE": "28",
+          "WORD": "Don’t testify against your neighbors without cause; don’t lie about them."
+        },
+        {
+          "VERSE": "29",
+          "WORD": "And don’t say, “Now I can pay them back for what they’ve done to me! I’ll get even with them!”"
+        },
+        {
+          "VERSE": "30",
+          "WORD": "I walked by the field of a lazy person, the vineyard of one with no common sense."
+        },
+        {
+          "VERSE": "31",
+          "WORD": "I saw that it was overgrown with nettles. It was covered with weeds, and its walls were broken down."
+        },
+        {
+          "VERSE": "32",
+          "WORD": "Then, as I looked and thought about it, I learned this lesson:"
+        },
+        {
+          "VERSE": "33",
+          "WORD": "A little extra sleep, a little more slumber, a little folding of the hands to rest—"
+        },
+        {
+          "VERSE": "34",
+          "WORD": "then poverty will pounce on you like a bandit; scarcity will attack you like an armed robber."
+        }
+      ]
+    },
+    {
+      "CHAPTER": "25",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "These are more proverbs of Solomon, collected by the advisers of King Hezekiah of Judah."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "It is God’s privilege to conceal things and the king’s privilege to discover them."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "No one can comprehend the height of heaven, the depth of the earth, or all that goes on in the king’s mind!"
+        },
+        {
+          "VERSE": "4",
+          "WORD": "Remove the impurities from silver, and the sterling will be ready for the silversmith."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "Remove the wicked from the king’s court, and his reign will be made secure by justice."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "Don’t demand an audience with the king or push for a place among the great."
+        },
+        {
+          "VERSE": "7",
+          "WORD": "It’s better to wait for an invitation to the head table than to be sent away in public disgrace. Just because you’ve seen something,"
+        },
+        {
+          "VERSE": "8",
+          "WORD": "don’t be in a hurry to go to court. For what will you do in the end if your neighbor deals you a shameful defeat?"
+        },
+        {
+          "VERSE": "9",
+          "WORD": "When arguing with your neighbor, don’t betray another person’s secret."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "Others may accuse you of gossip, and you will never regain your good reputation."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "Timely advice is lovely, like golden apples in a silver basket."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "To one who listens, valid criticism is like a gold earring or other gold jewelry."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "Trustworthy messengers refresh like snow in summer. They revive the spirit of their employer."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "A person who promises a gift but doesn’t give it is like clouds and wind that bring no rain."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "Patience can persuade a prince, and soft speech can break bones."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "Do you like honey? Don’t eat too much, or it will make you sick!"
+        },
+        {
+          "VERSE": "17",
+          "WORD": "Don’t visit your neighbors too often, or you will wear out your welcome."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "Telling lies about others is as harmful as hitting them with an ax, wounding them with a sword, or shooting them with a sharp arrow."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "Putting confidence in an unreliable person in times of trouble is like chewing with a broken tooth or walking on a lame foot."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "Singing cheerful songs to a person with a heavy heart is like taking someone’s coat in cold weather or pouring vinegar in a wound."
+        },
+        {
+          "VERSE": "21",
+          "WORD": "If your enemies are hungry, give them food to eat. If they are thirsty, give them water to drink."
+        },
+        {
+          "VERSE": "22",
+          "WORD": "You will heap burning coals of shame on their heads, and the Lord will reward you."
+        },
+        {
+          "VERSE": "23",
+          "WORD": "As surely as a north wind brings rain, so a gossiping tongue causes anger!"
+        },
+        {
+          "VERSE": "24",
+          "WORD": "It’s better to live alone in the corner of an attic than with a quarrelsome wife in a lovely home."
+        },
+        {
+          "VERSE": "25",
+          "WORD": "Good news from far away is like cold water to the thirsty."
+        },
+        {
+          "VERSE": "26",
+          "WORD": "If the godly give in to the wicked, it’s like polluting a fountain or muddying a spring."
+        },
+        {
+          "VERSE": "27",
+          "WORD": "It’s not good to eat too much honey, and it’s not good to seek honors for yourself."
+        },
+        {
+          "VERSE": "28",
+          "WORD": "A person without self-control is like a city with broken-down walls."
+        }
+      ]
+    },
+    {
+      "CHAPTER": "26",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "Honor is no more associated with fools than snow with summer or rain with harvest."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "Like a fluttering sparrow or a darting swallow, an undeserved curse will not land on its intended victim."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "Guide a horse with a whip, a donkey with a bridle, and a fool with a rod to his back!"
+        },
+        {
+          "VERSE": "4",
+          "WORD": "Don’t answer the foolish arguments of fools, or you will become as foolish as they are."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "Be sure to answer the foolish arguments of fools, or they will become wise in their own estimation."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "Trusting a fool to convey a message is like cutting off one’s feet or drinking poison!"
+        },
+        {
+          "VERSE": "7",
+          "WORD": "A proverb in the mouth of a fool is as useless as a paralyzed leg."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "Honoring a fool is as foolish as tying a stone to a slingshot."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "A proverb in the mouth of a fool is like a thorny branch brandished by a drunk."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "An employer who hires a fool or a bystander is like an archer who shoots at random."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "As a dog returns to its vomit, so a fool repeats his foolishness."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "There is more hope for fools than for people who think they are wise."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "The lazy person claims, “There’s a lion on the road! Yes, I’m sure there’s a lion out there!”"
+        },
+        {
+          "VERSE": "14",
+          "WORD": "As a door swings back and forth on its hinges, so the lazy person turns over in bed."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "Lazy people take food in their hand but don’t even lift it to their mouth."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "Lazy people consider themselves smarter than seven wise counselors."
+        },
+        {
+          "VERSE": "17",
+          "WORD": "Interfering in someone else’s argument is as foolish as yanking a dog’s ears."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "Just as damaging as a madman shooting a deadly weapon"
+        },
+        {
+          "VERSE": "19",
+          "WORD": "is someone who lies to a friend and then says, “I was only joking.”"
+        },
+        {
+          "VERSE": "20",
+          "WORD": "Fire goes out without wood, and quarrels disappear when gossip stops."
+        },
+        {
+          "VERSE": "21",
+          "WORD": "A quarrelsome person starts fights as easily as hot embers light charcoal or fire lights wood."
+        },
+        {
+          "VERSE": "22",
+          "WORD": "Rumors are dainty morsels that sink deep into one’s heart."
+        },
+        {
+          "VERSE": "23",
+          "WORD": "Smooth words may hide a wicked heart, just as a pretty glaze covers a clay pot."
+        },
+        {
+          "VERSE": "24",
+          "WORD": "People may cover their hatred with pleasant words, but they’re deceiving you."
+        },
+        {
+          "VERSE": "25",
+          "WORD": "They pretend to be kind, but don’t believe them. Their hearts are full of many evils."
+        },
+        {
+          "VERSE": "26",
+          "WORD": "While their hatred may be concealed by trickery, their wrongdoing will be exposed in public."
+        },
+        {
+          "VERSE": "27",
+          "WORD": "If you set a trap for others, you will get caught in it yourself. If you roll a boulder down on others, it will crush you instead."
+        },
+        {
+          "VERSE": "28",
+          "WORD": "A lying tongue hates its victims, and flattering words cause ruin."
+        }
+      ]
+    },
+    {
+      "CHAPTER": "27",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "Don’t brag about tomorrow, since you don’t know what the day will bring."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "Let someone else praise you, not your own mouth— a stranger, not your own lips."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "A stone is heavy and sand is weighty, but the resentment caused by a fool is even heavier."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "Anger is cruel, and wrath is like a flood, but jealousy is even more dangerous."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "An open rebuke is better than hidden love!"
+        },
+        {
+          "VERSE": "6",
+          "WORD": "Wounds from a sincere friend are better than many kisses from an enemy."
+        },
+        {
+          "VERSE": "7",
+          "WORD": "A person who is full refuses honey, but even bitter food tastes sweet to the hungry."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "A person who strays from home is like a bird that strays from its nest."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "The heartfelt counsel of a friend is as sweet as perfume and incense."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "Never abandon a friend— either yours or your father’s. When disaster strikes, you won’t have to ask your brother for assistance. It’s better to go to a neighbor than to a brother who lives far away."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "Be wise, my child, and make my heart glad. Then I will be able to answer my critics."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "A prudent person foresees danger and takes precautions. The simpleton goes blindly on and suffers the consequences."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "Get security from someone who guarantees a stranger’s debt. Get a deposit if he does it for foreigners."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "A loud and cheerful greeting early in the morning will be taken as a curse!"
+        },
+        {
+          "VERSE": "15",
+          "WORD": "A quarrelsome wife is as annoying as constant dripping on a rainy day."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "Stopping her complaints is like trying to stop the wind or trying to hold something with greased hands."
+        },
+        {
+          "VERSE": "17",
+          "WORD": "As iron sharpens iron, so a friend sharpens a friend."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "As workers who tend a fig tree are allowed to eat the fruit, so workers who protect their employer’s interests will be rewarded."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "As a face is reflected in water, so the heart reflects the real person."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "Just as Death and Destruction are never satisfied, so human desire is never satisfied."
+        },
+        {
+          "VERSE": "21",
+          "WORD": "Fire tests the purity of silver and gold, but a person is tested by being praised."
+        },
+        {
+          "VERSE": "22",
+          "WORD": "You cannot separate fools from their foolishness, even though you grind them like grain with mortar and pestle."
+        },
+        {
+          "VERSE": "23",
+          "WORD": "Know the state of your flocks, and put your heart into caring for your herds,"
+        },
+        {
+          "VERSE": "24",
+          "WORD": "for riches don’t last forever, and the crown might not be passed to the next generation."
+        },
+        {
+          "VERSE": "25",
+          "WORD": "After the hay is harvested and the new crop appears and the mountain grasses are gathered in,"
+        },
+        {
+          "VERSE": "26",
+          "WORD": "your sheep will provide wool for clothing, and your goats will provide the price of a field."
+        },
+        {
+          "VERSE": "27",
+          "WORD": "And you will have enough goats’ milk for yourself, your family, and your servant girls."
+        }
+      ]
+    },
+    {
+      "CHAPTER": "28",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "The wicked run away when no one is chasing them, but the godly are as bold as lions."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "When there is moral rot within a nation, its government topples easily. But wise and knowledgeable leaders bring stability."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "A poor person who oppresses the poor is like a pounding rain that destroys the crops."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "To reject the law is to praise the wicked; to obey the law is to fight them."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "Evil people don’t understand justice, but those who follow the Lord understand completely."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "Better to be poor and honest than to be dishonest and rich."
+        },
+        {
+          "VERSE": "7",
+          "WORD": "Young people who obey the law are wise; those with wild friends bring shame to their parents."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "Income from charging high interest rates will end up in the pocket of someone who is kind to the poor."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "God detests the prayers of a person who ignores the law."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "Those who lead good people along an evil path will fall into their own trap, but the honest will inherit good things."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "Rich people may think they are wise, but a poor person with discernment can see right through them."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "When the godly succeed, everyone is glad. When the wicked take charge, people go into hiding."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "People who conceal their sins will not prosper, but if they confess and turn from them, they will receive mercy."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "Blessed are those who fear to do wrong, but the stubborn are headed for serious trouble."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "A wicked ruler is as dangerous to the poor as a roaring lion or an attacking bear."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "A ruler with no understanding will oppress his people, but one who hates corruption will have a long life."
+        },
+        {
+          "VERSE": "17",
+          "WORD": "A murderer’s tormented conscience will drive him into the grave. Don’t protect him!"
+        },
+        {
+          "VERSE": "18",
+          "WORD": "The blameless will be rescued from harm, but the crooked will be suddenly destroyed."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "A hard worker has plenty of food, but a person who chases fantasies ends up in poverty."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "The trustworthy person will get a rich reward, but a person who wants quick riches will get into trouble."
+        },
+        {
+          "VERSE": "21",
+          "WORD": "Showing partiality is never good, yet some will do wrong for a mere piece of bread."
+        },
+        {
+          "VERSE": "22",
+          "WORD": "Greedy people try to get rich quick but don’t realize they’re headed for poverty."
+        },
+        {
+          "VERSE": "23",
+          "WORD": "In the end, people appreciate honest criticism far more than flattery."
+        },
+        {
+          "VERSE": "24",
+          "WORD": "Anyone who steals from his father and mother and says, “What’s wrong with that?” is no better than a murderer."
+        },
+        {
+          "VERSE": "25",
+          "WORD": "Greed causes fighting; trusting the Lord leads to prosperity."
+        },
+        {
+          "VERSE": "26",
+          "WORD": "Those who trust their own insight are foolish, but anyone who walks in wisdom is safe."
+        },
+        {
+          "VERSE": "27",
+          "WORD": "Whoever gives to the poor will lack nothing, but those who close their eyes to poverty will be cursed."
+        },
+        {
+          "VERSE": "28",
+          "WORD": "When the wicked take charge, people go into hiding. When the wicked meet disaster, the godly flourish."
+        }
+      ]
+    },
+    {
+      "CHAPTER": "29",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "Whoever stubbornly refuses to accept criticism will suddenly be destroyed beyond recovery."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "When the godly are in authority, the people rejoice. But when the wicked are in power, they groan."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "The man who loves wisdom brings joy to his father, but if he hangs around with prostitutes, his wealth is wasted."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "A just king gives stability to his nation, but one who demands bribes destroys it."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "To flatter friends is to lay a trap for their feet."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "Evil people are trapped by sin, but the righteous escape, shouting for joy."
+        },
+        {
+          "VERSE": "7",
+          "WORD": "The godly care about the rights of the poor; the wicked don’t care at all."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "Mockers can get a whole town agitated, but the wise will calm anger."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "If a wise person takes a fool to court, there will be ranting and ridicule but no satisfaction."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "The bloodthirsty hate blameless people, but the upright seek to help them."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "Fools vent their anger, but the wise quietly hold it back."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "If a ruler pays attention to liars, all his advisers will be wicked."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "The poor and the oppressor have this in common— the Lord gives sight to the eyes of both."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "If a king judges the poor fairly, his throne will last forever."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "To discipline a child produces wisdom, but a mother is disgraced by an undisciplined child."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "When the wicked are in authority, sin flourishes, but the godly will live to see their downfall."
+        },
+        {
+          "VERSE": "17",
+          "WORD": "Discipline your children, and they will give you peace of mind and will make your heart glad."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "When people do not accept divine guidance, they run wild. But whoever obeys the law is joyful."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "Words alone will not discipline a servant; the words may be understood, but they are not heeded."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "There is more hope for a fool than for someone who speaks without thinking."
+        },
+        {
+          "VERSE": "21",
+          "WORD": "A servant pampered from childhood will become a rebel."
+        },
+        {
+          "VERSE": "22",
+          "WORD": "An angry person starts fights; a hot-tempered person commits all kinds of sin."
+        },
+        {
+          "VERSE": "23",
+          "WORD": "Pride ends in humiliation, while humility brings honor."
+        },
+        {
+          "VERSE": "24",
+          "WORD": "If you assist a thief, you only hurt yourself. You are sworn to tell the truth, but you dare not testify."
+        },
+        {
+          "VERSE": "25",
+          "WORD": "Fearing people is a dangerous trap, but trusting the Lord means safety."
+        },
+        {
+          "VERSE": "26",
+          "WORD": "Many seek the ruler’s favor, but justice comes from the Lord."
+        },
+        {
+          "VERSE": "27",
+          "WORD": "The righteous despise the unjust; the wicked despise the godly."
+        }
+      ]
+    },
+    {
+      "CHAPTER": "30",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "The sayings of Agur son of Jakeh contain this message. I am weary, O God; I am weary and worn out, O God."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "I am too stupid to be human, and I lack common sense."
+        },
+        {
+          "VERSE": "3",
+          "WORD": "I have not mastered human wisdom, nor do I know the Holy One."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "Who but God goes up to heaven and comes back down? Who holds the wind in his fists? Who wraps up the oceans in his cloak? Who has created the whole wide world? What is his name—and his son’s name? Tell me if you know!"
+        },
+        {
+          "VERSE": "5",
+          "WORD": "Every word of God proves true. He is a shield to all who come to him for protection."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "Do not add to his words, or he may rebuke you and expose you as a liar."
+        },
+        {
+          "VERSE": "7",
+          "WORD": "O God, I beg two favors from you; let me have them before I die."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "First, help me never to tell a lie. Second, give me neither poverty nor riches! Give me just enough to satisfy my needs."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "For if I grow rich, I may deny you and say, “Who is the Lord?” And if I am too poor, I may steal and thus insult God’s holy name."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "Never slander a worker to the employer, or the person will curse you, and you will pay for it."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "Some people curse their father and do not thank their mother."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "They are pure in their own eyes, but they are filthy and unwashed."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "They look proudly around, casting disdainful glances."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "They have teeth like swords and fangs like knives. They devour the poor from the earth and the needy from among humanity."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "The leech has two suckers that cry out, “More, more!” There are three things that are never satisfied— no, four that never say, “Enough!”:"
+        },
+        {
+          "VERSE": "16",
+          "WORD": "the grave, the barren womb, the thirsty desert, the blazing fire."
+        },
+        {
+          "VERSE": "17",
+          "WORD": "The eye that mocks a father and despises a mother’s instructions will be plucked out by ravens of the valley and eaten by vultures."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "There are three things that amaze me— no, four things that I don’t understand:"
+        },
+        {
+          "VERSE": "19",
+          "WORD": "how an eagle glides through the sky, how a snake slithers on a rock, how a ship navigates the ocean, how a man loves a woman."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "An adulterous woman consumes a man, then wipes her mouth and says, “What’s wrong with that?”"
+        },
+        {
+          "VERSE": "21",
+          "WORD": "There are three things that make the earth tremble— no, four it cannot endure:"
+        },
+        {
+          "VERSE": "22",
+          "WORD": "a slave who becomes a king, an overbearing fool who prospers,"
+        },
+        {
+          "VERSE": "23",
+          "WORD": "a bitter woman who finally gets a husband, a servant girl who supplants her mistress."
+        },
+        {
+          "VERSE": "24",
+          "WORD": "There are four things on earth that are small but unusually wise:"
+        },
+        {
+          "VERSE": "25",
+          "WORD": "Ants—they aren’t strong, but they store up food all summer."
+        },
+        {
+          "VERSE": "26",
+          "WORD": "Hyraxes—they aren’t powerful, but they make their homes among the rocks."
+        },
+        {
+          "VERSE": "27",
+          "WORD": "Locusts—they have no king, but they march in formation."
+        },
+        {
+          "VERSE": "28",
+          "WORD": "Lizards—they are easy to catch, but they are found even in kings’ palaces."
+        },
+        {
+          "VERSE": "29",
+          "WORD": "There are three things that walk with stately stride— no, four that strut about:"
+        },
+        {
+          "VERSE": "30",
+          "WORD": "the lion, king of animals, who won’t turn aside for anything,"
+        },
+        {
+          "VERSE": "31",
+          "WORD": "the strutting rooster, the male goat, a king as he leads his army."
+        },
+        {
+          "VERSE": "32",
+          "WORD": "If you have been a fool by being proud or plotting evil, cover your mouth in shame."
+        },
+        {
+          "VERSE": "33",
+          "WORD": "As the beating of cream yields butter and striking the nose causes bleeding, so stirring up anger causes quarrels."
+        }
+      ]
+    },
+    {
+      "CHAPTER": "31",
+      "VERSES": [
+        {
+          "VERSE": "1",
+          "WORD": "The sayings of King Lemuel contain this message, which his mother taught him."
+        },
+        {
+          "VERSE": "2",
+          "WORD": "O my son, O son of my womb, O son of my vows,"
+        },
+        {
+          "VERSE": "3",
+          "WORD": "do not waste your strength on women, on those who ruin kings."
+        },
+        {
+          "VERSE": "4",
+          "WORD": "It is not for kings, O Lemuel, to guzzle wine. Rulers should not crave alcohol."
+        },
+        {
+          "VERSE": "5",
+          "WORD": "For if they drink, they may forget the law and not give justice to the oppressed."
+        },
+        {
+          "VERSE": "6",
+          "WORD": "Alcohol is for the dying, and wine for those in bitter distress."
+        },
+        {
+          "VERSE": "7",
+          "WORD": "Let them drink to forget their poverty and remember their troubles no more."
+        },
+        {
+          "VERSE": "8",
+          "WORD": "Speak up for those who cannot speak for themselves; ensure justice for those being crushed."
+        },
+        {
+          "VERSE": "9",
+          "WORD": "Yes, speak up for the poor and helpless, and see that they get justice."
+        },
+        {
+          "VERSE": "10",
+          "WORD": "Who can find a virtuous and capable wife? She is more precious than rubies."
+        },
+        {
+          "VERSE": "11",
+          "WORD": "Her husband can trust her, and she will greatly enrich his life."
+        },
+        {
+          "VERSE": "12",
+          "WORD": "She brings him good, not harm, all the days of her life."
+        },
+        {
+          "VERSE": "13",
+          "WORD": "She finds wool and flax and busily spins it."
+        },
+        {
+          "VERSE": "14",
+          "WORD": "She is like a merchant’s ship, bringing her food from afar."
+        },
+        {
+          "VERSE": "15",
+          "WORD": "She gets up before dawn to prepare breakfast for her household and plan the day’s work for her servant girls."
+        },
+        {
+          "VERSE": "16",
+          "WORD": "She goes to inspect a field and buys it; with her earnings she plants a vineyard."
+        },
+        {
+          "VERSE": "17",
+          "WORD": "She is energetic and strong, a hard worker."
+        },
+        {
+          "VERSE": "18",
+          "WORD": "She makes sure her dealings are profitable; her lamp burns late into the night."
+        },
+        {
+          "VERSE": "19",
+          "WORD": "Her hands are busy spinning thread, her fingers twisting fiber."
+        },
+        {
+          "VERSE": "20",
+          "WORD": "She extends a helping hand to the poor and opens her arms to the needy."
+        },
+        {
+          "VERSE": "21",
+          "WORD": "She has no fear of winter for her household, for everyone has warm clothes."
+        },
+        {
+          "VERSE": "22",
+          "WORD": "She makes her own bedspreads. She dresses in fine linen and purple gowns."
+        },
+        {
+          "VERSE": "23",
+          "WORD": "Her husband is well known at the city gates, where he sits with the other civic leaders."
+        },
+        {
+          "VERSE": "24",
+          "WORD": "She makes belted linen garments and sashes to sell to the merchants."
+        },
+        {
+          "VERSE": "25",
+          "WORD": "She is clothed with strength and dignity, and she laughs without fear of the future."
+        },
+        {
+          "VERSE": "26",
+          "WORD": "When she speaks, her words are wise, and she gives instructions with kindness."
+        },
+        {
+          "VERSE": "27",
+          "WORD": "She carefully watches everything in her household and suffers nothing from laziness."
+        },
+        {
+          "VERSE": "28",
+          "WORD": "Her children stand and bless her. Her husband praises her:"
+        },
+        {
+          "VERSE": "29",
+          "WORD": "“There are many virtuous and capable women in the world, but you surpass them all!”"
+        },
+        {
+          "VERSE": "30",
+          "WORD": "Charm is deceptive, and beauty does not last; but a woman who fears the Lord will be greatly praised."
+        },
+        {
+          "VERSE": "31",
+          "WORD": "Reward her for all she has done. Let her deeds publicly declare her praise."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, header, main, nav, footer {
+  margin: auto;
+  padding: 8px;
+  max-width: 450px;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  height: calc(100vh - 100px); /* Full height minus header/footer */
+  overflow: hidden;
+}
+
+#BIBLE, #BOOKS, #PRAISETHELORD {
+  color: red !important;
+  background: transparent !important;
+  text-align: center;
+  text-decoration: none;
+}
+
+#GODSWORD {
+  flex: 1;
+  overflow-y: auto; /* Allow scrolling if content overflows */
+}
+
+#BOOKCHAPTER {
+  padding: 18px;
+  text-align: center;
+}
+
+#CHAPTERVERSES > * {
+  padding: 10px 0;
+  line-height: 25px;
+}
+
+#GODSBOOKS {
+  text-align: center;
+}
+
+#BIBLEBOOKS {
+  padding: 18px 0;
+}
+
+#BIBLEBOOKS button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+#BIBLEBOOKS button:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.xtraNav .xtraMenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.xtraNav {
+  display: none;
+  position: absolute;
+}
+
+.xtraNav .xtraMenu {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: rgba(255, 255, 255, .95);
+  background:
+    linear-gradient(180deg,
+      rgba(255, 255, 255, 0.7) 7%,
+      rgba(255, 255, 255, 0.7) 70%,
+      rgba(255, 255, 255, 0.7) 100%);
+  border: black 1px solid;
+  border-radius: 18px;
+  backdrop-filter: blur(2px);
+}
+
+.xtraNav .xtraMenu .xtraLink>a {
+  display: flex;
+  position: relative;
+  margin: 2px;
+  padding: 8px;
+  transition: 0.2s linear;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -ms-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+}
+
+.xtraNav .xtraMenu .xtraLink>a:hover {
+  transition: 0.2s ease-in-out;
+  color: red;
+}
+

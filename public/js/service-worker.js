@@ -1,4 +1,4 @@
-const CACHE_NAME = 'BIBLE-cache-v09282024';
+const CACHE_NAME = 'BIBLE-cache-v12302024';
 const INITIAL_CACHE_FILES = [
   '/index.html',
   '/styles.css',
@@ -9,33 +9,33 @@ const INITIAL_CACHE_FILES = [
   '/data/BIBLE/BOOKS.json'
 ];
 
-// Function to cache all Bible books during install (for offline support)
-function cacheAllBibleBooks() {
+// Function to cache all BIBLE BOOKS during install (for offline support)
+function cacheAllBIBLEBOOKS() {
   return caches.open(CACHE_NAME).then(cache => {
     return fetch('/data/BIBLE/BOOKS.json')
       .then(response => response.json())
-      .then(books => {
-        const bookRequests = books.map(bookAbbrev => {
-          const bookUrl = `/data/BIBLE/kjv/${bookAbbrev.replace(/\s+/g, '')}.json`;
-          console.log(`Fetching book: ${bookUrl}`);  // Log the URL being fetched
-          return fetch(bookUrl)
+      .then(BOOKS => {
+        const BOOKrequests = BOOKS.map(BOOKabbrev => {
+          const BOOKurl = `/data/BIBLE/kjv/${BOOKabbrev.replace(/\s+/g, '')}.json`;
+          console.log(`Fetching BOOK: ${BOOKurl}`);  // Log the URL being fetched
+          return fetch(BOOKurl)
             .then(response => {
               if (response.ok) {
-                console.log(`Caching book: ${bookAbbrev}`); // Log the BOOK
-                return cache.put(bookUrl, response.clone());
+                console.log(`Caching BOOK: ${BOOKabbrev}`); // Log the BOOK
+                return cache.put(BOOKurl, response.clone());
               } else {
-                console.error(`Failed to fetch ${bookAbbrev}: ${response.statusText}`); // Log fail
+                console.error(`Failed to fetch ${BOOKabbrev}: ${response.statusText}`); // Log fail
               }
             })
-            .catch(err => console.error(`Failed to cache ${bookAbbrev}:`, err));
+            .catch(err => console.error(`Failed to cache ${BOOKabbrev}:`, err));
         });
-        return Promise.all(bookRequests);
+        return Promise.all(BOOKrequests);
       })
       .catch(err => console.error('Failed to fetch BOOKS.json during cache:', err));
-  }).catch(err => console.error('Failed to open cache for Bible books:', err));
+  }).catch(err => console.error('Failed to open cache for BIBLE BOOKS:', err));
 }
 
-// Install event: Cache initial files and all Bible books
+// Install event: Cache initial files and all BIBLE BOOKS
 self.addEventListener('install', event => {
   console.log('Service worker installing...');
   event.waitUntil(
@@ -45,7 +45,7 @@ self.addEventListener('install', event => {
         return cache.addAll(INITIAL_CACHE_FILES);
       })
       .then(() => {
-        return cacheAllBibleBooks();  // Cache all Bible books
+        return cacheAllBIBLEBOOKS();  // Cache all BIBLE BOOKS
       })
       .catch(err => console.error('Failed to cache initial files during install:', err))
   );
