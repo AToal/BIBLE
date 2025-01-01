@@ -1,8 +1,8 @@
-const CACHE_NAME = 'BIBLE-cache-v12302024';
+const CACHE_NAME = 'BIBLE-cache-v01012025';
 const INITIAL_CACHE_FILES = [
   '/index.html',
-  '/styles.css',
-  '/app.js',
+  '/css/styles.css',
+  '/js/app.js',
   '/manifest.json',
   '/media/BIBLE-192x192.png',
   '/media/BIBLE-512x512.png',

@@ -11,7 +11,7 @@
   <meta name="author" content="BIBLE">
   <meta name="robots" content="index, follow, archive">
   <meta name="theme-color" content="white" media="(prefers-color-scheme: light)">
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/css/style.css">
   <link rel="icon" sizes="32x32" type="image/x-icon" href="/favicon.ico">
   <link rel="icon" sizes="192x192" type="image/x-icon" href="/media/BIBLE-192x192.ico">
   <meta property="og:type" content="website">
@@ -39,24 +39,59 @@
   <meta name="msapplication-wide310x150logo" content="./media/msicon@310150.png"> -->
   <link rel="manifest" href="/manifest.json">
 
-  <script defer src="/app.js"></script>
+  <script defer src="/js/app.js"></script>
 </head>
 <body>
   <header>
-    <h1>BIBLE</h1>
+    <a id="BIBLE" href="/"><h1>BIBLE</h1></a>
   </header>
 
   <main>
-    <section id="content-section">
-      <h3 id="book-title">OFFLINE</h3>
-      <div id="content">
+    <div id="GODSWORD">
+      <h3 id="BOOKCHAPTER">OFFLINE</h3>
+      <div id="CHAPTERVERSES">
         LET US PRAY — THANK YOU LORD FOR EVERYTHING! WE PRAY YOU PLEASE FORGIVE US, BLESS US, &amp; HELP US LIVE FOR YOU LORD! IN JESUS NAME WE PRAY, AMEN!
       </div>
-    </section>
+    </div>
   </main>
 
+  <!-- BOOKS (useful for navigation) -->
+  <nav id="GODSBOOKS">
+    <a id="BOOKS" href="/#BOOKS"><h4>BOOKS OF THE BIBLE</h4></a>
+    <div id="BIBLEBOOKS">
+      <!-- Buttons for each BIBLE BOOK will be dynamically generated here -->
+    </div>
+  </nav>
+
   <footer>
-    <h2>PRAISE THE LORD!</h2>
+    <a id="PRAISETHELORD" href="/"><h2>PRAISE THE LORD!</h2></a>
   </footer>
+
+  <nav>
+    <div id="xtraNav" class="xtraNav">
+      <div class="xtraMenu">
+        <div class="esv xtraLink">
+          <a href="" data-translation="esv">
+            <span>ESV</span>
+          </a>
+        </div>
+        <div class="kjv xtraLink">
+          <a href="" data-translation="kjv">
+            <span>KJV</span>
+          </a>
+        </div>
+        <div class="niv xtraLink">
+          <a href="" data-translation="niv">
+            <span>NIV</span>
+          </a>
+        </div>
+        <div class="nlt xtraLink">
+          <a href="" data-translation="nlt">
+            <span>NLT</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
 </body>
 </html>
