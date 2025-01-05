@@ -120,7 +120,7 @@ function displayBook(BOOKdata, CHAPTERindex) {
   const CHAPTER = BOOKdata.CHAPTERS[CHAPTERindex];
   CHAPTER.VERSES.forEach(VERSE => {
     const VERSEelement = document.createElement('p');
-    VERSEelement.innerHTML = `<span style="color: red;">${VERSE.VERSE}&nbsp;</span>&nbsp;${VERSE.WORD}`;
+    VERSEelement.innerHTML = `<span style="color: #B30000;">${VERSE.VERSE}&nbsp;</span>&nbsp;${VERSE.WORD}`;
     CHAPTERVERSESelement.appendChild(VERSEelement);
   });
 }

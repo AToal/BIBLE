@@ -18,7 +18,7 @@ main {
 }
 
 #BIBLE, #BOOKS, #PRAISETHELORD {
-  color: red !important;
+  color: #B30000 !important;
   background: transparent !important;
   text-align: center;
   text-decoration: none;
@@ -53,14 +53,14 @@ main {
 
 #BIBLEBOOKS button {
   padding: 8px;
-  background: white;
+  background: #FCFCFC;
   border: silver 1px solid;
   border-radius: 8px;
   cursor: pointer;
 }
 
 #BIBLEBOOKS button:hover {
-  color: red;
+  color: #B30000;
   cursor: pointer;
 }
 
@@ -78,12 +78,12 @@ main {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  background: rgba(255, 255, 255, .95);
+  background: rgba(252, 252, 252, .95);
   background:
     linear-gradient(180deg,
-      rgba(255, 255, 255, 0.7) 7%,
-      rgba(255, 255, 255, 0.7) 70%,
-      rgba(255, 255, 255, 0.7) 100%);
+      rgba(252, 252, 252, 0.7) 7%,
+      rgba(252, 252, 252, 0.7) 70%,
+      rgba(252, 252, 252, 0.7) 100%);
   border: silver 1px solid;
   border-radius: 8px;
   backdrop-filter: blur(2px);
@@ -103,5 +103,5 @@ main {
 
 .xtraNav .xtraMenu .xtraLink>a:hover {
   transition: 0.2s ease-in-out;
-  color: red;
+  color: #B30000;
 }

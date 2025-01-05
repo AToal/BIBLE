@@ -47,26 +47,22 @@
     <a id="BIBLE" href="/"><h1>BIBLE</h1></a>
   </header>
 
-  <!-- BIBLE section for the dynamic BOOK and CHAPTERS -->
   <main>
     <div id="GODSWORD">
-      <h3 id="BOOKCHAPTER"></h3>
+      <h2 id="BOOKCHAPTER"></h2>
       <div id="CHAPTERVERSES">
-        <!-- CHAPTERS and VERSES will be dynamically inserted here -->
       </div>
     </div>
   </main>
 
-  <!-- BOOKS (useful for navigation) -->
   <nav id="GODSBOOKS">
-    <a id="BOOKS" href="/#BOOKS"><h4>BOOKS OF THE BIBLE</h4></a>
+    <a id="BOOKS" href="/#BOOKS"><h3>BOOKS OF THE BIBLE</h3></a>
     <div id="BIBLEBOOKS">
-      <!-- Buttons for each BIBLE BOOK will be dynamically generated here -->
     </div>
   </nav>
 
   <footer>
-    <a id="PRAISETHELORD" href="/"><h2>PRAISE THE LORD!</h2></a>
+    <a id="PRAISETHELORD" href="/"><h4>PRAISE THE LORD!</h4></a>
   </footer>
 
   <nav>
@@ -96,7 +92,6 @@
     </div>
   </nav>
 
-  <!-- Service Worker -->
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
@@ -104,7 +99,7 @@
           .then(function(registration) {
             console.log('ServiceWorker registration successful with scope:', registration.scope);
 
-            // Check for service worker updates (Optional)
+            // Check for service worker updates
             registration.onupdatefound = function() {
               const newWorker = registration.installing;
               newWorker.onstatechange = function() {
