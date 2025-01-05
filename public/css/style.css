@@ -64,6 +64,10 @@ main {
   cursor: pointer;
 }
 
+#BIBLE h1, #PRAISETHELORD h4 {
+  font-size: 33px;
+}
+
 .xtraNav .xtraMenu {
   display: flex;
   flex-direction: column;
