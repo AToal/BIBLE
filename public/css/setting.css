@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+:root {
+  --font: 'Arial', 'Georgia', sans-serif;
+  --color: default;
+  --background: default;
+
+  --ff1: 'Arial', 'Georgia', sans-serif;
+
+  --fs1: calc(5.7vw);
+  --fs2: calc(3.7vw);
+  --fs3: calc(2.2vw);
+  --fs4: calc(.7em);
+  --fs5: calc(.7vw + .17rem);
+
+  --fw3: 300;
+  --fw4: 400;
+  --fw5: 500;
+  --fw6: 600;
+  --fw7: 700;
+
+  --blk: black;
+  --gld: gold;
+  --gry: #fcfcfc;
+  --red: red;
+  --slv: silver;
+  --wht: white;
+
+  --trst350: all 350ms ease;
+}
+
+* {
+  scrollbar-color: var(--gry) var(--wht);
+  scrollbar-width: thin;
+}
+
+*::-webkit-scrollbar { width: 5px; }
+*::-webkit-scrollbar-track { background: var(--wht); }
+*::-webkit-scrollbar-thumb { background: var(--gry); }
+*::-webkit-scrollbar-thumb:hover { background: var(--slv); }
+
+::selection {
+  background: var(--gld);
+  color: var(--red);
+}
+

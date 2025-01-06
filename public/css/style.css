@@ -1,26 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scrollbar-color: #fcfcfc white;
-  scrollbar-width: thin;
-  font-family: Arial, Georgia, sans-serif;
-}
-
-*::-webkit-scrollbar { width: 5px; }
-*::-webkit-scrollbar-track { background: white; }
-*::-webkit-scrollbar-thumb { background: #fcfcfc; }
-*::-webkit-scrollbar-thumb:hover { background: silver; }
-
-::selection {
-  background: gold;
-  color: red;
-}
-
 body, header, main, nav, footer {
   margin: auto;
   padding: 8px;
-  max-width: 450px;
+  max-width: 485px;
   text-decoration: none;
 }
 
@@ -30,23 +11,26 @@ main {
   overflow: hidden;
 }
 
-#BIBLE h1 { font-size: 33px; }
+#BIBLE h1 {
+  font-size: 33px;
+}
 
 #BIBLE, #BOOKS, #PRAISETHELORD {
   background: transparent !important;
-  color: red !important;
+  color: var(--red) !important;
   text-align: center;
   text-decoration: none;
+  font-weight: var(--fw7);
 }
 
 #GODSWORD {
   flex: 1;
   overflow-y: auto;
   background:
-		linear-gradient(to bottom, white 8%, transparent),
-		linear-gradient(to bottom, transparent, white 80%) 0 100%,
-    linear-gradient(to bottom, silver, transparent 8%),
-    linear-gradient(to top, silver, transparent 8%);
+		linear-gradient(to bottom, var(--wht) 8%, transparent),
+		linear-gradient(to bottom, transparent, var(--wht) 80%) 0 100%,
+    linear-gradient(to bottom, var(--slv), transparent 8%),
+    linear-gradient(to top, var(--slv), transparent 8%);
   background-attachment: local, local, scroll, scroll;
   border-radius: 18px;
   scrollbar-width: none;
@@ -60,6 +44,8 @@ main {
 #BOOKCHAPTER {
   padding: 25px 28px 28px;
   text-align: center;
+  font-size: 20px;
+  font-weight: var(--fw7);
 }
 
 #CHAPTERVERSES {
@@ -73,6 +59,7 @@ main {
 
 #GODSBOOKS {
   text-align: center;
+  font-size: 20px;
 }
 
 #BIBLEBOOKS {
@@ -81,57 +68,18 @@ main {
 
 #BIBLEBOOKS button {
   padding: 8px;
-  background: #fcfcfc;
-  border: silver 1px solid;
+  color: var(--blk);
+  background: var(--gry);
+  border: var(--slv) 1px solid;
   border-radius: 8px;
   cursor: pointer;
 }
 
 #BIBLEBOOKS button:hover {
-  color: red;
+  color: var(--red);
   cursor: pointer;
 }
 
-#PRAISETHELORD h4 { font-size: 25px; }
-
-.xtraNav .xtraMenu {
-  display: flex;
-  flex-direction: column;
-}
-
-.xtraNav {
-  display: none;
-  position: absolute;
-}
-
-.xtraNav .xtraMenu {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  background: rgba(252, 252, 252, .95);
-  background:
-    linear-gradient(180deg,
-      rgba(252, 252, 252, 0.7) 7%,
-      rgba(252, 252, 252, 0.7) 70%,
-      rgba(252, 252, 252, 0.7) 100%);
-  border: silver 1px solid;
-  border-radius: 8px;
-  backdrop-filter: blur(2px);
-}
-
-.xtraNav .xtraMenu .xtraLink > a {
-  display: flex;
-  position: relative;
-  padding: 8px;
-  transition: 0.2s linear;
-  -webkit-transition: 0.2s linear;
-  -moz-transition: 0.2s linear;
-  -ms-transition: 0.2s linear;
-  -o-transition: 0.2s linear;
-  color: black;
-}
-
-.xtraNav .xtraMenu .xtraLink > a:hover {
-  transition: 0.2s ease-in-out;
-  color: red;
+#PRAISETHELORD h4 {
+  font-size: 25px;
 }

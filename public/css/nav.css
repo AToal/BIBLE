@@ -1,0 +1,42 @@
+.xtraNav .xtraMenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.xtraNav {
+  display: none;
+  position: absolute;
+}
+
+.xtraNav .xtraMenu {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: rgba(252, 252, 252, .95);
+  background:
+    linear-gradient(180deg,
+      rgba(252, 252, 252, 0.7) 7%,
+      rgba(252, 252, 252, 0.7) 70%,
+      rgba(252, 252, 252, 0.7) 100%);
+  border: silver 1px solid;
+  border-radius: 8px;
+  backdrop-filter: blur(2px);
+}
+
+.xtraNav .xtraMenu .xtraLink > a {
+  display: flex;
+  position: relative;
+  padding: 8px;
+  transition: 0.2s linear;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -ms-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  color: black;
+  text-decoration: underline;
+}
+
+.xtraNav .xtraMenu .xtraLink > a:hover {
+  transition: 0.2s ease-in-out;
+  color: red;
+}
