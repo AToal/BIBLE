@@ -120,9 +120,47 @@ function displayBook(BOOKdata, CHAPTERindex) {
   const CHAPTER = BOOKdata.CHAPTERS[CHAPTERindex];
   CHAPTER.VERSES.forEach(VERSE => {
     const VERSEelement = document.createElement('p');
-    VERSEelement.innerHTML = `<span style="color: #B30000;">${VERSE.VERSE}&nbsp;</span>&nbsp;${VERSE.WORD}`;
+    VERSEelement.innerHTML = `<span style="color: red;">${VERSE.VERSE}&nbsp;</span>&nbsp;${VERSE.WORD}`;
     CHAPTERVERSESelement.appendChild(VERSEelement);
   });
+}
+
+// load the next CHAPTER
+function loadNextCHAPTER() {
+  fetch(`/data/BIBLE/${currentTranslation}/${BIBLEBOOKS[currentBOOKindex].replace(/\s+/g, '')}.json`)
+    .then(response => response.json())
+    .then(BOOKdata => {
+      if (currentCHAPTERindex + 1 < BOOKdata.CHAPTERS.length) {
+        currentCHAPTERindex++;
+        loadBOOK(currentBOOKindex, currentCHAPTERindex);
+      } else if (currentBOOKindex + 1 < BIBLEBOOKS.length) {
+        currentBOOKindex++;
+        currentCHAPTERindex = 0;
+        loadBOOK(currentBOOKindex, currentCHAPTERindex);
+      } else {
+        console.log('Reached the end of the BIBLE');
+      }
+    })
+    .catch(err => console.error('Failed to load next CHAPTER:', err));
+}
+
+// load the previous CHAPTER
+function loadPreviousCHAPTER() {
+  if (currentCHAPTERindex > 0) {
+    currentCHAPTERindex--;
+    loadBOOK(currentBOOKindex, currentCHAPTERindex);
+  } else if (currentBOOKindex > 0) {
+    currentBOOKindex--;
+    fetch(`/data/BIBLE/${currentTranslation}/${BIBLEBOOKS[currentBOOKindex].replace(/\s+/g, '')}.json`)
+      .then(response => response.json())
+      .then(BOOKdata => {
+        currentCHAPTERindex = BOOKdata.CHAPTERS.length - 1;
+        loadBOOK(currentBOOKindex, currentCHAPTERindex);
+      })
+      .catch(err => console.error('Failed to load previous CHAPTER:', err));
+  } else {
+    console.log('Reached the beginning of the BIBLE');
+  }
 }
 
 // Save the last visited BOOK and CHAPTER to localStorage
@@ -131,7 +169,7 @@ function saveLastVisited(BOOKindex, CHAPTERindex) {
   localStorage.setItem('lastVisitedCHAPTER', CHAPTERindex);
 }
 
-// Handle translation selection (new functionality)
+// Handle translation selection
 function initializeTranslationSelection() {
   const xtraNav = document.getElementById('xtraNav');
 
@@ -148,7 +186,7 @@ function initializeTranslationSelection() {
         // Save the selected translation to localStorage
         localStorage.setItem('selectedTranslation', currentTranslation);
 
-        // Reload the current book and chapter with the new translation
+        // Reload the current BOOK and CHAPTER with the new translation
         loadBOOK(currentBOOKindex, currentCHAPTERindex);
       }
     }

@@ -2,6 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scrollbar-color: #fcfcfc white;
+  scrollbar-width: thin;
+  font-family: Arial, Georgia, sans-serif;
+}
+
+*::-webkit-scrollbar { width: 5px; }
+*::-webkit-scrollbar-track { background: white; }
+*::-webkit-scrollbar-thumb { background: #fcfcfc; }
+*::-webkit-scrollbar-thumb:hover { background: silver; }
+
+::selection {
+  background: gold;
+  color: red;
 }
 
 body, header, main, nav, footer {
@@ -13,24 +26,39 @@ body, header, main, nav, footer {
 
 main {
   display: flex;
-  height: calc(100vh - 100px); /* Full height minus header/footer */
+  height: calc(100vh - 108px);
   overflow: hidden;
 }
 
+#BIBLE h1 { font-size: 33px; }
+
 #BIBLE, #BOOKS, #PRAISETHELORD {
-  color: #B30000 !important;
   background: transparent !important;
+  color: red !important;
   text-align: center;
   text-decoration: none;
 }
 
 #GODSWORD {
   flex: 1;
-  overflow-y: auto; /* Allow scrolling if content overflows */
+  overflow-y: auto;
+  background:
+		linear-gradient(to bottom, white 8%, transparent),
+		linear-gradient(to bottom, transparent, white 80%) 0 100%,
+    linear-gradient(to bottom, silver, transparent 8%),
+    linear-gradient(to top, silver, transparent 8%);
+  background-attachment: local, local, scroll, scroll;
+  border-radius: 18px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+#GODSWORD::-webkit-scrollbar {
+  display: none;
 }
 
 #BOOKCHAPTER {
-  padding: 28px;
+  padding: 25px 28px 28px;
   text-align: center;
 }
 
@@ -53,20 +81,18 @@ main {
 
 #BIBLEBOOKS button {
   padding: 8px;
-  background: #FCFCFC;
+  background: #fcfcfc;
   border: silver 1px solid;
   border-radius: 8px;
   cursor: pointer;
 }
 
 #BIBLEBOOKS button:hover {
-  color: #B30000;
+  color: red;
   cursor: pointer;
 }
 
-#BIBLE h1, #PRAISETHELORD h4 {
-  font-size: 33px;
-}
+#PRAISETHELORD h4 { font-size: 25px; }
 
 .xtraNav .xtraMenu {
   display: flex;
@@ -93,7 +119,7 @@ main {
   backdrop-filter: blur(2px);
 }
 
-.xtraNav .xtraMenu .xtraLink>a {
+.xtraNav .xtraMenu .xtraLink > a {
   display: flex;
   position: relative;
   padding: 8px;
@@ -105,7 +131,7 @@ main {
   color: black;
 }
 
-.xtraNav .xtraMenu .xtraLink>a:hover {
+.xtraNav .xtraMenu .xtraLink > a:hover {
   transition: 0.2s ease-in-out;
-  color: #B30000;
+  color: red;
 }
