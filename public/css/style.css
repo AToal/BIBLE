@@ -1,7 +1,7 @@
 body, header, main, nav, footer {
   margin: auto;
   padding: 8px;
-  max-width: 485px;
+  max-width: 400px;
   text-decoration: none;
 }
 
@@ -32,6 +32,7 @@ main {
     linear-gradient(to bottom, var(--slv), transparent 8%),
     linear-gradient(to top, var(--slv), transparent 8%);
   background-attachment: local, local, scroll, scroll;
+  border: 2px solid var(--gry);
   border-radius: 18px;
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -42,14 +43,14 @@ main {
 }
 
 #BOOKCHAPTER {
-  padding: 25px 28px 28px;
+  padding: 20px 0 12px;
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: var(--fw7);
 }
 
 #CHAPTERVERSES {
-  padding: 0 8px;
+  padding: 0 12px;
 }
 
 #CHAPTERVERSES > * {
@@ -59,7 +60,7 @@ main {
 
 #GODSBOOKS {
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #BIBLEBOOKS {
