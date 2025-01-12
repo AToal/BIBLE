@@ -10,7 +10,7 @@
   <meta name="keywords" content="BIBLE">
   <meta name="author" content="BIBLE">
   <meta name="robots" content="index, follow, archive">
-  <meta name="theme-color" content="white" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#fff" media="(prefers-color-scheme: light)">
   <link rel="stylesheet" href="/css/setting.css">
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/nav.css">
@@ -42,6 +42,14 @@
   <meta name="msapplication-wide310x150logo" content="./media/msicon@310150.png"> -->
   <link rel="manifest" href="/manifest.json">
 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QH644VKC3Q"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-QH644VKC3Q');
+  </script>
   <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
   <script defer src="/_vercel/insights/script.js"></script>
 </head>
@@ -108,7 +116,7 @@
               newWorker.onstatechange = function() {
                 if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
                   // A new service worker is installed and waiting
-                  console.log('New content is available, please refresh.');
+                  console.log('New ServiceWorker available — refreshing...');
                   // Optionally show a notification to the user here
                 }
               };
@@ -121,11 +129,11 @@
 
       // Handle service worker updates (Optional)
       navigator.serviceWorker.addEventListener('controllerchange', function() {
-        console.log('Service worker controlling the page has changed. Reloading the page...');
+        console.log('ServiceWorker changed — reloading...');
         window.location.reload();
       });
     } else {
-      console.log('Service workers are not supported in this browser.');
+      console.log('ServiceWorker not supported in this browser.');
     }
   </script>
   <script defer src="/js/app.js"></script>
