@@ -68,7 +68,7 @@ main {
 }
 
 #BIBLEBOOKS button {
-  padding: 8px;
+  padding: 8px 10px;
   color: var(--blk);
   background: var(--gry);
   border: var(--slv) 1px solid;

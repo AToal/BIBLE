@@ -1,4 +1,4 @@
-const CACHE_NAME = 'BIBLE-cache-v010620251000';
+const CACHE_NAME = 'BIBLE-cache-v01122025';
 const INITIAL_CACHE_FILES = [
   '/index.html',
   '/css/styles.css',
@@ -9,33 +9,36 @@ const INITIAL_CACHE_FILES = [
   '/data/BIBLE/BOOKS.json'
 ];
 
-// Function to cache all BIBLE BOOKS during install (for offline support)
-function cacheAllBIBLEBOOKS() {
+// Function to cache all BIBLE BOOKS for a given translation
+function cacheAllBIBLEBOOKSForTranslation(translation) {
   return caches.open(CACHE_NAME).then(cache => {
     return fetch('/data/BIBLE/BOOKS.json')
       .then(response => response.json())
       .then(BOOKS => {
-        const BOOKrequests = BOOKS.map(BOOKabbrev => {
-          const BOOKurl = `/data/BIBLE/kjv/${BOOKabbrev.replace(/\s+/g, '')}.json`;
-          console.log(`Fetching BOOK: ${BOOKurl}`);  // Log the URL being fetched
-          return fetch(BOOKurl)
+        // For each BOOK, build the URL using the chosen translation
+        const BOOKrequests = BOOKS.map(bookAbbrev => {
+          const bookURL = `/data/BIBLE/${translation}/${bookAbbrev.replace(/\s+/g, '')}.json`;
+          console.log(`Fetching BOOK: ${bookURL}`);
+
+          return fetch(bookURL)
             .then(response => {
               if (response.ok) {
-                console.log(`Caching BOOK: ${BOOKabbrev}`); // Log the BOOK
-                return cache.put(BOOKurl, response.clone());
+                console.log(`Caching BOOK [${translation}]: ${bookAbbrev}`);
+                return cache.put(bookURL, response.clone());
               } else {
-                console.error(`Failed to fetch ${BOOKabbrev}: ${response.statusText}`); // Log fail
+                console.error(`Failed to fetch [${translation}] ${bookAbbrev}: ${response.statusText}`);
               }
             })
-            .catch(err => console.error(`Failed to cache ${BOOKabbrev}:`, err));
+            .catch(err => console.error(`Failed to cache [${translation}] ${bookAbbrev}:`, err));
         });
+
         return Promise.all(BOOKrequests);
       })
       .catch(err => console.error('Failed to fetch BOOKS.json during cache:', err));
   }).catch(err => console.error('Failed to open cache for BIBLE BOOKS:', err));
 }
 
-// Install event: Cache initial files and all BIBLE BOOKS
+// Install event: Cache initial files and default translation
 self.addEventListener('install', event => {
   console.log('Service worker installing...');
   event.waitUntil(
@@ -45,11 +48,12 @@ self.addEventListener('install', event => {
         return cache.addAll(INITIAL_CACHE_FILES);
       })
       .then(() => {
-        return cacheAllBIBLEBOOKS();  // Cache all BIBLE BOOKS
+        // Cache the default 'kjv' translation by default
+        return cacheAllBIBLEBOOKSForTranslation('kjv');
       })
       .catch(err => console.error('Failed to cache initial files during install:', err))
   );
-  self.skipWaiting();  // Force the service worker to activate immediately
+  self.skipWaiting();
 });
 
 // Activate event: Clean up old caches if any exist
@@ -65,46 +69,47 @@ self.addEventListener('activate', event => {
           }
         })
       );
-    }).then(() => self.clients.claim())  // Take control of uncontrolled clients
+    }).then(() => self.clients.claim())
   );
 });
 
-// Fetch event: Serve cached files when available, and fall back to network if not cached
+// Fetch event: Serve cached files when available, fall back to network if not cached
 self.addEventListener('fetch', event => {
   event.respondWith(
     caches.match(event.request)
       .then(cachedResponse => {
-        // If the resource is found in cache, return it
+        // Return cached file if found
         if (cachedResponse) {
           return cachedResponse;
         }
-
-        // If the resource is not found in cache, try fetching it from the network
+        // Otherwise, fetch from network
         return fetch(event.request)
           .then(networkResponse => {
-            // Check if we received a valid response
+            // Check valid response
             if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== 'basic') {
               return networkResponse;
             }
-
-            // Clone the network response before caching it
+            // Cache the new resource
             const responseToCache = networkResponse.clone();
-
-            // Open the cache and store the fetched resource
-            caches.open(CACHE_NAME)
-              .then(cache => {
-                cache.put(event.request, responseToCache);
-              });
-
-            // Return the network response
+            caches.open(CACHE_NAME).then(cache => {
+              cache.put(event.request, responseToCache);
+            });
             return networkResponse;
           });
       })
       .catch(() => {
-        // If both the cache and network fail, handle the offline case
-        console.warn('Offline: resource not available in cache or network');
-        return caches.match('/offline.html');  // Optionally serve an offline fallback page
+        // If both cache and network fail
+        console.warn('Offline: resource not in cache or network unavailable');
+        return caches.match('/offline.html'); // Optionally serve fallback
       })
   );
 });
 
+// Message event: Handle requests to cache additional translations
+self.addEventListener('message', event => {
+  if (event.data && event.data.type === 'CACHE_TRANSLATION') {
+    const translation = event.data.translation;
+    console.log(`Caching translation: ${translation}`);
+    event.waitUntil(cacheAllBIBLEBOOKSForTranslation(translation));
+  }
+});
