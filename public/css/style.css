@@ -5,6 +5,12 @@ body, header, main, nav, footer {
   text-decoration: none;
 }
 
+body {
+  background: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
 main {
   display: flex;
   height: calc(100vh - 108px);
@@ -27,12 +33,12 @@ main {
   flex: 1;
   overflow-y: auto;
   background:
-		linear-gradient(to bottom, var(--wht) 8%, transparent),
-		linear-gradient(to bottom, transparent, var(--wht) 80%) 0 100%,
+		linear-gradient(to bottom, var(--background-color) 8%, transparent),
+		linear-gradient(to bottom, transparent, var(--background-color) 80%) 0 100%,
     linear-gradient(to bottom, var(--slv), transparent 8%),
     linear-gradient(to top, var(--slv), transparent 8%);
   background-attachment: local, local, scroll, scroll;
-  border: 2px solid var(--gry);
+  border: 2px solid var(--mode-clr1);
   border-radius: 18px;
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -69,8 +75,8 @@ main {
 
 #BIBLEBOOKS button {
   padding: 8px 10px;
-  color: var(--blk);
-  background: var(--gry);
+  color: var(--text-color);
+  background: var(--mode-clr1);
   border: var(--slv) 1px solid;
   border-radius: 8px;
   cursor: pointer;

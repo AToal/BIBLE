@@ -29,6 +29,19 @@
   --trst350: all 350ms ease;
 }
 
+:root[data-mode="light"] {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --mode-clr1: #fcfcfc;
+
+}
+
+:root[data-mode="dark"] {
+  --background-color: #121212;
+  --text-color: #f0f0f0;
+  --mode-clr1: #101010;
+}
+
 * {
   scrollbar-color: var(--gry) var(--wht);
   scrollbar-width: thin;

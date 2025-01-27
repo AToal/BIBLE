@@ -16,7 +16,7 @@ function rightClick(e) {
   } else {
     menu.style.display = "block";
     menu.style.left = (e.pageX - 75) + "px";
-    menu.style.top = (e.pageY - 158) + "px";
+    menu.style.top = (e.pageY - 193) + "px";
   }
 }
 
@@ -116,3 +116,20 @@ function handleGesture() {
     isGestureInProgress = false;
   }, 100);
 }
+
+// On page load, set color mode from localStorage or default to 'light'
+(function initializeColorMode() {
+  const savedMode = localStorage.getItem('colorMode') || 'light';
+  document.documentElement.setAttribute('data-mode', savedMode);
+})();
+
+// Toggle color mode when #mode is clicked
+function toggleColorMode() {
+  const currentMode = document.documentElement.getAttribute('data-mode');
+  const newMode = (currentMode === 'light') ? 'dark' : 'light';
+  document.documentElement.setAttribute('data-mode', newMode);
+  localStorage.setItem('colorMode', newMode);
+}
+
+// Add click event to the SVG icon
+document.getElementById('mode').addEventListener('click', toggleColorMode);
