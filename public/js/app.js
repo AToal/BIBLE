@@ -4,6 +4,15 @@ let currentBOOKindex = 0;
 let currentCHAPTERindex = 0;
 let currentTranslation = 'kjv'; // Default translation
 
+// Function to read BIBLE at "random"
+function readBIBLE () {
+  const crossElement = document.getElementById('cross');
+
+  crossElement.addEventListener('click', () => {
+    loadRandomBOOK();
+  });
+}
+
 // Function to generate buttons for each BOOK in the #BIBLEBOOKS section
 function generateBIBLEBOOKS() {
   const BIBLEBOOKSelement = document.getElementById('BIBLEBOOKS');
@@ -196,5 +205,6 @@ function initializeTranslationSelection() {
 // Initialize the app when the DOM CHAPTERVERSES is fully loaded
 document.addEventListener('DOMContentLoaded', () => {
   loadBIBLEBOOKS();
+  readBIBLE();
   initializeTranslationSelection(); // Initialize translation selection
 });

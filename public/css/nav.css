@@ -1,3 +1,25 @@
+.mainNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px 0 25px;
+}
+
+.navlink img {
+  width: 27px;
+  height: 27px;
+}
+
+.navlink:nth-child(3) img {
+  width: 33px;
+  height: 33px;
+}
+
+.navlink h3 {
+  display: none;
+}
+
 .xtraNav .xtraMenu {
   display: flex;
   flex-direction: column;
