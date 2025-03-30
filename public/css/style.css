@@ -15,11 +15,11 @@ main {
   position: relative;
   overflow: hidden;
   padding: 0 10px;
-  height: calc(100dvh - 130px);
+  height: calc(100dvh - 117px);
 }
 
 .BIBLEngo h1 {
-  padding: 15px;
+  padding: 10px;
   font-size: 33px;
 }
 
@@ -56,7 +56,7 @@ main {
 }
 
 .BOOKCHAPTER {
-  padding: 10px 0;
+  padding: 5px 0;
   text-align: center;
   font-size: 24px;
   font-weight: var(--fw7);
@@ -87,6 +87,6 @@ main {
 }
 
 .PRAISETHELORD h4 {
-  padding: 15px;
+  padding: 10px;
   font-size: 33px;
 }

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'BIBLE-cache-v033020251135';
+const CACHE_NAME = 'BIBLE-cache-v033020251150';
 const INITIAL_CACHE_FILES = [
   '/index.html',
   '/css/styles.css',
