@@ -1,24 +1,64 @@
-// xtraNav
-document.onclick = hideXtraNav;
-document.oncontextmenu = rightClick;
+function initNav() {
+  const mainElement = document.querySelector('main');
+  const searchIcon = document.getElementById('search');
+  const loginIcon = document.getElementById('login');
+  const menuIcon = document.getElementById('menu');
+  const xtraNav = document.getElementById('xtraNav');
+  const comingSoon = document.getElementById('comingSoon'); // Assuming an element with this ID
 
-function hideXtraNav() {
-  document.getElementById("xtraNav").style.display = "none";
-}
+  // comingSoon setup
+  mainElement.appendChild(comingSoon);
+  comingSoon.style.display = 'none';
 
-function rightClick(e) {
-  e.preventDefault(); // Prevent the default context menu
-
-  const menu = document.getElementById("xtraNav");
-
-  if (menu.style.display === "block") {
-    hideXtraNav();
-  } else {
-    menu.style.display = "block";
-    menu.style.left = (e.pageX - 75) + "px";
-    menu.style.top = (e.pageY - 193) + "px";
+  // Toggle coming soon function (displays for 5 seconds)
+  function toggleComingSoon() {
+    if (comingSoon.style.display === 'block') {
+      comingSoon.style.display = 'none';
+    } else {
+      comingSoon.style.display = 'block';
+      // Hide after 5 seconds
+      setTimeout(() => {
+        comingSoon.style.display = 'none';
+      }, 5000);
+    }
   }
+
+  // Search & login icons both trigger "Coming Soon" overlay
+  [searchIcon, loginIcon].forEach(icon => {
+    icon.addEventListener('click', (evt) => {
+      evt.stopPropagation();
+      toggleComingSoon();
+    });
+  });
+
+  // xtraNav setup
+  mainElement.appendChild(xtraNav);
+  xtraNav.style.display = 'none';
+
+  function toggleXtraNav() {
+    if (xtraNav.style.display === 'block') {
+      xtraNav.style.display = 'none';
+    } else {
+      xtraNav.style.display = 'block';
+    }
+  }
+
+  // Clicking the icon toggles the menu overlay
+  menuIcon.addEventListener('click', (evt) => {
+    evt.stopPropagation();
+    toggleXtraNav();
+  });
+
+  // Close xtraNav when any .xtraLink is clicked
+  xtraNav.querySelectorAll('.xtraLink').forEach(item => {
+    item.addEventListener('click', () => {
+      xtraNav.style.display = 'none';
+    });
+  });
 }
+
+// Call on DOMContentLoaded
+document.addEventListener('DOMContentLoaded', initNav);
 
 // gestures
 let isGestureInProgress = false;
@@ -29,7 +69,7 @@ let touchendY = 0;
 let startGestureTime = 0; // Record the timestamp when the touch/mouse starts
 
 const swipeThreshold = 50; // Movement above this is considered a swipe
-const gestureTimeThreshold = 200; // Swipe must happen in under 300ms to be considered a swipe
+const gestureTimeThreshold = 300; // Swipe must happen in under 300ms to be considered a swipe
 const touchableElement = document.querySelector('body');
 
 // Add event listeners for touchstart/touchend

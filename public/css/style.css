@@ -12,6 +12,7 @@ header, main, nav, footer {
 
 main {
   display: flex;
+  position: relative;
   overflow: hidden;
   padding: 0 10px;
   height: calc(100dvh - 130px);

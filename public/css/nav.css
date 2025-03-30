@@ -24,6 +24,8 @@
 .xtraNav {
   display: none;
   position: absolute;
+  bottom: 5px;
+  right: 15px;
 }
 
 .xtraMenu {
@@ -37,7 +39,7 @@
       rgba(252, 252, 252, 0.7) 70%,
       rgba(252, 252, 252, 0.7) 100%);
   border: silver 1px solid;
-  border-radius: 8px;
+  border-radius: 20px;
   backdrop-filter: blur(2px);
 }
 
@@ -59,8 +61,31 @@
   color: red;
 }
 
+.comingSoon {
+  display: none;
+  position: absolute;
+  bottom: 5px;
+  left: 15px;
+}
+
+.comingSoon p {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  color: black;
+  background: rgba(252, 252, 252, .95);
+  background:
+    linear-gradient(180deg,
+      rgba(252, 252, 252, 0.7) 7%,
+      rgba(252, 252, 252, 0.7) 70%,
+      rgba(252, 252, 252, 0.7) 100%);
+  border: silver 1px solid;
+  border-radius: 20px;
+  backdrop-filter: blur(2px);
+}
+
 .mode {
   margin: 0 auto;
-  padding: 5px;
+  padding: 7px;
   cursor: pointer;
 }
