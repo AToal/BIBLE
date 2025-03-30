@@ -186,7 +186,7 @@ function initializeTranslationSelection() {
   xtraNav.addEventListener('click', (event) => {
     event.preventDefault();
 
-    const target = event.target.closest('a[data-translation]');
+    const target = event.target.closest('button[data-translation]');
     if (target) {
       const selectedTranslation = target.getAttribute('data-translation');
       if (selectedTranslation && selectedTranslation !== currentTranslation) {

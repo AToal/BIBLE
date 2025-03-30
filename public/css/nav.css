@@ -10,6 +10,7 @@
 .navlink img {
   width: 27px;
   height: 27px;
+  cursor: pointer;
 }
 
 .navlink:nth-child(3) img {
@@ -43,7 +44,7 @@
   backdrop-filter: blur(2px);
 }
 
-.xtraLink > a {
+.xtraLink > * {
   display: flex;
   position: relative;
   padding: 8px;
@@ -56,9 +57,10 @@
   text-decoration: underline;
 }
 
-.xtraLink > a:hover {
+.xtraLink > *:hover {
   transition: 0.2s ease-in-out;
   color: red;
+  cursor: pointer;
 }
 
 .comingSoon {
