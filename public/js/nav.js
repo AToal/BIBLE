@@ -1,82 +1,20 @@
-function initNav() {
-  const mainElement = document.querySelector('main');
-  const searchIcon = document.getElementById('search');
-  const loginIcon = document.getElementById('login');
-  const menuIcon = document.getElementById('menu');
-  const xtraNav = document.getElementById('xtraNav');
-  const comingSoon = document.getElementById('comingSoon'); // Assuming an element with this ID
-
-  // comingSoon setup
-  mainElement.appendChild(comingSoon);
-  comingSoon.style.display = 'none';
-
-  // Toggle coming soon function (displays for 5 seconds)
-  function toggleComingSoon() {
-    if (comingSoon.style.display === 'block') {
-      comingSoon.style.display = 'none';
-    } else {
-      comingSoon.style.display = 'block';
-      // Hide after 5 seconds
-      setTimeout(() => {
-        comingSoon.style.display = 'none';
-      }, 5000);
-    }
-  }
-
-  // Search & login icons both trigger "Coming Soon" overlay
-  [searchIcon, loginIcon].forEach(icon => {
-    icon.addEventListener('click', (evt) => {
-      evt.stopPropagation();
-      toggleComingSoon();
-    });
-  });
-
-  // xtraNav setup
-  mainElement.appendChild(xtraNav);
-  xtraNav.style.display = 'none';
-
-  function toggleXtraNav() {
-    if (xtraNav.style.display === 'block') {
-      xtraNav.style.display = 'none';
-    } else {
-      xtraNav.style.display = 'block';
-    }
-  }
-
-  // Clicking the icon toggles the menu overlay
-  menuIcon.addEventListener('click', (evt) => {
-    evt.stopPropagation();
-    toggleXtraNav();
-  });
-
-  // Close xtraNav when any .xtraLink is clicked
-  xtraNav.querySelectorAll('.xtraLink').forEach(item => {
-    item.addEventListener('click', () => {
-      xtraNav.style.display = 'none';
-    });
-  });
-}
-
-// Call on DOMContentLoaded
-document.addEventListener('DOMContentLoaded', initNav);
-
-// gestures
+// Gestures
 let isGestureInProgress = false;
 let touchstartX = 0;
 let touchstartY = 0;
 let touchendX = 0;
 let touchendY = 0;
-let startGestureTime = 0; // Record the timestamp when the touch/mouse starts
+let startGestureTime = 0;
 
-const swipeThreshold = 50; // Movement above this is considered a swipe
-const gestureTimeThreshold = 300; // Swipe must happen in under 300ms to be considered a swipe
+const swipeThreshold = 50; // Movement above considered a swipe
+const gestureTimeThreshold = 300; // Swipe within 300ms
 const touchableElement = document.querySelector('body');
 
-// Add event listeners for touchstart/touchend
+// touchstart/touchend
 touchableElement.addEventListener('touchstart', function (event) {
   touchstartX = event.changedTouches[0].screenX;
   touchstartY = event.changedTouches[0].screenY;
-  startGestureTime = Date.now(); // Record the start time
+  startGestureTime = Date.now(); // Record start
 }, false);
 
 touchableElement.addEventListener('touchend', function (event) {
@@ -85,18 +23,18 @@ touchableElement.addEventListener('touchend', function (event) {
   handleGesture();
 }, false);
 
-// Optional desktop swiping support for mouse
+// Desktop swiping
 touchableElement.addEventListener('mousedown', function (event) {
-  // Ignore right mouse button (button code 2)
+  // Ignore right mouse
   if (event.button === 2) return;
 
   touchstartX = event.screenX;
   touchstartY = event.screenY;
-  startGestureTime = Date.now(); // Record the start time
+  startGestureTime = Date.now(); // Record start
 }, false);
 
 touchableElement.addEventListener('mouseup', function (event) {
-  // Ignore right mouse button
+  // Ignore right mouse
   if (event.button === 2) return;
 
   touchendX = event.screenX;
@@ -104,7 +42,7 @@ touchableElement.addEventListener('mouseup', function (event) {
   handleGesture();
 }, false);
 
-// Add arrow key navigation for chapters
+// Arrow key navigation
 document.addEventListener('keydown', function (event) {
   if (event.key === 'ArrowLeft') {
     console.log('Left arrow key');
@@ -125,8 +63,6 @@ function handleGesture() {
   const elapsedGestureTime = Date.now() - startGestureTime;
 
   // Only register a swipe if:
-  // 1) Movement is large enough
-  // 2) It happens quickly
   if ((deltaX > swipeThreshold || deltaY > swipeThreshold) && elapsedGestureTime < gestureTimeThreshold) {
     // Horizontal swipe
     if (deltaX > deltaY) {
@@ -147,23 +83,78 @@ function handleGesture() {
       }
     }
   } else {
-    // Otherwise, do nothing special
-    console.log('Long movement or slow movement (no swipe)');
+    console.log('Not a swipe)');
   }
 
-  // Reset lock after short delay to prevent rapid gestures
+  // Reset after short delay to prevent rapid gestures
   setTimeout(() => {
     isGestureInProgress = false;
   }, 100);
 }
 
-// On page load, set color mode from localStorage or default to 'light'
+function initNav() {
+  const mainElement = document.querySelector('main');
+  const searchIcon = document.getElementById('search');
+  const loginIcon = document.getElementById('login');
+  const menuIcon = document.getElementById('menu');
+  const xtraNav = document.getElementById('xtraNav');
+  const comingSoon = document.getElementById('comingSoon');
+
+  // comingSoon
+  mainElement.appendChild(comingSoon);
+  comingSoon.style.display = 'none';
+
+  function toggleComingSoon() {
+    if (comingSoon.style.display === 'block') {
+      comingSoon.style.display = 'none';
+    } else {
+      comingSoon.style.display = 'block';
+      setTimeout(() => {
+        comingSoon.style.display = 'none';
+      }, 5000);
+    }
+  }
+
+  [searchIcon, loginIcon].forEach(icon => {
+    icon.addEventListener('click', (evt) => {
+      evt.stopPropagation();
+      toggleComingSoon();
+    });
+  });
+
+  // xtraNav
+  mainElement.appendChild(xtraNav);
+  xtraNav.style.display = 'none';
+
+  function toggleXtraNav() {
+    if (xtraNav.style.display === 'block') {
+      xtraNav.style.display = 'none';
+    } else {
+      xtraNav.style.display = 'block';
+    }
+  }
+
+  menuIcon.addEventListener('click', (evt) => {
+    evt.stopPropagation();
+    toggleXtraNav();
+  });
+
+  xtraNav.querySelectorAll('.xtraLink').forEach(item => {
+    item.addEventListener('click', () => {
+      xtraNav.style.display = 'none';
+    });
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initNav);
+
+
+// Color mode
 (function initializeColorMode() {
   const savedMode = localStorage.getItem('colorMode') || 'light';
   document.documentElement.setAttribute('data-mode', savedMode);
 })();
 
-// Toggle color mode when #mode is clicked
 function toggleColorMode() {
   const currentMode = document.documentElement.getAttribute('data-mode');
   const newMode = (currentMode === 'light') ? 'dark' : 'light';
@@ -171,5 +162,4 @@ function toggleColorMode() {
   localStorage.setItem('colorMode', newMode);
 }
 
-// Add click event to the SVG icon
 document.getElementById('mode').addEventListener('click', toggleColorMode);

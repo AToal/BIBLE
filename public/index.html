@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" >
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>BIBLE</title>
   <meta name="description" content="READ THE BIBLE">
   <meta name="copyright" content="BIBLE">
@@ -12,6 +11,7 @@
   <meta name="robots" content="index, follow, archive">
   <meta name="theme-color" content="#f7f7f7" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#101010" media="(prefers-color-scheme: dark)">
+  <link rel="canonical" href="https://www.BIBLE.ngo">
   <link rel="stylesheet" href="/css/setting.css">
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/nav.css">
@@ -42,13 +42,12 @@
   <meta name="msapplication-square310x310logo" content="./media/msicon@310.png">
   <meta name="msapplication-wide310x150logo" content="./media/msicon@310150.png"> -->
   <link rel="manifest" href="/manifest.json">
-
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QH644VKC3Q"></script>
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+  <script defer src="https://www.googletagmanager.com/gtag/js?id=G-QH644VKC3Q"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-QH644VKC3Q');
   </script>
   <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
@@ -149,9 +148,7 @@
               const newWorker = registration.installing;
               newWorker.onstatechange = function() {
                 if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                  // A new service worker is installed and waiting
-                  console.log('New ServiceWorker available — refreshing...');
-                  // Optionally show a notification to the user here
+                  console.log('New ServiceWorker — Refreshing...');
                 }
               };
             };
@@ -161,13 +158,13 @@
           });
       });
 
-      // Handle service worker updates (Optional)
+      // Handle service worker updates
       navigator.serviceWorker.addEventListener('controllerchange', function() {
-        console.log('ServiceWorker changed — reloading...');
+        console.log('ServiceWorker changed — Reloading...');
         window.location.reload();
       });
     } else {
-      console.log('ServiceWorker not supported in this browser.');
+      console.log('ServiceWorker not supported in browser.');
     }
   </script>
   <script defer src="/js/app.js"></script>

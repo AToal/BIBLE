@@ -1,4 +1,4 @@
-const CACHE_NAME = 'BIBLE-cache-v033020251150';
+const CACHE_NAME = 'BIBLE-cache-v033020251919';
 const INITIAL_CACHE_FILES = [
   '/index.html',
   '/css/styles.css',
@@ -9,13 +9,13 @@ const INITIAL_CACHE_FILES = [
   '/data/BIBLE/BOOKS.json'
 ];
 
-// Function to cache all BIBLE BOOKS for a given translation
+// Cache BIBLE BOOKS for chosen translation
 function cacheAllBIBLEBOOKSForTranslation(translation) {
   return caches.open(CACHE_NAME).then(cache => {
     return fetch('/data/BIBLE/BOOKS.json')
       .then(response => response.json())
       .then(BOOKS => {
-        // For each BOOK, build the URL using the chosen translation
+        // For each BOOK — Build URL using chosen translation
         const BOOKrequests = BOOKS.map(bookAbbrev => {
           const bookURL = `/data/BIBLE/${translation}/${bookAbbrev.replace(/\s+/g, '')}.json`;
           console.log(`Fetching BOOK: ${bookURL}`);
@@ -38,7 +38,7 @@ function cacheAllBIBLEBOOKSForTranslation(translation) {
   }).catch(err => console.error('Failed to open cache for BIBLE BOOKS:', err));
 }
 
-// Install event: Cache initial files and default translation
+// Install event — Cache initial files & default translation
 self.addEventListener('install', event => {
   console.log('Service worker installing...');
   event.waitUntil(
@@ -48,7 +48,7 @@ self.addEventListener('install', event => {
         return cache.addAll(INITIAL_CACHE_FILES);
       })
       .then(() => {
-        // Cache the default 'kjv' translation by default
+        // Cache default 'kjv' translation
         return cacheAllBIBLEBOOKSForTranslation('kjv');
       })
       .catch(err => console.error('Failed to cache initial files during install:', err))
@@ -56,7 +56,7 @@ self.addEventListener('install', event => {
   self.skipWaiting();
 });
 
-// Activate event: Clean up old caches if any exist
+// Activate event — Clean up old caches if exists
 self.addEventListener('activate', event => {
   console.log('Service worker activating...');
   event.waitUntil(
@@ -73,23 +73,19 @@ self.addEventListener('activate', event => {
   );
 });
 
-// Fetch event: Serve cached files when available, fall back to network if not cached
+// Fetch event — Serve cached files when available, network if not cached
 self.addEventListener('fetch', event => {
   event.respondWith(
     caches.match(event.request)
       .then(cachedResponse => {
-        // Return cached file if found
         if (cachedResponse) {
           return cachedResponse;
         }
-        // Otherwise, fetch from network
         return fetch(event.request)
           .then(networkResponse => {
-            // Check valid response
             if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== 'basic') {
               return networkResponse;
             }
-            // Cache the new resource
             const responseToCache = networkResponse.clone();
             caches.open(CACHE_NAME).then(cache => {
               cache.put(event.request, responseToCache);
@@ -98,14 +94,14 @@ self.addEventListener('fetch', event => {
           });
       })
       .catch(() => {
-        // If both cache and network fail
+        // If both cache & network fail
         console.warn('Offline: resource not in cache or network unavailable');
         return caches.match('/offline.html'); // Optionally serve fallback
       })
   );
 });
 
-// Message event: Handle requests to cache additional translations
+// Message event — Handle requests to cache more translations
 self.addEventListener('message', event => {
   if (event.data && event.data.type === 'CACHE_TRANSLATION') {
     const translation = event.data.translation;

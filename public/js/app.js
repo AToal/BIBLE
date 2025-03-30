@@ -1,10 +1,9 @@
-// Global variables to hold BOOK data and current BOOK/CHAPTER
 let BIBLEBOOKS = [];
 let currentBOOKindex = 0;
 let currentCHAPTERindex = 0;
 let currentTranslation = 'kjv'; // Default translation
 
-// Function to read BIBLE at "random"
+// Read BIBLE at "random"
 function readBIBLE () {
   const crossElement = document.getElementById('cross');
 
@@ -13,119 +12,119 @@ function readBIBLE () {
   });
 }
 
-// Function to generate buttons for each BOOK in the #BIBLEBOOKS section
+// Generate buttons for each BOOK in #BIBLEBOOKS
 function generateBIBLEBOOKS() {
   const BIBLEBOOKSelement = document.getElementById('BIBLEBOOKS');
 
-  // Clear any existing CHAPTERVERSES in the BOOKS list
+  // Clear existing CHAPTERVERSES in BOOKS list
   BIBLEBOOKSelement.innerHTML = '';
 
-  // Loop through all the BOOKS and create a button for each
+  // Loop through BOOKS and create button for each
   BIBLEBOOKS.forEach((BOOKabbrev, index) => {
     const button = document.createElement('button');
-    button.innerText = BIBLEBOOKS[index]; // Use the BOOK'S abbreviation or name
+    button.innerText = BIBLEBOOKS[index]; // Use BOOK'S abbreviation or name
 
-    // Add an event listener to load a random CHAPTER when the BOOK is selected
+    // Load random CHAPTER when BOOK selected
     button.addEventListener('click', () => {
-      loadRandomCHAPTERinBOOK(index); // Load a random CHAPTER from the selected book
+      loadRandomCHAPTERinBOOK(index); // Load random CHAPTER from selected BOOK
     });
 
-    // Append the button to the BOOKS list
+    // Append button to BOOKS list
     BIBLEBOOKSelement.appendChild(button);
   });
 }
 
-// Function to load BOOKS list from BOOKS.json
+// Load BOOKS list BOOKS.json
 function loadBIBLEBOOKS() {
   fetch('/data/BIBLE/BOOKS.json')
     .then(response => response.json())
     .then(BOOKS => {
       BIBLEBOOKS = BOOKS;
-      generateBIBLEBOOKS(); // Generate buttons for each BOOK after loading the list
-      checkPreviousSession(); // Check if there's a last read BOOK stored
+      generateBIBLEBOOKS(); // Generate buttons for BOOKS
+      checkPreviousSession(); // Check if last read BOOK stored
     })
     .catch(err => console.error('Failed to load BOOK list:', err));
 }
 
-// Check for last session or load random BOOK
+// Check last session or load random BOOK
 function checkPreviousSession() {
   const lastVisitedBOOK = localStorage.getItem('lastVisitedBOOK');
   const lastVisitedCHAPTER = localStorage.getItem('lastVisitedCHAPTER');
   const savedTranslation = localStorage.getItem('selectedTranslation');
 
-  // Restore saved translation if available
+  // Restore translation
   if (savedTranslation) {
     currentTranslation = savedTranslation;
   }
 
   if (lastVisitedBOOK !== null && lastVisitedCHAPTER !== null) {
-    // Load the last visited BOOK and CHAPTER
+    // Load last visited BOOK & CHAPTER
     currentBOOKindex = parseInt(lastVisitedBOOK);
     currentCHAPTERindex = parseInt(lastVisitedCHAPTER);
     loadBOOK(currentBOOKindex, currentCHAPTERindex);
   } else {
-    // Load a random BOOK if no previous session
+    // Load random BOOK
     loadRandomBOOK();
   }
 }
 
-// Load a random BOOK
+// Load random BOOK
 function loadRandomBOOK() {
   currentBOOKindex = Math.floor(Math.random() * BIBLEBOOKS.length);
-  loadRandomCHAPTERinBOOK(currentBOOKindex); // Load a random CHAPTER from the random BOOK
+  loadRandomCHAPTERinBOOK(currentBOOKindex); // Load random CHAPTER from random BOOK
 }
 
-// Function to load a random CHAPTER in a specific BOOK
+// Load random CHAPTER in specific BOOK
 function loadRandomCHAPTERinBOOK(BOOKindex) {
-  let BOOKabbrev = BIBLEBOOKS[BOOKindex]; // Get the abbreviation or name
+  let BOOKabbrev = BIBLEBOOKS[BOOKindex]; // Get abbreviation or name
 
-  // Remove spaces from the BOOK name to match the filename
+  // Remove spaces from BOOK name to match filename
   BOOKabbrev = BOOKabbrev.replace(/\s+/g, '');
 
-  // Fetch the json data for the selected BOOK
+  // Fetch json data for selected BOOK
   fetch(`/data/BIBLE/${currentTranslation}/${BOOKabbrev}.json`)
     .then(response => response.json())
     .then(BOOKdata => {
-      // Generate a random CHAPTER index within the range of available CHAPTERS
+      // Generate random CHAPTER index within range of available CHAPTERS
       const randomCHAPTERindex = Math.floor(Math.random() * BOOKdata.CHAPTERS.length);
 
-      // Display the random CHAPTER
+      // Display random CHAPTER
       loadBOOK(BOOKindex, randomCHAPTERindex);
     })
     .catch(err => console.error('Failed to load BOOK data:', err));
 }
 
-// Function to load a BOOK by index and display its CHAPTERS
+// Load BOOK by index & display CHAPTERS
 function loadBOOK(BOOKindex, CHAPTERindex) {
-  let BOOKabbrev = BIBLEBOOKS[BOOKindex]; // Get the abbreviation or name
+  let BOOKabbrev = BIBLEBOOKS[BOOKindex]; // Get abbreviation or name
 
-  // Remove spaces from the BOOK name to match the filename
+  // Remove spaces from BOOK name to match filename
   BOOKabbrev = BOOKabbrev.replace(/\s+/g, '');
 
-  // Fetch the json data for the selected BOOK
+  // Fetch json data for selected BOOK
   fetch(`/data/BIBLE/${currentTranslation}/${BOOKabbrev}.json`)
     .then(response => response.json())
     .then(BOOKdata => {
       displayBook(BOOKdata, CHAPTERindex);
-      saveLastVisited(BOOKindex, CHAPTERindex); // Save the BOOK and CHAPTER as the last visited
+      saveLastVisited(BOOKindex, CHAPTERindex); // Save BOOK & CHAPTER as last visited
     })
     .catch(err => console.error('Failed to load BOOK data:', err));
 }
 
-// Display the BOOK and CHAPTER on the page
+// Display BOOK & CHAPTER on page
 function displayBook(BOOKdata, CHAPTERindex) {
   const BOOKCHAPTERelement = document.getElementById('BOOKCHAPTER');
   const CHAPTERVERSESelement = document.getElementById('CHAPTERVERSES');
 
-  // Update the BOOK title in the header
+  // Update BOOK title in header
   BOOKCHAPTERelement.innerHTML = `${BOOKdata.BOOK}&nbsp;${CHAPTERindex + 1}`;
 
   // Clear previous CHAPTERVERSES
   CHAPTERVERSESelement.innerHTML = '';
-  // Reset the scroll position to the top
+  // Reset scroll position to top
   CHAPTERVERSESelement.scrollTop = 0;
 
-  // Display the VERSES for the current CHAPTER
+  // Display VERSES for current CHAPTER
   const CHAPTER = BOOKdata.CHAPTERS[CHAPTERindex];
   CHAPTER.VERSES.forEach(VERSE => {
     const VERSEelement = document.createElement('p');
@@ -134,7 +133,7 @@ function displayBook(BOOKdata, CHAPTERindex) {
   });
 }
 
-// load the next CHAPTER
+// Load next CHAPTER
 function loadNextCHAPTER() {
   fetch(`/data/BIBLE/${currentTranslation}/${BIBLEBOOKS[currentBOOKindex].replace(/\s+/g, '')}.json`)
     .then(response => response.json())
@@ -153,7 +152,7 @@ function loadNextCHAPTER() {
     .catch(err => console.error('Failed to load next CHAPTER:', err));
 }
 
-// load the previous CHAPTER
+// Load previous CHAPTER
 function loadPreviousCHAPTER() {
   if (currentCHAPTERindex > 0) {
     currentCHAPTERindex--;
@@ -172,7 +171,7 @@ function loadPreviousCHAPTER() {
   }
 }
 
-// Save the last visited BOOK and CHAPTER to localStorage
+// Save last visited BOOK & CHAPTER to localStorage
 function saveLastVisited(BOOKindex, CHAPTERindex) {
   localStorage.setItem('lastVisitedBOOK', BOOKindex);
   localStorage.setItem('lastVisitedCHAPTER', CHAPTERindex);
@@ -182,7 +181,6 @@ function saveLastVisited(BOOKindex, CHAPTERindex) {
 function initializeTranslationSelection() {
   const xtraNav = document.getElementById('xtraNav');
 
-  // Add event listener for translation changes
   xtraNav.addEventListener('click', (event) => {
     event.preventDefault();
 
@@ -192,19 +190,19 @@ function initializeTranslationSelection() {
       if (selectedTranslation && selectedTranslation !== currentTranslation) {
         currentTranslation = selectedTranslation;
 
-        // Save the selected translation to localStorage
+        // Save selected translation to localStorage
         localStorage.setItem('selectedTranslation', currentTranslation);
 
-        // Reload the current BOOK and CHAPTER with the new translation
+        // Reload BOOK & CHAPTER with new translation
         loadBOOK(currentBOOKindex, currentCHAPTERindex);
       }
     }
   });
 }
 
-// Initialize the app when the DOM CHAPTERVERSES is fully loaded
+// Initialize when BIBLE loaded
 document.addEventListener('DOMContentLoaded', () => {
   loadBIBLEBOOKS();
   readBIBLE();
-  initializeTranslationSelection(); // Initialize translation selection
+  initializeTranslationSelection();
 });
