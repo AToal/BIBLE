@@ -1,9 +1,10 @@
 .mainNav {
   display: flex;
   flex-direction: row;
+  padding: 15px 25px 0 25px;
+  padding-bottom: env(safe-area-inset-bottom);
   justify-content: space-between;
   align-items: center;
-  padding: 0 25px 0 25px;
 }
 
 .navlink img {
@@ -20,17 +21,12 @@
   display: none;
 }
 
-.xtraNav .xtraMenu {
-  display: flex;
-  flex-direction: column;
-}
-
 .xtraNav {
   display: none;
   position: absolute;
 }
 
-.xtraNav .xtraMenu {
+.xtraMenu {
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -45,7 +41,7 @@
   backdrop-filter: blur(2px);
 }
 
-.xtraNav .xtraMenu .xtraLink > a {
+.xtraLink > a {
   display: flex;
   position: relative;
   padding: 8px;
@@ -58,7 +54,7 @@
   text-decoration: underline;
 }
 
-.xtraNav .xtraMenu .xtraLink > a:hover {
+.xtraLink > a:hover {
   transition: 0.2s ease-in-out;
   color: red;
 }

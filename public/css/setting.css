@@ -21,7 +21,7 @@
 
   --blk: black;
   --gld: gold;
-  --gry: #fcfcfc;
+  --gry: #f7f7f7;
   --red: red;
   --slv: silver;
   --wht: white;
@@ -32,7 +32,7 @@
 :root[data-mode="light"] {
   --background-color: #ffffff;
   --text-color: #000000;
-  --mode-clr1: #fcfcfc;
+  --mode-clr1: #f7f7f7;
 
 }
 
