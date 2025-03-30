@@ -12,8 +12,9 @@ header, main, nav, footer {
 
 main {
   display: flex;
-  height: calc(100dvh - 130px);
   overflow: hidden;
+  padding: 0 10px;
+  height: calc(100dvh - 130px);
 }
 
 .BIBLEngo h1 {
