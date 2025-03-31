@@ -8,5 +8,5 @@ window.addEventListener('load', () => {
     function gtag(){ dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'G-QH644VKC3Q');
-  }, 3000);
+  }, 2000);
 });
