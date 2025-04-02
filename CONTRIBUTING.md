@@ -146,9 +146,9 @@ Reach out to us:
 
 ## 🔗 Stay Connected
 
-- 🌐 **Website**: [BIBLE.ngo](https://www.BIBLE.ngo)
-- 📢 **Twitter**: [@BIBLEngo](https://twitter.com/BIBLEngo)
-
+- 🌐 **Site**: [BIBLE.ngo](https://www.BIBLE.ngo)
+- 📢 **X | Twitter**: [@BIBLEngo](https://x.com/BIBLEngo)
+- 🖼️ **Instagram**: [@BIBLE.ngo](https://www.instagram.com/bible.ngo))
 ---
 
 🔥 **Let’s make the BIBLE opensource and accessible to all!**

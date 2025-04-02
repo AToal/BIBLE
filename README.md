@@ -1,15 +1,14 @@
 # 📖 BIBLE.ngo – The Opensource BIBLE
 
-**The Internet's First Opensource BIBLE**.
-Built for everyone, everywhere, by the global community.
+**The internet's first opensource BIBLE — Built for everyone, everywhere, by the global community!**
 
 ---
 
 ## 🌍 About BIBLE.ngo
 
-**BIBLE.ngo** is an opensource initiative by **the.ngo** that seeks to **make the BIBLE truly accessible & open to all**. Unlike proprietary BIBLE apps and websites, **BIBLE.ngo is open source**, allowing all people from around the world to improve, customize, and innovate freely.
+**BIBLE.ngo** is an opensource initiative by [the.ngo](https://www.the.ngo) that seeks to **make the BIBLE freely accessible & open to all**. Unlike proprietary BIBLE apps and websites, **BIBLE.ngo is opensource**, allowing people from all around the world to improve, customize, and innovate freely.
 
-🚀 **Our Mission:** Build a BIBLE freely available to everyone, everywhere, with personal control of the reading experience.
+🚀 **Our Mission:** Build a BIBLE freely available to everyone, everywhere, with personal control of the experience.
 
 🌟 **Our Vision:** A collaborative, community-driven initiative to create the most **versatile, customizable, and user-centric BIBLE experience ever built**.
 
@@ -19,12 +18,12 @@ Built for everyone, everywhere, by the global community.
 
 ## ❓ Why This Project Exists
 
-Despite being the most widely read book in history, the BIBLE has **no fully opensource, freely accessible, and widely adopted platform**.
+Despite being the most widely read book in history, the BIBLE has no fully opensource, freely accessible, and widely adopted platform.
 This project exists to:
 
 ✅ **Enable True Ownership** – Users should control their BIBLE experience, from fonts & colors to translations & notes.
-✅ **Foster Innovation** – By building a BIBLE that's fully opensource, we can create a next-gen experience.
 ✅ **Break Free from Proprietary Systems** – Closed-source BIBLE platforms limit access and customization.
+✅ **Foster Innovation** – By building a BIBLE that's fully opensource, we can create a next-gen experience.
 ✅ **Expand Global Access** – Many BIBLE versions are paywalled or geo-restricted.
 
 📢 **We believe the BIBLE should be as free & open as the air we breathe.**
@@ -35,7 +34,7 @@ This project exists to:
 
 ### Phase 1: Foundation & Core Functionality
 - [x] Opensource repository setup
-- [x] Extensive testing & error fixing
+- [x] Extensive testing & error handling
 - [x] New translations (NASB, NKJV, AMP, MSG)
 - [x] Introductory pages (how to use, faq, contact, opensource info)
 - [ ] Community outreach & contributor onboarding
@@ -75,7 +74,7 @@ This project exists to:
 1. **Star & Fork** this repo 🌟
 2. **Read the Contributor Guide** ([CONTRIBUTING.md](./CONTRIBUTING.md))
 3. **Pick an Issue to Solve** ([Good first issues](../../issues))
-4. **Join Us** ([Twitter](https://twitter.com/BIBLEngo))
+4. **Join Us** on ([X | Twitter](https://x.com/BIBLEngo)) & ([Instagram](https://www.instagram.com/bible.ngo))
 
 ---
 
@@ -91,7 +90,7 @@ For details, see our opensource ([LICENSE](./LICENSE)).
 
 ## 💬 Community & Contact
 Join our community of BIBLE readers & doers!
-- 🐦 Follow us on Twitter: ([@BIBLEngo](https://twitter.com/BIBLEngo))
+- 🐦 Follow us on Social Media: ([X | Twitter](https://x.com/BIBLEngo)) & ([Instagram](https://www.instagram.com/bible.ngo))
 - 📧 Email us: ([contact@BIBLE.ngo](mailto:contact@BIBLE.ngo))
 
 ---

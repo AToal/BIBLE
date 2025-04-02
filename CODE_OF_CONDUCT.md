@@ -100,7 +100,8 @@ If you have any **questions or suggestions**, feel free to contact us:
 
 📧 **[contact@BIBLE.ngo](mailto:contact@BIBLE.ngo)**
 
-🌍 **Website:** [BIBLE.ngo](https://www.BIBLE.ngo)
-📢 **Twitter:** [@BIBLEngo](https://twitter.com/BIBLEngo)
+🌍 **Site:** [BIBLE.ngo](https://www.BIBLE.ngo)
+📢 **X | Twitter**: [@BIBLEngo](https://x.com/BIBLEngo)
+🖼️ **Instagram**: [@BIBLE.ngo](https://www.instagram.com/bible.ngo))
 
 📖 **Let’s make the BIBLE opensource for the world!** 🌍✨
