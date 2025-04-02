@@ -1,6 +1,6 @@
 # Contributing to BIBLE.ngo 📖🌍
 
-Thank you for your interest in contributing to **BIBLE.ngo**, the **open-source BIBLE for everyone, everywhere**! This project is a community-driven initiative operated by **the.ngo** to make the BIBLE freely accessible, modifiable, and distributable across the world.
+Thank you for your interest in contributing to **BIBLE.ngo**, the **opensource BIBLE for everyone, everywhere**! This project is a community-driven initiative operated by **the.ngo** to make the BIBLE freely accessible, modifiable, and distributable across the world.
 
 We welcome **developers, designers, translators, content creators, marketers, and all other contributors** who can help shape the future of the project. Below are the contribution guidelines to ensure a smooth and collaborative experience.
 
@@ -28,7 +28,7 @@ We welcome **developers, designers, translators, content creators, marketers, an
 
 # 📌 What You Can Contribute
 
-We need **all kinds of skills** to build the best open-source BIBLE experience. Here’s how you can help:
+We need **all kinds of skills** to build the best opensource BIBLE experience. Here’s how you can help:
 
 ---
 
@@ -67,7 +67,7 @@ We need **all kinds of skills** to build the best open-source BIBLE experience. 
 
 ## 🔹 Content Creators & Writers
 
-- Develop educational content around the open-source BIBLE
+- Develop educational content around the opensource BIBLE
 - Write FAQs, tutorials, and usage guides
 - Help with documentation improvements
 
@@ -133,7 +133,7 @@ Even if you're not a developer, designer, or translator, you can still help:
 
 Your contributions make **BIBLE.ngo** possible. Whether you write code, translate, design, spread the word, or provide feedback — **your help is greatly appreciated**.
 
-📖 **Let's build the first truly open-source BIBLE for everyone!** 🌍✨
+📖 **Let's build the first truly opensource BIBLE for everyone!** 🌍✨
 
 ---
 
@@ -151,4 +151,4 @@ Reach out to us:
 
 ---
 
-🔥 **Let’s make the BIBLE open-source and accessible to all!**
+🔥 **Let’s make the BIBLE opensource and accessible to all!**
