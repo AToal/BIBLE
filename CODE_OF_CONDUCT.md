@@ -10,10 +10,10 @@ We expect all members of our community—whether developers, designers, translat
 
 ## **🌍 Our Pledge**
 
-In the interest of fostering a **diverse and inclusive** community, we pledge to:
+In the interest of fostering a **diverse & inclusive** community, we pledge to:
 
 ✅ **Be welcoming** to all, regardless of background, experience, or beliefs.
-✅ **Show respect** for different viewpoints and experiences.
+✅ **Show appreciation** for different viewpoints and experiences.
 ✅ **Encourage constructive feedback** and collaboration.
 ✅ **Promote a safe space** where everyone feels comfortable contributing.
 ✅ **Help each other grow** by being patient, kind, and supportive.
@@ -104,4 +104,4 @@ If you have any **questions or suggestions**, feel free to contact us:
 📢 **X | Twitter**: [@BIBLEngo](https://x.com/BIBLEngo)
 🖼️ **Instagram**: [@BIBLE.ngo](https://www.instagram.com/bible.ngo))
 
-📖 **Let’s make the BIBLE opensource for the world!** 🌍✨
+📖 **Let’s make the BIBLE opensource for everyone, everywhere!** 🌍✨

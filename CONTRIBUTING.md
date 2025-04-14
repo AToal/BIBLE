@@ -19,7 +19,7 @@ We welcome **developers, designers, translators, content creators, marketers, an
     git checkout -b feature-translation-update
 5. **Make Changes & Commit** – Once you’ve made your updates, commit with a clear message:
     ```sh
-    git commit -m "Added French translation for John 3:16"
+    git commit -m "Added Mandarin Chinese translation for NIV"
 6. **Push a Pull Request (PR)** – Submit your changes for review:
     ```sh
     git push origin feature-translation-update
@@ -96,7 +96,7 @@ If you're interested in a leadership role, please reach out:
 To maintain **high-quality code**, please follow these practices:
 
 - Use descriptive commit messages
-  _(e.g., `Added Spanish translation for Psalms 23`)_
+  _(e.g., `Added Spanish translation for KJV`)_
 - Write clean, well-commented code
 - Follow the existing project structure
 - Adhere to the project’s coding style
@@ -151,4 +151,4 @@ Reach out to us:
 - 🖼️ **Instagram**: [@BIBLE.ngo](https://www.instagram.com/bible.ngo))
 ---
 
-🔥 **Let’s make the BIBLE opensource and accessible to all!**
+🔥 **Let’s make the BIBLE opensource & accessible to all!**
