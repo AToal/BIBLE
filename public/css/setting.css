@@ -32,14 +32,13 @@
 :root[data-mode="light"] {
   --background-color: #ffffff;
   --text-color: #000000;
-  --mode-clr1: #f7f7f7;
-
+  --clr-mode: #f7f7f7;
 }
 
 :root[data-mode="dark"] {
   --background-color: #121212;
   --text-color: #f0f0f0;
-  --mode-clr1: #101010;
+  --clr-mode: #101010;
 }
 
 * {

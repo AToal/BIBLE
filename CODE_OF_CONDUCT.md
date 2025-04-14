@@ -2,7 +2,7 @@
 
 ## **Introduction**
 
-BIBLE.ngo is committed to fostering an **open, welcoming, and respectful** community for all contributors. This project is a collaborative effort to create the **first truly opensource BIBLE**, making the Word of God accessible to everyone, everywhere.
+BIBLE.ngo is committed to fostering an **open, welcoming, and respectful** community for all contributors. This project is a collaborative effort to create the **first truly opensource BIBLE platform on the internet**, making the Word of God accessible to everyone, everywhere.
 
 We expect all members of our community—whether developers, designers, translators, or marketers—to uphold a **standard of respect, kindness, and professionalism**. By participating in this project, you agree to follow this **Code of Conduct** to ensure a **positive and productive** environment for everyone.
 

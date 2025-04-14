@@ -1,14 +1,14 @@
 # 📖 BIBLE.ngo – The Opensource BIBLE
 
-**The internet's first opensource BIBLE — Built for everyone, everywhere, by the global community!**
+**The Opensource BIBLE — built for everyone, everywhere, by the global community!**
 
 ---
 
 ## 🌍 About BIBLE.ngo
 
-**BIBLE.ngo** is an opensource initiative by [the.ngo](https://www.the.ngo) that seeks to **make the BIBLE freely accessible & open to all**. Unlike proprietary BIBLE apps and websites, **BIBLE.ngo is opensource**, allowing people from all around the world to improve, customize, and innovate freely.
+**BIBLE.ngo** is an opensource platform that seeks to **make the BIBLE freely accessible & open to all**. Unlike proprietary BIBLE apps and websites, **BIBLE.ngo is opensource**, allowing people from all around the world to improve, customize, and innovate freely.
 
-🚀 **Our Mission:** Build a BIBLE freely available to everyone, everywhere, with personal control of the experience.
+🚀 **Our Mission:** Build a BIBLE freely available to everyone, everywhere, with personalized control of the experience.
 
 🌟 **Our Vision:** A collaborative, community-driven initiative to create the most **versatile, customizable, and user-centric BIBLE experience ever built**.
 
@@ -18,7 +18,7 @@
 
 ## ❓ Why This Project Exists
 
-Despite being the most widely read book in history, the BIBLE has no fully opensource, freely accessible, and widely adopted platform.
+Despite being the most widely read book in history, the BIBLE has no fully opensource, freely accessible, and widely adopted online platform.
 This project exists to:
 
 ✅ **Enable True Ownership** – Users should control their BIBLE experience, from fonts & colors to translations & notes.
@@ -30,26 +30,26 @@ This project exists to:
 
 ---
 
-## 🏗 Features In Development
+## 🏗 Features For Development
 
 ### Phase 1: Foundation & Core Functionality
 - [x] Opensource repository setup
-- [x] Extensive testing & error handling
-- [x] New translations (NASB, NKJV, AMP, MSG)
-- [x] Introductory pages (how to use, faq, contact, opensource info)
+- [x] Opensource repository revisions
+- [ ] New translations (NASB, NKJV)
+- [ ] Introductory pages (how to use, faq, contact, opensource info)
+- [ ] Extensive testing & error handling
 - [ ] Community outreach & contributor onboarding
-- [ ] Confirm initial tech stack & infrastructure
+- [ ] Confirm tech stack
+- [ ] Multilingual translations
 - [ ] BIBLE data structuring & API setup
 - [ ] User accounts & onboarding setup
 - [ ] Daily BIBLE VERSE notification popup & push
-- [ ] Fully customizable BIBLE reader (fonts, colors, themes, layouts)
+- [ ] Customizable BIBLE experience (colors, fonts, icons, themes)
 - [ ] Highlighting, note-taking, & bookmarking (private & public)
-- [ ] BIBLE search & study tools using AI
-- [ ] Children's version with images & video
-- [ ] Multilingual translations
+- [ ] BIBLE search & study tools
+- [ ] Children's BIBLE version with images & possibly videos
 
 ### Phase 2: Growth & Expansion
-- [ ] Community-driven error handling
 - [ ] Cross-referencing, Concordance, & Dictionary
 - [ ] Greater support for mobile app & offline access
 - [ ] Sharing Prayers & Praise (private & public)
@@ -65,16 +65,16 @@ This project exists to:
 
 ### 📜 Contribution Areas
 **🖥 Developers** – Frontend, backend, API, mobile, security
-**🎨 Designers** – UI/UX, themes, icons, graphics
+**🎨 Designers** – UI/UX, colors, fonts, icons, graphics
 **📢 Marketers** – Social media, community engagement
 **📜 Theologians & Translators** – Multilingual BIBLE versions, accuracy checks
 **📝 Writers** – Documentation, blogs, tutorials
 
 ### 🔥 Get Started
-1. **Star & Fork** this repo 🌟
-2. **Read the Contributor Guide** ([CONTRIBUTING.md](./CONTRIBUTING.md))
-3. **Pick an Issue to Solve** ([Good first issues](../../issues))
-4. **Join Us** on ([X | Twitter](https://x.com/BIBLEngo)) & ([Instagram](https://www.instagram.com/bible.ngo))
+1. **Star & Fork this repo 🌟**
+2. **Read the [CONTRIBUTING.md](./CONTRIBUTING.md)**
+3. **Pick an [Issue](../../issues) to Solve**
+4. **Join Us on [X | Twitter](https://x.com/BIBLEngo) & [Instagram](https://www.instagram.com/bible.ngo)**
 
 ---
 
@@ -84,14 +84,14 @@ This project exists to:
 - 🔓 License: No restrictions due to fair use & educational purposes.
 - ✅ All BIBLE texts remain public domain or properly attributed.
 
-For details, see our opensource ([LICENSE](./LICENSE)).
+For details, see our opensource [LICENSE](./LICENSE).
 
 ---
 
 ## 💬 Community & Contact
 Join our community of BIBLE readers & doers!
-- 🐦 Follow us on Social Media: ([X | Twitter](https://x.com/BIBLEngo)) & ([Instagram](https://www.instagram.com/bible.ngo))
-- 📧 Email us: ([contact@BIBLE.ngo](mailto:contact@BIBLE.ngo))
+- 🐦 Follow us on Social Media: [X | Twitter](https://x.com/BIBLEngo) & [Instagram](https://www.instagram.com/bible.ngo)
+- 📧 Email us: [contact@BIBLE.ngo](mailto:contact@BIBLE.ngo)
 
 ---
 

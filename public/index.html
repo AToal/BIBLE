@@ -56,8 +56,8 @@
   <main>
     <div id="GODSWORD" class="GODSWORD">
       <h2 id="BOOKCHAPTER" class="BOOKCHAPTER"></h2>
-      <div id="CHAPTERVERSES" class="CHAPTERVERSES">
-      </div>
+      <p id="CHAPTERVERSES" class="CHAPTERVERSES">
+      </p>
     </div>
   </main>
 
@@ -87,40 +87,58 @@
 
     <div id="BIBLEBOOKS" class="BIBLEBOOKS">
     </div>
-  </nav>
 
-  <footer>
-    <a id="PRAISETHELORD" class="PRAISETHELORD" href="/">
-      <h4>PRAISE THE LORD!</h4>
-    </a>
-  </footer>
-
-  <nav>
     <div id="xtraNav" class="xtraNav">
       <div class="xtraMenu">
-        <div class="esv xtraLink">
-          <button data-translation="esv">
-            <span>ESV</span>
-          </button>
+        <div class="informationMenu">
+          <div class="xtraIcon xtraLink">
+            <img id="info" class="info" src="/media/info.svg" alt="BIBLE.ngo Info"/>
+            <h4>Information</h4>
+          </div>
+          <p>BIBLE.ngo is opensource platform built for everyone to experience &amp; share the BIBLE with each other.
+          <br><br>
+          We welcome feedback, questions, and contributions.
+          If you have anything you'd like to share, feel free to reach out via social media or send contact@BIBLE.ngo an email.
+          <br><br>
+          Thank you for choosing to experience GOD'S WORD with BIBLE.ngo — The LORD bless you &amp; keep you; The LORD make HIS face shine upon you &amp; be gracious unto you; The LORD lift up HIS countenance toward you &amp; give you peace. In JESUS name, AMEN!
+          </p>
         </div>
-        <div class="kjv xtraLink">
-          <button data-translation="kjv">
-            <span>KJV</span>
-          </button>
+
+        <div class="translationMenu">
+          <div class="xtraIcon xtraLink">
+            <img id="translations" class="translations" src="/media/globe.svg" alt="BIBLE.ngo Translations"/>
+            <h4>Translations</h4>
+          </div>
+          <div class="translationMenuOptions">
+            <div class="esv xtraLink">
+              <button data-translation="esv">
+                ESV<span>&nbsp;(English Standard Version)</span>
+              </button>
+            </div>
+            <div class="kjv xtraLink">
+              <button data-translation="kjv">
+                KJV<span>&nbsp;(King James Version)</span>
+              </button>
+            </div>
+            <div class="niv xtraLink">
+              <button data-translation="niv">
+                NIV<span>&nbsp;(New International Version)</span>
+              </button>
+            </div>
+            <div class="nlt xtraLink">
+              <button data-translation="nlt">
+                NLT<span>&nbsp;(New Living Translation)</span>
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="niv xtraLink">
-          <button data-translation="niv">
-            <span>NIV</span>
-          </button>
+
+        <div class="modeMenu">
+          <div class="xtraIcon xtraLink">
+            <img id="mode" class="mode" src="/media/mode.svg" alt="Color Mode"/>
+          </div>
         </div>
-        <div class="nlt xtraLink">
-          <button data-translation="nlt">
-            <span>NLT</span>
-          </button>
-        </div>
-        <div class="xtraLink">
-          <img id="mode" class="mode" src="/media/color-mode.svg" alt="Color Mode"/>
-        </div>
+
       </div>
     </div>
 
@@ -128,6 +146,13 @@
       <p>Feature coming soon...</p>
     </div>
   </nav>
+
+  <footer>
+    <a id="PRAISETHELORD" class="PRAISETHELORD" href="/">
+      <h5>PRAISE THE LORD!</h5>
+    </a>
+  </footer>
+
 
   <script>
     if ('serviceWorker' in navigator) {

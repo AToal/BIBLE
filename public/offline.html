@@ -2,15 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" >
   <title>BIBLE</title>
   <meta name="description" content="READ THE BIBLE">
   <meta name="copyright" content="BIBLE">
   <meta name="keywords" content="BIBLE">
   <meta name="author" content="BIBLE">
   <meta name="robots" content="index, follow, archive">
-  <meta name="theme-color" content="white" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#f7f7f7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#101010" media="(prefers-color-scheme: dark)">
+  <link rel="canonical" href="https://www.BIBLE.ngo">
+  <link rel="stylesheet" href="/css/setting.css">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/nav.css">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="icon" sizes="32x32" type="image/x-icon" href="/favicon.ico">
   <link rel="icon" sizes="192x192" type="image/x-icon" href="/media/BIBLE-192x192.ico">
@@ -38,58 +42,128 @@
   <meta name="msapplication-square310x310logo" content="./media/msicon@310.png">
   <meta name="msapplication-wide310x150logo" content="./media/msicon@310150.png"> -->
   <link rel="manifest" href="/manifest.json">
+  <script defer src="/js/gtag.js"></script>
+  <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+  <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
   <header>
-    <a id="BIBLE" href="/"><h1>BIBLE</h1></a>
+    <a id="BIBLEngo" class="BIBLEngo" href="/">
+      <h1>BIBLE<span>.ngo</span></h1>
+    </a>
   </header>
 
   <main>
-    <div id="GODSWORD">
-      <h2 id="BOOKCHAPTER">OFFLINE</h2>
-      <div id="CHAPTERVERSES">
+    <div id="GODSWORD" class="GODSWORD">
+      <h2 id="BOOKCHAPTER" class="BOOKCHAPTER">Offline</h2>
+      <div id="CHAPTERVERSES" class="CHAPTERVERSES">
         LET US PRAY — THANK YOU LORD FOR EVERYTHING! WE PRAY YOU PLEASE FORGIVE US, BLESS US, &amp; HELP US LIVE FOR YOU LORD! IN JESUS NAME WE PRAY, AMEN!
       </div>
     </div>
   </main>
 
-  <nav id="GODSBOOKS">
-    <a id="BOOKS" href="/#BOOKS"><h3>BOOKS OF THE BIBLE</h3></a>
-    <div id="BIBLEBOOKS">
+  <nav>
+    <div id="mainNav" class="mainNav">
+      <button id="search" class="navlink">
+        <img src="/media/search.svg" alt="Search THE BIBLE">
+        <h3>Search THE BIBLE</h3>
+      </button>
+      <a id="BOOKS" class="navlink" href="/#BOOKS">
+        <img src="/media/BOOKS.svg" alt="BOOKS OF THE BIBLE">
+        <h3>BOOKS OF THE BIBLE</h3>
+      </a>
+      <button id="cross" class="navlink">
+        <img src="/media/cross.svg" alt="Read THE BIBLE">
+        <h3>Read THE BIBLE</h3>
+      </button>
+      <a id="login" class="navlink" href="#">
+        <img src="/media/login.svg" alt="BIBLE.ngo Login">
+        <h3>BIBLE.ngo Login</h3>
+      </a>
+      <button id="menu" class="navlink">
+        <img src="/media/menu.svg" alt="BIBLE.ngo Menu">
+        <h3>BIBLE.ngo Menu</h3>
+      </button>
+    </div>
+
+    <div id="BIBLEBOOKS" class="BIBLEBOOKS">
     </div>
   </nav>
 
   <footer>
-    <a id="PRAISETHELORD" href="/"><h4>PRAISE THE LORD!</h4></a>
+    <a id="PRAISETHELORD" class="PRAISETHELORD" href="/">
+      <h4>PRAISE THE LORD!</h4>
+    </a>
   </footer>
 
   <nav>
     <div id="xtraNav" class="xtraNav">
       <div class="xtraMenu">
         <div class="esv xtraLink">
-          <a href="" data-translation="esv">
+          <button data-translation="esv">
             <span>ESV</span>
-          </a>
+          </button>
         </div>
         <div class="kjv xtraLink">
-          <a href="" data-translation="kjv">
+          <button data-translation="kjv">
             <span>KJV</span>
-          </a>
+          </button>
         </div>
         <div class="niv xtraLink">
-          <a href="" data-translation="niv">
+          <button data-translation="niv">
             <span>NIV</span>
-          </a>
+          </button>
         </div>
         <div class="nlt xtraLink">
-          <a href="" data-translation="nlt">
+          <button data-translation="nlt">
             <span>NLT</span>
-          </a>
+          </button>
+        </div>
+        <div class="xtraIcon xtraLink">
+          <img id="info" class="info" src="/media/info.svg" alt="BIBLE.ngo Info"/>
+        </div>
+        <div class="xtraIcon xtraLink">
+          <img id="mode" class="mode" src="/media/color-mode.svg" alt="Color Mode"/>
         </div>
       </div>
     </div>
+
+    <div id="comingSoon" class="comingSoon">
+      <p>Feature coming soon...</p>
+    </div>
   </nav>
 
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/service-worker.js')
+          .then(function(registration) {
+            console.log('ServiceWorker registration successful with scope:', registration.scope);
+
+            // Check for service worker updates
+            registration.onupdatefound = function() {
+              const newWorker = registration.installing;
+              newWorker.onstatechange = function() {
+                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                  console.log('New ServiceWorker — Refreshing...');
+                }
+              };
+            };
+          })
+          .catch(function(err) {
+            console.log('ServiceWorker registration failed:', err);
+          });
+      });
+
+      // Handle service worker updates
+      navigator.serviceWorker.addEventListener('controllerchange', function() {
+        console.log('ServiceWorker changed — Reloading...');
+        window.location.reload();
+      });
+    } else {
+      console.log('ServiceWorker not supported in browser.');
+    }
+  </script>
   <script defer src="/js/app.js"></script>
   <script defer src="/js/nav.js"></script>
 </body>
