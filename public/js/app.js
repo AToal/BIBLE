@@ -3,6 +3,31 @@ let currentBOOKindex = 0;
 let currentCHAPTERindex = 0;
 let currentTranslation = 'kjv'; // Default translation
 
+
+//Hybrid‑URL routing helpers
+// turns "Song of Solomon" to "songofsolomon" (same rule used for filenames)
+function slugify(str) { return str.replace(/\s+/g,'').toLowerCase(); }
+
+// read /Genesis/1/1?v=kjv {book:"Genesis", ch:1, v:1?, tr:"kjv"}
+function parseLocation() {
+  const [ , bookSeg = '', chSeg = '', vSeg = '' ] = location.pathname.split('/');
+  const params = new URLSearchParams(location.search);
+  const tr = params.get('v') || currentTranslation; // ?v=kjv (optional)
+  return {
+    bookPath : bookSeg, // empty string if root
+    chapterNo : chSeg ? Number(chSeg) : null,
+    verseNo : vSeg ? Number(vSeg) : null,
+    tr
+  };
+}
+
+// push the current view into the address bar
+function updateLocation(bookName, chIndex, verseNo = null) {
+  const path = `/${bookName}/${chIndex+1}` + (verseNo ? `/${verseNo}` : '');
+  const query = `?v=${currentTranslation}`;
+  history.pushState({}, '', path + query);
+}
+
 // Read BIBLE at "random"
 function readBIBLE () {
   const crossElement = document.getElementById('cross');
@@ -41,6 +66,17 @@ function loadBIBLEBOOKS() {
     .then(BOOKS => {
       BIBLEBOOKS = BOOKS;
       generateBIBLEBOOKS(); // Generate buttons for BOOKS
+      const route = parseLocation(); // route on first load
+      if (route.bookPath) {
+        // match BOOK → index in BIBLEBOOKS (case‑insensitive)
+        const idx = BIBLEBOOKS.findIndex(
+            b => slugify(b) === slugify(route.bookPath));
+        if (idx !== -1 && route.chapterNo) {
+          currentTranslation = route.tr; // ?v=kjv
+          loadBOOK(idx, route.chapterNo - 1); // zero‑based
+          return; // stop fallback
+        }
+      }
       checkPreviousSession(); // Check if last read BOOK stored
     })
     .catch(err => console.error('Failed to load BOOK list:', err));
@@ -106,6 +142,7 @@ function loadBOOK(BOOKindex, CHAPTERindex) {
     .then(response => response.json())
     .then(BOOKdata => {
       displayBook(BOOKdata, CHAPTERindex);
+      updateLocation(BOOKdata.BOOK, CHAPTERindex); // keep the address bar in sync
       saveLastVisited(BOOKindex, CHAPTERindex); // Save BOOK & CHAPTER as last visited
     })
     .catch(err => console.error('Failed to load BOOK data:', err));
@@ -187,11 +224,11 @@ function initializeTranslationSelection() {
     const target = event.target.closest('button[data-translation]');
     if (target) {
       const selectedTranslation = target.getAttribute('data-translation');
-      if (selectedTranslation && selectedTranslation !== currentTranslation) {
-        currentTranslation = selectedTranslation;
+      if (selectedTranslation && selectedTranslation !== updateLocation) {
+        updateLocation = selectedTranslation;
 
         // Save selected translation to localStorage
-        localStorage.setItem('selectedTranslation', currentTranslation);
+        localStorage.setItem('selectedTranslation', updateLocation);
 
         // Reload BOOK & CHAPTER with new translation
         loadBOOK(currentBOOKindex, currentCHAPTERindex);
@@ -199,6 +236,18 @@ function initializeTranslationSelection() {
     }
   });
 }
+
+// browser back / forward for re‑parse & load
+window.addEventListener('popstate', () => {
+  const r = parseLocation();
+  if (r.bookPath && r.chapterNo) {
+    const idx = BIBLEBOOKS.findIndex(b => slugify(b) === slugify(r.bookPath));
+    if (idx !== -1) {
+      currentTranslation = r.tr;
+      loadBOOK(idx, r.chapterNo - 1);
+    }
+  }
+});
 
 // Initialize when BIBLE loaded
 document.addEventListener('DOMContentLoaded', () => {
